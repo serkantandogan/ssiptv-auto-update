@@ -24,6 +24,26 @@ REPORT_PATH = PUBLIC_DIR / "validation-report.json"
 EXTINF_RE = re.compile(r'#EXTINF:(?P<duration>-?\d+)(?P<attrs>.*),(?P<name>.*)')
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
 
+CATEGORY_MAP = {
+    "animation": "Çocuk",
+    "business": "Ekonomi",
+    "culture": "Kültür",
+    "documentary": "Belgesel",
+    "education": "Eğitim",
+    "entertainment": "Eğlence",
+    "general": "Genel",
+    "kids": "Çocuk",
+    "lifestyle": "Yaşam",
+    "movies": "Film",
+    "music": "Müzik",
+    "news": "Haber",
+    "religious": "Dini",
+    "series": "Dizi",
+    "sports": "Spor",
+    "travel": "Yaşam",
+    "undefined": "Genel",
+}
+
 
 @dataclass(frozen=True)
 class Channel:
@@ -58,14 +78,23 @@ def parse_attrs(raw_attrs: str) -> dict[str, str]:
 def infer_category(name: str, attrs: dict[str, str], fallback: str, rules: dict) -> str:
     group = attrs.get("group-title", "").strip()
     if group:
-        return group
+        return normalize_category(group)
 
     lowered = name.lower()
     for category, keywords in rules.items():
         if any(str(keyword).lower() in lowered for keyword in keywords):
-            return category
+            return normalize_category(category)
 
-    return fallback or "Other"
+    return normalize_category(fallback or "Other")
+
+
+def normalize_category(category: str) -> str:
+    parts = [part.strip() for part in str(category).split(";") if part.strip()]
+    for part in parts or [str(category)]:
+        normalized = normalize_text(part)
+        if normalized in CATEGORY_MAP:
+            return CATEGORY_MAP[normalized]
+    return parts[0] if parts else "Genel"
 
 
 def parse_m3u(text: str, fallback_category: str, rules: dict) -> Iterable[Channel]:
@@ -230,6 +259,11 @@ def apply_selected_channels(
     return selected
 
 
+def should_exclude_channel(channel: Channel, exclude_keywords: list[str]) -> bool:
+    haystack = normalize_text(" ".join([channel.name, channel.url, *channel.attrs.values()]))
+    return any(normalize_text(keyword) in haystack for keyword in exclude_keywords)
+
+
 def format_extinf(channel: Channel) -> str:
     attrs = dict(channel.attrs)
     attrs["group-title"] = channel.category
@@ -238,9 +272,21 @@ def format_extinf(channel: Channel) -> str:
     return f"#EXTINF:-1 {attr_text},{channel.name}"
 
 
-def write_playlist(channels: list[Channel], preserve_order: bool = False) -> None:
+def write_playlist(channels: list[Channel], category_order: list[str], preserve_order: bool = False) -> None:
     PUBLIC_DIR.mkdir(exist_ok=True)
-    ordered = channels if preserve_order else sorted(channels, key=lambda item: (item.category.lower(), item.name.lower()))
+    order_index = {category: index for index, category in enumerate(category_order)}
+    ordered = (
+        channels
+        if preserve_order
+        else sorted(
+            channels,
+            key=lambda item: (
+                order_index.get(item.category, len(order_index)),
+                item.category.lower(),
+                item.name.lower(),
+            ),
+        )
+    )
 
     lines = ["#EXTM3U"]
     for channel in ordered:
@@ -300,6 +346,9 @@ def main() -> None:
     valid_channels: list[Channel] = []
     report: list[dict] = []
     selected_channels = config.get("selected_channels") or []
+    selected_only = bool(config.get("selected_only", True))
+    exclude_keywords = config.get("exclude_keywords") or []
+    category_order = config.get("category_order") or []
 
     for source in config.get("sources", []):
         if not source.get("enabled", True):
@@ -316,6 +365,18 @@ def main() -> None:
             continue
 
         for channel in channels:
+            if should_exclude_channel(channel, exclude_keywords):
+                report.append(
+                    {
+                        "source": source_name,
+                        "channel": channel.name,
+                        "category": channel.category,
+                        "url": channel.url,
+                        "ok": False,
+                        "status": "excluded by keyword filter",
+                    }
+                )
+                continue
             key = channel_key(channel)
             if key in seen:
                 continue
@@ -344,7 +405,8 @@ def main() -> None:
             seen.add(key)
             candidates.append((source_name, channel))
 
-    candidates = apply_selected_channels(candidates, selected_channels, report)
+    if selected_only:
+        candidates = apply_selected_channels(candidates, selected_channels, report)
     validation_results: dict[tuple[str, str], tuple[bool, str]] = {}
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
@@ -373,7 +435,7 @@ def main() -> None:
             valid_channels.append(channel)
 
     favorite_channels = build_favorite_channels(valid_channels, config, report)
-    write_playlist(favorite_channels + valid_channels, preserve_order=bool(selected_channels))
+    write_playlist(favorite_channels + valid_channels, category_order, preserve_order=selected_only)
     REPORT_PATH.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {len(valid_channels)} valid channels to {PLAYLIST_PATH}")
 

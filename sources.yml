@@ -21,6 +21,40 @@ sources:
     category: Test
     file: examples/example.m3u
 
+# false means: include every validated channel from enabled public sources.
+# The selected_channels list below is kept for optional curated-only mode.
+selected_only: false
+
+# Keep suspicious premium/pay-TV looking entries out of the automatic public list.
+exclude_keywords:
+  - beIN
+  - S Sport
+  - MovieSmart
+  - National Geographic
+  - Viasat
+  - BBC Earth
+  - BBC First
+  - BabyTV
+  - Disney Jr
+
+category_order:
+  - Favori Listem
+  - Ulusal
+  - Haber
+  - Ekonomi
+  - Belgesel
+  - Çocuk
+  - Spor
+  - Müzik
+  - Kültür
+  - Eğitim
+  - Dini
+  - Yerel
+  - Eğlence
+  - Yaşam
+  - Film
+  - Genel
+
 # Channels whose official site exposes a public HLS URL in the page.
 # The updater extracts a fresh URL on every run.
 dynamic_channels:
