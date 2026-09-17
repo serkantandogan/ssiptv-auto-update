@@ -1,0 +1,39 @@
+# Add only authorized sources here.
+# Supported source types:
+# - url: a remote M3U/M3U8 playlist URL
+# - file: a local M3U file committed to this repo
+
+sources:
+  - name: Example local playlist
+    enabled: true
+    category: Test
+    file: examples/example.m3u
+
+# Optional channel name rules.
+# These help normalize categories when the source playlist has no group-title.
+category_rules:
+  News:
+    - news
+    - haber
+  Sports:
+    - sport
+    - spor
+  Kids:
+    - kids
+    - çocuk
+    - cocuk
+  Movies:
+    - movie
+    - film
+    - sinema
+  Music:
+    - music
+    - müzik
+    - muzik
+
+validation:
+  timeout_seconds: 8
+  user_agent: "SSIPTV-Auto-Update/1.0"
+  # HEAD is faster, but some IPTV hosts reject it. The script falls back to GET.
+  verify_tls: true
+
