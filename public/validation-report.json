@@ -68,8 +68,8 @@
     "channel": "Tele1",
     "category": "Haber",
     "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
