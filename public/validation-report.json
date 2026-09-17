@@ -1,14 +1,6 @@
 [
   {
     "source": "selected_channels",
-    "channel": "Show TV",
-    "category": "Ulusal",
-    "url": null,
-    "ok": false,
-    "status": "not found in enabled sources"
-  },
-  {
-    "source": "selected_channels",
     "channel": "Sözcü TV",
     "category": "Haber",
     "url": null,
@@ -44,6 +36,14 @@
     "channel": "Kanal D",
     "category": "Ulusal",
     "url": "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "Show TV official live page",
+    "channel": "Show TV",
+    "category": "Ulusal",
+    "url": "https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1",
     "ok": true,
     "status": "HEAD 200"
   },

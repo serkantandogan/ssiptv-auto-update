@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import re
 import unicodedata
+from html import unescape
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
@@ -93,6 +94,30 @@ def parse_m3u(text: str, fallback_category: str, rules: dict) -> Iterable[Channe
             category = infer_category(name, attrs, fallback_category, rules)
             yield Channel(name=name, url=line, category=category, attrs=attrs)
         pending = None
+
+
+def load_dynamic_channel(channel_config: dict) -> Channel:
+    page_url = channel_config["page_url"]
+    pattern = channel_config["url_pattern"]
+    response = requests.get(page_url, timeout=20)
+    response.raise_for_status()
+
+    match = re.search(pattern, response.text)
+    if not match:
+        raise ValueError(f"No stream URL matched for {channel_config.get('name', page_url)}")
+
+    stream_url = unescape(match.group(1)).replace("\\/", "/")
+    if not is_probable_stream_url(stream_url):
+        raise ValueError(f"Matched URL is not a stream URL: {stream_url}")
+
+    attrs = dict(channel_config.get("attrs") or {})
+    attrs.setdefault("tvg-name", channel_config["name"])
+    return Channel(
+        name=channel_config["name"],
+        url=stream_url,
+        category=channel_config.get("category", "Other"),
+        attrs=attrs,
+    )
 
 
 def is_probable_stream_url(value: str) -> bool:
@@ -246,6 +271,28 @@ def main() -> None:
             key = channel_key(channel)
             if key in seen:
                 continue
+            seen.add(key)
+            candidates.append((source_name, channel))
+
+    for channel_config in config.get("dynamic_channels", []):
+        source_name = channel_config.get("source", "Dynamic channel")
+        try:
+            channel = load_dynamic_channel(channel_config)
+        except Exception as exc:
+            report.append(
+                {
+                    "source": source_name,
+                    "channel": channel_config.get("name", "<unnamed>"),
+                    "category": channel_config.get("category", "Other"),
+                    "url": channel_config.get("page_url"),
+                    "ok": False,
+                    "status": str(exc),
+                }
+            )
+            continue
+
+        key = channel_key(channel)
+        if key not in seen:
             seen.add(key)
             candidates.append((source_name, channel))
 

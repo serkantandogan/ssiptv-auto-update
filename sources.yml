@@ -21,6 +21,19 @@ sources:
     category: Test
     file: examples/example.m3u
 
+# Channels whose official site exposes a public HLS URL in the page.
+# The updater extracts a fresh URL on every run.
+dynamic_channels:
+  - name: Show TV
+    source: Show TV official live page
+    category: Ulusal
+    page_url: https://www.showtv.com.tr/canli-yayin
+    url_pattern: 'var videoUrl = "([^"]+)"'
+    attrs:
+      tvg-id: ShowTV.tr@SD
+      tvg-name: Show TV
+      tvg-logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Show_TV.svg/512px-Show_TV.svg.png
+
 # Keep only these channels and write them in this order.
 # Matching is done against channel name and tvg-id from the authorized sources above.
 selected_channels:
