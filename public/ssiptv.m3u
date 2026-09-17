@@ -77,9 +77,6 @@ https://cdn.ekoturk.net/hls/master.m3u8
 #EXTINF:-1 group-title="Ekonomi" tvg-chno="23" tvg-id="FinansTurkTV.tr@SD" tvg-logo="https://i.ibb.co/wBwmB1T/iY0osc7.png" tvg-name="Finans Türk TV",Finans Türk TV
 #EXTGRP:Ekonomi
 https://yayin30.haber100.com/live/finansturk/playlist.m3u8
-#EXTINF:-1 group-title="Belgesel" tvg-chno="24" tvg-id="TRTBelgesel.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png" tvg-name="TRT Belgesel",TRT Belgesel
-#EXTGRP:Belgesel
-https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Belgesel" tvg-chno="25" tvg-id="TGRTBelgesel.tr@SD" tvg-logo="https://i.imgur.com/VwWTnf0.png" tvg-name="TGRT Belgesel",TGRT Belgesel
 #EXTGRP:Belgesel
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
@@ -128,9 +125,6 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17
 #EXTINF:-1 group-title="Müzik" tvg-chno="42" tvg-id="PowerTV.tr@SD" tvg-logo="https://i.imgur.com/XSL1gd7.png" tvg-name="Power TV",Power TV
 #EXTGRP:Müzik
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
-#EXTINF:-1 group-title="Kültür" tvg-chno="43" tvg-id="TRT2.tr@SD" tvg-logo="https://i.imgur.com/iOCQdyD.png" tvg-name="TRT 2",TRT 2
-#EXTGRP:Kültür
-https://tv-trt2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Kültür" tvg-chno="44" tvg-id="TRTAvaz.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/960px-TRT_Avaz_logo.svg.png" tvg-name="TRT Avaz",TRT Avaz
 #EXTGRP:Kültür
 https://tv-trtavaz.medya.trt.com.tr/master.m3u8
