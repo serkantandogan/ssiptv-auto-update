@@ -21,6 +21,62 @@ sources:
     category: Test
     file: examples/example.m3u
 
+# Keep only these channels and write them in this order.
+# Matching is done against channel name and tvg-id from the authorized sources above.
+selected_channels:
+  - name: TRT 1
+    category: Ulusal
+    match:
+      - TRT 1
+      - TRT1.tr
+  - name: NOW TV
+    category: Ulusal
+    match:
+      - NOW TV
+      - NOWTV.tr
+  - name: Star TV
+    category: Ulusal
+    match:
+      - Star TV
+      - StarTV.tr
+  - name: Kanal D
+    category: Ulusal
+    match:
+      - Kanal D
+      - KanalD.tr
+  - name: Show TV
+    category: Ulusal
+    match:
+      - Show TV
+      - ShowTV.tr
+  - name: Halk TV
+    category: Haber
+    match:
+      - Halk TV
+      - HalkTV.tr
+  - name: Sözcü TV
+    category: Haber
+    match:
+      - Sözcü TV
+      - Sozcu TV
+      - SZC TV
+      - SozcuTV.tr
+  - name: TV8
+    category: Ulusal
+    match:
+      - TV 8
+      - TV8.tr
+  - name: Tele1
+    category: Haber
+    match:
+      - Tele 1
+      - Tele1.tr
+  - name: CNBC-e
+    category: Haber
+    match:
+      - CNBC-e
+      - CNBCe.tr
+
 # Optional channel name rules.
 # These help normalize categories when the source playlist has no group-title.
 category_rules:

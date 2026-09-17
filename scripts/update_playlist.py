@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
@@ -126,6 +127,72 @@ def channel_key(channel: Channel) -> tuple[str, str]:
     return (channel.name.strip().lower(), channel.url.strip())
 
 
+def normalize_text(value: str) -> str:
+    ascii_text = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]+", " ", ascii_text.lower()).strip()
+
+
+def matches_selected_channel(channel: Channel, wanted: dict) -> bool:
+    haystack = normalize_text(" ".join([channel.name, *channel.attrs.values()]))
+    patterns = wanted.get("match") or [wanted.get("name", "")]
+    if isinstance(patterns, str):
+        patterns = [patterns]
+    return any(normalize_text(pattern) in haystack for pattern in patterns)
+
+
+def apply_selected_channels(
+    candidates: list[tuple[str, Channel]],
+    selected_channels: list[dict],
+    report: list[dict],
+) -> list[tuple[str, Channel]]:
+    if not selected_channels:
+        return candidates
+
+    selected: list[tuple[str, Channel]] = []
+    used_keys: set[tuple[str, str]] = set()
+
+    for index, wanted in enumerate(selected_channels, start=1):
+        found: tuple[str, Channel] | None = None
+        for source_name, channel in candidates:
+            key = channel_key(channel)
+            if key in used_keys:
+                continue
+            if matches_selected_channel(channel, wanted):
+                found = (source_name, channel)
+                break
+
+        if not found:
+            report.append(
+                {
+                    "source": "selected_channels",
+                    "channel": wanted.get("name", "<unnamed>"),
+                    "category": wanted.get("category", "Other"),
+                    "url": None,
+                    "ok": False,
+                    "status": "not found in enabled sources",
+                }
+            )
+            continue
+
+        source_name, channel = found
+        used_keys.add(channel_key(channel))
+        attrs = dict(channel.attrs)
+        attrs["tvg-chno"] = str(index)
+        selected.append(
+            (
+                source_name,
+                Channel(
+                    name=wanted.get("name") or channel.name,
+                    url=channel.url,
+                    category=wanted.get("category") or channel.category,
+                    attrs=attrs,
+                ),
+            )
+        )
+
+    return selected
+
+
 def format_extinf(channel: Channel) -> str:
     attrs = dict(channel.attrs)
     attrs["group-title"] = channel.category
@@ -134,9 +201,9 @@ def format_extinf(channel: Channel) -> str:
     return f"#EXTINF:-1 {attr_text},{channel.name}"
 
 
-def write_playlist(channels: list[Channel]) -> None:
+def write_playlist(channels: list[Channel], preserve_order: bool = False) -> None:
     PUBLIC_DIR.mkdir(exist_ok=True)
-    ordered = sorted(channels, key=lambda item: (item.category.lower(), item.name.lower()))
+    ordered = channels if preserve_order else sorted(channels, key=lambda item: (item.category.lower(), item.name.lower()))
 
     lines = ["#EXTM3U"]
     for channel in ordered:
@@ -159,6 +226,7 @@ def main() -> None:
     candidates: list[tuple[str, Channel]] = []
     valid_channels: list[Channel] = []
     report: list[dict] = []
+    selected_channels = config.get("selected_channels") or []
 
     for source in config.get("sources", []):
         if not source.get("enabled", True):
@@ -181,6 +249,9 @@ def main() -> None:
             seen.add(key)
             candidates.append((source_name, channel))
 
+    candidates = apply_selected_channels(candidates, selected_channels, report)
+    validation_results: dict[tuple[str, str], tuple[bool, str]] = {}
+
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         future_map = {
             executor.submit(validate_stream, channel.url, timeout, user_agent, verify_tls): (source_name, channel)
@@ -189,21 +260,24 @@ def main() -> None:
 
         for future in as_completed(future_map):
             source_name, channel = future_map[future]
-            ok, status = future.result()
-            report.append(
-                {
-                    "source": source_name,
-                    "channel": channel.name,
-                    "category": channel.category,
-                    "url": channel.url,
-                    "ok": ok,
-                    "status": status,
-                }
-            )
-            if ok:
-                valid_channels.append(channel)
+            validation_results[channel_key(channel)] = future.result()
 
-    write_playlist(valid_channels)
+    for source_name, channel in candidates:
+        ok, status = validation_results[channel_key(channel)]
+        report.append(
+            {
+                "source": source_name,
+                "channel": channel.name,
+                "category": channel.category,
+                "url": channel.url,
+                "ok": ok,
+                "status": status,
+            }
+        )
+        if ok:
+            valid_channels.append(channel)
+
+    write_playlist(valid_channels, preserve_order=bool(selected_channels))
     REPORT_PATH.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {len(valid_channels)} valid channels to {PLAYLIST_PATH}")
 
