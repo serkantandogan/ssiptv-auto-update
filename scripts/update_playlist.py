@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
@@ -150,10 +151,12 @@ def main() -> None:
     rules = config.get("category_rules") or {}
     validation = config.get("validation") or {}
     timeout = int(validation.get("timeout_seconds", 8))
+    max_workers = int(validation.get("max_workers", 8))
     user_agent = validation.get("user_agent", "SSIPTV-Auto-Update/1.0")
     verify_tls = bool(validation.get("verify_tls", True))
 
     seen: set[tuple[str, str]] = set()
+    candidates: list[tuple[str, Channel]] = []
     valid_channels: list[Channel] = []
     report: list[dict] = []
 
@@ -176,8 +179,17 @@ def main() -> None:
             if key in seen:
                 continue
             seen.add(key)
+            candidates.append((source_name, channel))
 
-            ok, status = validate_stream(channel.url, timeout, user_agent, verify_tls)
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_map = {
+            executor.submit(validate_stream, channel.url, timeout, user_agent, verify_tls): (source_name, channel)
+            for source_name, channel in candidates
+        }
+
+        for future in as_completed(future_map):
+            source_name, channel = future_map[future]
+            ok, status = future.result()
             report.append(
                 {
                     "source": source_name,
@@ -198,4 +210,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

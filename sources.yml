@@ -4,8 +4,20 @@
 # - file: a local M3U file committed to this repo
 
 sources:
-  - name: Example local playlist
+  - name: IPTV-org Turkey public channels
     enabled: true
+    category: Turkey
+    url: https://iptv-org.github.io/iptv/countries/tr.m3u
+
+  # Optional: the worldwide public playlist is very large.
+  # Enable it only if you want an 11000+ channel global list.
+  - name: IPTV-org worldwide public channels
+    enabled: false
+    category: Worldwide
+    url: https://iptv-org.github.io/iptv/index.m3u
+
+  - name: Example local playlist
+    enabled: false
     category: Test
     file: examples/example.m3u
 
@@ -32,8 +44,8 @@ category_rules:
     - muzik
 
 validation:
-  timeout_seconds: 8
+  timeout_seconds: 5
+  max_workers: 16
   user_agent: "SSIPTV-Auto-Update/1.0"
   # HEAD is faster, but some IPTV hosts reject it. The script falls back to GET.
   verify_tls: true
-
