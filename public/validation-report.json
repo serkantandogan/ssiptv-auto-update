@@ -17,6 +17,14 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
+    "channel": "ATV",
+    "category": "Ulusal",
+    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
     "channel": "NOW TV",
     "category": "Ulusal",
     "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8",
@@ -49,9 +57,81 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
+    "channel": "Beyaz TV",
+    "category": "Ulusal",
+    "url": "https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8",
+    "ok": false,
+    "status": "GET ConnectionError"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Kanal 7",
+    "category": "Ulusal",
+    "url": "https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8",
+    "ok": false,
+    "status": "GET SSLError"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "A2 TV",
+    "category": "Ulusal",
+    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
     "channel": "Halk TV",
     "category": "Haber",
     "url": "https://halktv-live.daioncdn.net/halktv/halktv.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TRT Haber",
+    "category": "Haber",
+    "url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "A Haber",
+    "category": "Haber",
+    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Habertürk TV",
+    "category": "Haber",
+    "url": "https://tv.ensonhaber.com/haberturk/haberturk.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Haber Global",
+    "category": "Haber",
+    "url": "https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TGRT Haber",
+    "category": "Haber",
+    "url": "https://canli.tgrthaber.com/tgrt.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TV 24",
+    "category": "Haber",
+    "url": "https://turkmedya-live.ercdn.net/tv24/tv24.m3u8",
     "ok": true,
     "status": "HEAD 200"
   },
@@ -68,15 +148,239 @@
     "channel": "Tele1",
     "category": "Haber",
     "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
+    "ok": false,
+    "status": "GET 404"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "CNBC-e",
+    "category": "Ekonomi",
+    "url": "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8",
     "ok": true,
     "status": "GET 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "CNBC-e",
-    "category": "Haber",
-    "url": "https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8",
+    "channel": "Bloomberg HT",
+    "category": "Ekonomi",
+    "url": "https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8",
+    "ok": false,
+    "status": "GET 403"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Ekotürk",
+    "category": "Ekonomi",
+    "url": "https://cdn.ekoturk.net/hls/master.m3u8",
     "ok": true,
     "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Finans Türk TV",
+    "category": "Ekonomi",
+    "url": "https://yayin30.haber100.com/live/finansturk/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TRT Belgesel",
+    "category": "Belgesel",
+    "url": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TGRT Belgesel",
+    "category": "Belgesel",
+    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "GZT",
+    "category": "Belgesel",
+    "url": "https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Natural TV",
+    "category": "Belgesel",
+    "url": "http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8",
+    "ok": false,
+    "status": "GET ConnectTimeout"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TRT Çocuk",
+    "category": "Çocuk",
+    "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Minika Çocuk",
+    "category": "Çocuk",
+    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Minika Go",
+    "category": "Çocuk",
+    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TRT Diyanet Çocuk",
+    "category": "Çocuk",
+    "url": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TRT Spor",
+    "category": "Spor",
+    "url": "https://corestream.siteyaptim.live/trt-spor/index.m3u8",
+    "ok": false,
+    "status": "GET ConnectionError"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TRT Spor Yıldız",
+    "category": "Spor",
+    "url": "https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "A Spor",
+    "category": "Spor",
+    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "HT Spor",
+    "category": "Spor",
+    "url": "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "FB TV",
+    "category": "Spor",
+    "url": "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TJK TV",
+    "category": "Spor",
+    "url": "https://tjktv-live.tjk.org/tjktv.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TRT Müzik",
+    "category": "Müzik",
+    "url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Dream Türk",
+    "category": "Müzik",
+    "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Kral Pop TV",
+    "category": "Müzik",
+    "url": "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Number 1 TV",
+    "category": "Müzik",
+    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Power TV",
+    "category": "Müzik",
+    "url": "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TRT 2",
+    "category": "Kültür",
+    "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TRT Avaz",
+    "category": "Kültür",
+    "url": "https://tv-trtavaz.medya.trt.com.tr/master.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TBMM TV",
+    "category": "Kamu",
+    "url": "https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Diyanet TV",
+    "category": "Dini",
+    "url": "https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "favorite_channels",
+    "channel": "Sözcü TV",
+    "category": "Favori Listem",
+    "url": null,
+    "ok": false,
+    "status": "not found among validated channels"
+  },
+  {
+    "source": "favorite_channels",
+    "channel": "Tele1",
+    "category": "Favori Listem",
+    "url": null,
+    "ok": false,
+    "status": "not found among validated channels"
   }
 ]

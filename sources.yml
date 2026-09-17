@@ -34,6 +34,53 @@ dynamic_channels:
       tvg-name: Show TV
       tvg-logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Show_TV.svg/512px-Show_TV.svg.png
 
+# Duplicate these channels into a top-level favorites group.
+favorite_channels:
+  category: Favori Listem
+  channels:
+    - name: TRT 1
+      match:
+        - TRT 1
+        - TRT1.tr
+    - name: NOW TV
+      match:
+        - NOW TV
+        - NOWTV.tr
+    - name: Star TV
+      match:
+        - Star TV
+        - StarTV.tr
+    - name: Kanal D
+      match:
+        - Kanal D
+        - KanalD.tr
+    - name: Show TV
+      match:
+        - Show TV
+        - ShowTV.tr
+    - name: Halk TV
+      match:
+        - Halk TV
+        - HalkTV.tr
+    - name: Sözcü TV
+      match:
+        - Sözcü TV
+        - Sozcu TV
+        - SZC TV
+        - SozcuTV.tr
+    - name: TV8
+      match:
+        - TV 8
+        - TV8.tr
+    - name: Tele1
+      match:
+        - Tele 1
+        - Tele1.tr
+    - name: CNBC-e
+      match:
+        - CNBC-e
+        - CNBCe.tr
+
 # Keep only these channels and write them in this order.
 # Matching is done against channel name and tvg-id from the authorized sources above.
 selected_channels:
@@ -42,6 +89,10 @@ selected_channels:
     match:
       - TRT 1
       - TRT1.tr
+  - name: ATV
+    category: Ulusal
+    match:
+      - ATV.tr
   - name: NOW TV
     category: Ulusal
     match:
@@ -62,11 +113,56 @@ selected_channels:
     match:
       - Show TV
       - ShowTV.tr
+  - name: Beyaz TV
+    category: Ulusal
+    match:
+      - Beyaz TV
+      - BeyazTV.tr
+  - name: Kanal 7
+    category: Ulusal
+    match:
+      - Kanal 7
+      - Kanal7.tr
+  - name: A2 TV
+    category: Ulusal
+    match:
+      - A2TV
+      - A2TV.tr
   - name: Halk TV
     category: Haber
     match:
       - Halk TV
       - HalkTV.tr
+  - name: TRT Haber
+    category: Haber
+    match:
+      - TRT Haber
+      - TRTHaber.tr
+  - name: A Haber
+    category: Haber
+    match:
+      - A Haber
+      - AHaber.tr
+  - name: Habertürk TV
+    category: Haber
+    match:
+      - Habertürk TV
+      - HaberturkTV.tr
+  - name: Haber Global
+    category: Haber
+    match:
+      - Haber Global
+      - HaberGlobal.tr
+  - name: TGRT Haber
+    category: Haber
+    match:
+      - TGRT Haber
+      - TGRTHaber.tr
+  - name: TV 24
+    category: Haber
+    match:
+      - TV 24
+      - 24TV.tr
   - name: Sözcü TV
     category: Haber
     match:
@@ -85,10 +181,140 @@ selected_channels:
       - Tele 1
       - Tele1.tr
   - name: CNBC-e
-    category: Haber
+    category: Ekonomi
     match:
       - CNBC-e
       - CNBCe.tr
+  - name: Bloomberg HT
+    category: Ekonomi
+    match:
+      - BloombergHT
+      - BloombergHT.tr
+  - name: Ekotürk
+    category: Ekonomi
+    match:
+      - Ekoturk
+      - Ekoturk.tr
+  - name: Finans Türk TV
+    category: Ekonomi
+    match:
+      - Finans Turk TV
+      - FinansTurkTV.tr
+  - name: TRT Belgesel
+    category: Belgesel
+    match:
+      - TRT Belgesel
+      - TRTBelgesel.tr
+  - name: TGRT Belgesel
+    category: Belgesel
+    match:
+      - TGRT Belgesel
+      - TGRTBelgesel.tr
+  - name: GZT
+    category: Belgesel
+    match:
+      - GZT
+      - GZT.tr
+  - name: Natural TV
+    category: Belgesel
+    match:
+      - Natural TV
+      - NaturalTV.tr
+  - name: TRT Çocuk
+    category: Çocuk
+    match:
+      - TRT Cocuk
+      - TRTCocuk.tr
+  - name: Minika Çocuk
+    category: Çocuk
+    match:
+      - Minika Cocuk
+      - MinikaCocuk.tr
+  - name: Minika Go
+    category: Çocuk
+    match:
+      - Minika Go
+      - MinikaGo.tr
+  - name: TRT Diyanet Çocuk
+    category: Çocuk
+    match:
+      - TRT Diyanet
+      - TRTDiyanetCocuk.tr
+  - name: TRT Spor
+    category: Spor
+    match:
+      - TRT Spor
+      - TRTSpor.tr
+  - name: TRT Spor Yıldız
+    category: Spor
+    match:
+      - TRT Spor Yildiz
+      - TRTSporYildiz.tr
+  - name: A Spor
+    category: Spor
+    match:
+      - A Spor
+      - ASpor.tr
+  - name: HT Spor
+    category: Spor
+    match:
+      - HTSpor
+      - HTSporTV.tr
+  - name: FB TV
+    category: Spor
+    match:
+      - FB TV
+      - FBTV.tr
+  - name: TJK TV
+    category: Spor
+    match:
+      - TJK TV
+      - TJKTV.tr
+  - name: TRT Müzik
+    category: Müzik
+    match:
+      - TRT Muzik
+      - TRTMuzik.tr
+  - name: Dream Türk
+    category: Müzik
+    match:
+      - Dream Turk
+      - DreamTurk.tr
+  - name: Kral Pop TV
+    category: Müzik
+    match:
+      - KRAL Pop TV
+      - KralPopTV.tr
+  - name: Number 1 TV
+    category: Müzik
+    match:
+      - Number 1 TV
+      - Number1TV.tr
+  - name: Power TV
+    category: Müzik
+    match:
+      - Power TV
+      - PowerTV.tr
+  - name: TRT 2
+    category: Kültür
+    match:
+      - TRT 2
+      - TRT2.tr
+  - name: TRT Avaz
+    category: Kültür
+    match:
+      - TRT Avaz
+      - TRTAvaz.tr
+  - name: TBMM TV
+    category: Kamu
+    match:
+      - TBMM TV
+      - TBMMTV.tr
+  - name: Diyanet TV
+    category: Dini
+    match:
+      - Diyanet TV
+      - DiyanetTV.tr
 
 # Optional channel name rules.
 # These help normalize categories when the source playlist has no group-title.

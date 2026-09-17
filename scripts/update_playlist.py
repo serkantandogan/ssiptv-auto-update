@@ -21,7 +21,7 @@ PLAYLIST_PATH = PUBLIC_DIR / "ssiptv.m3u"
 REPORT_PATH = PUBLIC_DIR / "validation-report.json"
 
 
-EXTINF_RE = re.compile(r'#EXTINF:(?P<duration>-?\d+)(?P<attrs>[^,]*),(?P<name>.*)')
+EXTINF_RE = re.compile(r'#EXTINF:(?P<duration>-?\d+)(?P<attrs>.*),(?P<name>.*)')
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
 
 
@@ -158,11 +158,23 @@ def normalize_text(value: str) -> str:
 
 
 def matches_selected_channel(channel: Channel, wanted: dict) -> bool:
-    haystack = normalize_text(" ".join([channel.name, *channel.attrs.values()]))
+    fields = [channel.name, *channel.attrs.values()]
+    normalized_fields = [normalize_text(field) for field in fields]
+    haystack = normalize_text(" ".join(fields))
     patterns = wanted.get("match") or [wanted.get("name", "")]
     if isinstance(patterns, str):
         patterns = [patterns]
-    return any(normalize_text(pattern) in haystack for pattern in patterns)
+
+    for pattern in patterns:
+        normalized_pattern = normalize_text(pattern)
+        if "." in pattern:
+            if any(field == normalized_pattern or field.startswith(f"{normalized_pattern} ") for field in normalized_fields):
+                return True
+            continue
+        if normalized_pattern in haystack:
+            return True
+
+    return False
 
 
 def apply_selected_channels(
@@ -233,9 +245,45 @@ def write_playlist(channels: list[Channel], preserve_order: bool = False) -> Non
     lines = ["#EXTM3U"]
     for channel in ordered:
         lines.append(format_extinf(channel))
+        lines.append(f"#EXTGRP:{channel.category}")
         lines.append(channel.url)
 
     PLAYLIST_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def build_favorite_channels(valid_channels: list[Channel], config: dict, report: list[dict]) -> list[Channel]:
+    favorite_config = config.get("favorite_channels") or {}
+    favorite_specs = favorite_config.get("channels") or []
+    favorite_category = favorite_config.get("category", "Favorites")
+    favorites: list[Channel] = []
+
+    for index, wanted in enumerate(favorite_specs, start=1):
+        found = next((channel for channel in valid_channels if matches_selected_channel(channel, wanted)), None)
+        if not found:
+            report.append(
+                {
+                    "source": "favorite_channels",
+                    "channel": wanted.get("name", "<unnamed>"),
+                    "category": favorite_category,
+                    "url": None,
+                    "ok": False,
+                    "status": "not found among validated channels",
+                }
+            )
+            continue
+
+        attrs = dict(found.attrs)
+        attrs["tvg-chno"] = str(index)
+        favorites.append(
+            Channel(
+                name=wanted.get("name") or found.name,
+                url=found.url,
+                category=favorite_category,
+                attrs=attrs,
+            )
+        )
+
+    return favorites
 
 
 def main() -> None:
@@ -324,7 +372,8 @@ def main() -> None:
         if ok:
             valid_channels.append(channel)
 
-    write_playlist(valid_channels, preserve_order=bool(selected_channels))
+    favorite_channels = build_favorite_channels(valid_channels, config, report)
+    write_playlist(favorite_channels + valid_channels, preserve_order=bool(selected_channels))
     REPORT_PATH.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"Wrote {len(valid_channels)} valid channels to {PLAYLIST_PATH}")
 
