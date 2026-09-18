@@ -20,6 +20,9 @@ https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-2
 #EXTINF:-1 group-title="Favori Listem" tvg-chno="9" tvg-id="Tele1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" tvg-name="Tele1",Tele1
 #EXTGRP:Favori Listem
 https://tele1-live.ercdn.net/tele1/tele1.m3u8
+#EXTINF:-1 group-title="Favori Listem" tvg-chno="1" tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" tvg-name="TRT 1",TRT 1
+#EXTGRP:Favori Listem
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Favori Listem" tvg-chno="8" tvg-id="TV8.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png" tvg-name="TV8",TV8
 #EXTGRP:Favori Listem
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
@@ -383,6 +386,9 @@ https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TonTV.tr@SD" tvg-logo="https://i.imgur.com/f0Soeob.png" tvg-name="Ton TV (720p) [Not 24/7]",Ton TV (720p) [Not 24/7]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" tvg-name="TRT 1 (1440p)",TRT 1 (1440p)
+#EXTGRP:Genel
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TRT3.tr@SD" tvg-logo="https://i.imgur.com/JrWFwBd.png" tvg-name="TRT 3 (720p)",TRT 3 (720p)
 #EXTGRP:Genel
 https://tv-trt3.live.trt.com.tr/master.m3u8

@@ -1116,8 +1116,8 @@
     "channel": "TRT 1 (1440p)",
     "category": "Genel",
     "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
-    "ok": false,
-    "status": "GET 403"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1398,14 +1398,6 @@
     "url": "https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1",
     "ok": true,
     "status": "HEAD 200"
-  },
-  {
-    "source": "favorite_channels",
-    "channel": "TRT 1",
-    "category": "Favori Listem",
-    "url": null,
-    "ok": false,
-    "status": "not found among validated channels"
   },
   {
     "source": "favorite_channels",
