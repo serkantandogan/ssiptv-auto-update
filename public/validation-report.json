@@ -65,7 +65,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Disney Jr. (1080p) [Geo-blocked]",
+    "channel": "Disney Jr. (Turkiye) (1080p) [Geo-blocked]",
     "category": "Çocuk",
     "url": "https://saran-live.ercdn.net/disneyjunior/index.m3u8",
     "ok": false,
@@ -81,7 +81,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "National Geographic",
+    "channel": "National Geographic (Turkiye)",
     "category": "Belgesel",
     "url": "https://nord.ayakkabiparti.lol/natgeo/index.m3u8",
     "ok": false,
@@ -89,17 +89,9 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "National Geographic Wild",
+    "channel": "National Geographic Wild (Turkiye)",
     "category": "Belgesel",
     "url": "https://nord.ayakkabiparti.lol/natgeowild/index.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "S Sport (720p)",
-    "category": "Spor",
-    "url": "https://corestream.siteyaptim.live/s-sport/index.m3u8",
     "ok": false,
     "status": "excluded by keyword filter"
   },
@@ -113,7 +105,15 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Viasat History (720p)",
+    "channel": "S Sport (720p)",
+    "category": "Spor",
+    "url": "https://corestream.siteyaptim.live/s-sport/index.m3u8",
+    "ok": false,
+    "status": "excluded by keyword filter"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Viasat History (Turkiye) (720p)",
     "category": "Belgesel",
     "url": "https://nord.ayakkabiparti.lol/viasathistory/index.m3u8",
     "ok": false,
@@ -129,7 +129,15 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "360 TV (720p) [Not 24/7]",
+    "channel": "24 TV (720p)",
+    "category": "Haber",
+    "url": "https://turkmedya-live.ercdn.net/tv24/tv24.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "360 (720p) [Not 24/7]",
     "category": "Haber",
     "url": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
     "ok": true,
@@ -153,7 +161,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "A Spor (1080p)",
+    "channel": "A Spor SD (1080p)",
     "category": "Spor",
     "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
     "ok": true,
@@ -169,7 +177,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Al Rafidain (720p) [Not 24/7]",
+    "channel": "Al-Rafidain TV (720p) [Not 24/7]",
     "category": "Dini",
     "url": "https://arrafidain.tvplayer.online/arrafidaintv/source/playlist.m3u8",
     "ok": false,
@@ -217,7 +225,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "ARAS TV (576p) [Not 24/7]",
+    "channel": "Aras TV (576p) [Not 24/7]",
     "category": "Genel",
     "url": "http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8",
     "ok": true,
@@ -225,11 +233,19 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "ATV (1080p)",
+    "channel": "AS TV (900p)",
+    "category": "Haber",
+    "url": "https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "ATV (Turkiye) (1080p)",
     "category": "Genel",
     "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
     "ok": true,
-    "status": "GET 200"
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -273,7 +289,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "BloombergHT (720p)",
+    "channel": "Bloomberg HT (720p)",
     "category": "Ekonomi",
     "url": "https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8",
     "ok": false,
@@ -281,17 +297,17 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "BRTV (720p) [Geo-blocked]",
+    "channel": "Bric ve Satranc TV (480p) [Not 24/7]",
     "category": "Genel",
-    "url": "https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8",
+    "url": "http://139.162.182.79/live/test/index.m3u8",
     "ok": true,
     "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Bursa AS TV (900p)",
-    "category": "Haber",
-    "url": "https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8",
+    "channel": "BRTV (Turkiye) (720p) [Geo-blocked]",
+    "category": "Genel",
+    "url": "https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8",
     "ok": true,
     "status": "HEAD 200"
   },
@@ -313,7 +329,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Cekmeköy TV (1080p)",
+    "channel": "Cekmekoy TV (1080p)",
     "category": "Genel",
     "url": "https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8",
     "ok": false,
@@ -321,7 +337,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Çiftçi TV (720p) [Not 24/7]",
+    "channel": "Ciftci TV (720p) [Not 24/7]",
     "category": "Kültür",
     "url": "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8",
     "ok": true,
@@ -337,7 +353,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Deniz Postası TV (720p) [Not 24/7]",
+    "channel": "Deniz Postasi TV (720p) [Not 24/7]",
     "category": "Genel",
     "url": "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8",
     "ok": true,
@@ -377,7 +393,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Dream Türk (720p)",
+    "channel": "Dream Turk (720p)",
     "category": "Müzik",
     "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8",
     "ok": true,
@@ -409,7 +425,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Er TV (1080p) [Geo-blocked]",
+    "channel": "ERTV (1080p) [Geo-blocked]",
     "category": "Genel",
     "url": "https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8",
     "ok": false,
@@ -521,7 +537,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Habertürk TV (720p) [Not 24/7]",
+    "channel": "Haberturk TV (720p) [Not 24/7]",
     "category": "Haber",
     "url": "https://tv.ensonhaber.com/haberturk/haberturk.m3u8",
     "ok": true,
@@ -529,7 +545,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Halk TV (1080p)",
+    "channel": "Halk TV SD (1080p)",
     "category": "Haber",
     "url": "https://halktv-live.daioncdn.net/halktv/halktv.m3u8",
     "ok": true,
@@ -649,7 +665,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "KANAL 58 (720p) [Not 24/7]",
+    "channel": "Kanal 58 (720p) [Not 24/7]",
     "category": "Genel",
     "url": "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8",
     "ok": true,
@@ -657,7 +673,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Kanal D (1080p)",
+    "channel": "Kanal D (Turkiye) (1080p)",
     "category": "Genel",
     "url": "https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3",
     "ok": true,
@@ -697,7 +713,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Kent Türk TV (1080p) [Not 24/7]",
+    "channel": "Kent Turk (1080p) [Not 24/7]",
     "category": "Genel",
     "url": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
     "ok": true,
@@ -729,7 +745,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "KRAL Pop TV (720p)",
+    "channel": "Kral Pop TV (720p)",
     "category": "Müzik",
     "url": "https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8",
     "ok": true,
@@ -745,7 +761,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Life TV (720p) [Not 24/7]",
+    "channel": "Life TV (Turkiye) (720p) [Not 24/7]",
     "category": "Haber",
     "url": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
     "ok": true,
@@ -769,7 +785,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "MaviKaradeniz (1080p) [Not 24/7]",
+    "channel": "MaviKaradeniz TV (1080p) [Not 24/7]",
     "category": "Genel",
     "url": "https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8",
     "ok": true,
@@ -825,7 +841,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "MTürk TV (1080p)",
+    "channel": "MTurk TV (1080p)",
     "category": "Genel",
     "url": "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8",
     "ok": true,
@@ -849,7 +865,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "NTV",
+    "channel": "NTV (Turkiye)",
     "category": "Genel",
     "url": "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web",
     "ok": true,
@@ -889,7 +905,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Olay Türk TV Kayseri (720p) [Geo-blocked]",
+    "channel": "OlayTurk TV (720p) [Geo-blocked]",
     "category": "Haber",
     "url": "https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8",
     "ok": true,
@@ -929,31 +945,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Power Türk Akustik (1080p)",
-    "category": "Müzik",
-    "url": "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "Power Türk Slow (1080p)",
-    "category": "Müzik",
-    "url": "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "Power Türk Taptaze (1080p)",
-    "category": "Müzik",
-    "url": "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "Power TV (1080p)",
+    "channel": "Power TV (Turkiye) (1080p)",
     "category": "Genel",
     "url": "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8",
     "ok": true,
@@ -961,7 +953,31 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "PowerTürk TV (720p)",
+    "channel": "PowerTurk Akustik (1080p)",
+    "category": "Müzik",
+    "url": "https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "PowerTurk Slow (1080p)",
+    "category": "Müzik",
+    "url": "https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "PowerTurk Taptaze (1080p)",
+    "category": "Müzik",
+    "url": "https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "PowerTurk TV (720p)",
     "category": "Genel",
     "url": "https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8",
     "ok": true,
@@ -985,17 +1001,9 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Sat7 Türk (1080p)",
+    "channel": "Sat 7 Turk (1080p)",
     "category": "Genel",
     "url": "https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "Satranç TV (480p) [Not 24/7]",
-    "category": "Genel",
-    "url": "http://139.162.182.79/live/test/index.m3u8",
     "ok": true,
     "status": "HEAD 200"
   },
@@ -1025,7 +1033,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "Star TV (720p)",
+    "channel": "Star TV (Turkiye) (720p)",
     "category": "Genel",
     "url": "https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5",
     "ok": true,
@@ -1065,7 +1073,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TGRT Belgesel TV (576p) [Not 24/7]",
+    "channel": "TGRT Belgesel (576p) [Not 24/7]",
     "category": "Genel",
     "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8",
     "ok": true,
@@ -1089,19 +1097,19 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TJK TV (1080p)",
-    "category": "Spor",
-    "url": "https://tjktv-live.tjk.org/tjktv.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
     "channel": "TJK TV 2 (1080p) [Not 24/7]",
     "category": "Spor",
     "url": "https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8",
     "ok": false,
     "status": "GET 401"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TJK TV (1080p)",
+    "category": "Spor",
+    "url": "https://tjktv-live.tjk.org/tjktv.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1161,9 +1169,17 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TRT Diyanet Çocuk (720p)",
+    "channel": "TRT Diyanet Cocuk (720p)",
     "category": "Çocuk",
     "url": "https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "TRT EBA (720p)",
+    "category": "Eğitim",
+    "url": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8",
     "ok": true,
     "status": "HEAD 200"
   },
@@ -1185,19 +1201,11 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TRT EBA Ortaokul (720p)",
-    "category": "Eğitim",
-    "url": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
     "channel": "TRT Genc (1440p) [Geo-blocked]",
     "category": "Kültür",
     "url": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1209,7 +1217,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TRT Kurdî (720p)",
+    "channel": "TRT Kurdi (720p)",
     "category": "Genel",
     "url": "https://tv-trtkurdi.medya.trt.com.tr/master.m3u8",
     "ok": true,
@@ -1217,7 +1225,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TRT Müzik (720p)",
+    "channel": "TRT Muzik (720p)",
     "category": "Müzik",
     "url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
     "ok": true,
@@ -1241,7 +1249,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TRT Türk (720p)",
+    "channel": "TRT Turk (720p)",
     "category": "Genel",
     "url": "https://tv-trtturk.medya.trt.com.tr/master.m3u8",
     "ok": true,
@@ -1249,7 +1257,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TürkHaber (720p)",
+    "channel": "TurkHaber TV (720p)",
     "category": "Haber",
     "url": "https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8",
     "ok": true,
@@ -1265,7 +1273,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TV4 (720p)",
+    "channel": "TV 4 (720p)",
     "category": "Genel",
     "url": "https://turkmedya-live.ercdn.net/tv4/tv4.m3u8",
     "ok": true,
@@ -1273,17 +1281,9 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TV 8 (1080p)",
+    "channel": "TV8 (Turkiye) (1080p)",
     "category": "Genel",
     "url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
-    "ok": true,
-    "status": "HEAD 200"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "TV 24 (720p)",
-    "category": "Haber",
-    "url": "https://turkmedya-live.ercdn.net/tv24/tv24.m3u8",
     "ok": true,
     "status": "HEAD 200"
   },
@@ -1313,7 +1313,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TV 100",
+    "channel": "TV 100 (Turkiye)",
     "category": "Genel",
     "url": "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8",
     "ok": false,
@@ -1337,7 +1337,7 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TVNET (1080p)",
+    "channel": "TVNET (Turkiye) (1080p)",
     "category": "Genel",
     "url": "https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8",
     "ok": true,
