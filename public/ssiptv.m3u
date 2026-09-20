@@ -17,9 +17,6 @@ https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-3
 #EXTINF:-1 group-title="Favori Listem" tvg-chno="3" tvg-id="StarTV.tr@SD" tvg-logo="https://i.imgur.com/9O3DHRB.png" tvg-name="Star TV",Star TV
 #EXTGRP:Favori Listem
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
-#EXTINF:-1 group-title="Favori Listem" tvg-chno="9" tvg-id="Tele1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" tvg-name="Tele1",Tele1
-#EXTGRP:Favori Listem
-https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 group-title="Favori Listem" tvg-chno="1" tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" tvg-name="TRT 1",TRT 1
 #EXTGRP:Favori Listem
 https://tv-trt1.medya.trt.com.tr/master.m3u8
@@ -251,6 +248,9 @@ https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="CayTV.tr@SD" tvg-logo="https://i.imgur.com/ndupxwu.png" tvg-name="Cay TV (720p)",Cay TV (720p)
 #EXTGRP:Genel
 https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="DenizPostasiTV.tr@SD" tvg-logo="https://i.imgur.com/Mm8hdfx.png" tvg-name="Deniz Postasi TV (720p) [Not 24/7]",Deniz Postasi TV (720p) [Not 24/7]
+#EXTGRP:Genel
+https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ElsharqTV.tr@SD" tvg-logo="https://i.imgur.com/8vmfZb5.png" tvg-name="Elsharq TV (1080p) [Not 24/7]",Elsharq TV (1080p) [Not 24/7]
 #EXTGRP:Genel
 https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
@@ -263,6 +263,9 @@ https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ESTV.tr@SD" tvg-logo="https://i.imgur.com/epAEBrp.png" tvg-name="ES TV (720p)",ES TV (720p)
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="ETVKayseri.tr@SD" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_msPtG6zfPKIJIIdvG4dehXLoVoXcHM2-2HL9YxsNYzGQ=s512-c-k-c0x00ffffff-no-rj" tvg-name="ETV Kayseri (720p)",ETV Kayseri (720p)
+#EXTGRP:Genel
+https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ETVManisa.tr@SD" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" tvg-name="ETV Manisa (1080p) [Not 24/7]",ETV Manisa (1080p) [Not 24/7]
 #EXTGRP:Genel
 https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
@@ -365,9 +368,6 @@ https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TBMMTV.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" tvg-name="TBMM TV (720p)",TBMM TV (720p)
 #EXTGRP:Genel
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="Tele1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" tvg-name="Tele 1 (1080p)",Tele 1 (1080p)
-#EXTGRP:Genel
-https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TempoTV.tr@SD" tvg-logo="https://i.imgur.com/tZpx32y.png" tvg-name="Tempo TV (720p)",Tempo TV (720p)
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8

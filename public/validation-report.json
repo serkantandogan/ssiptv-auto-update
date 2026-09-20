@@ -356,8 +356,8 @@
     "channel": "Deniz Postasi TV (720p) [Not 24/7]",
     "category": "Genel",
     "url": "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -452,8 +452,8 @@
     "channel": "ETV Kayseri (720p)",
     "category": "Genel",
     "url": "https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -477,7 +477,7 @@
     "category": "Spor",
     "url": "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
     "ok": true,
-    "status": "HEAD 200"
+    "status": "GET 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1060,8 +1060,8 @@
     "channel": "Tele 1 (1080p)",
     "category": "Genel",
     "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1402,6 +1402,14 @@
   {
     "source": "favorite_channels",
     "channel": "Sözcü TV",
+    "category": "Favori Listem",
+    "url": null,
+    "ok": false,
+    "status": "not found among validated channels"
+  },
+  {
+    "source": "favorite_channels",
+    "channel": "Tele1",
     "category": "Favori Listem",
     "url": null,
     "ok": false,
