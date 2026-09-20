@@ -251,9 +251,6 @@ https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="CayTV.tr@SD" tvg-logo="https://i.imgur.com/ndupxwu.png" tvg-name="Cay TV (720p)",Cay TV (720p)
 #EXTGRP:Genel
 https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="DenizPostasiTV.tr@SD" tvg-logo="https://i.imgur.com/Mm8hdfx.png" tvg-name="Deniz Postasi TV (720p) [Not 24/7]",Deniz Postasi TV (720p) [Not 24/7]
-#EXTGRP:Genel
-https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ElsharqTV.tr@SD" tvg-logo="https://i.imgur.com/8vmfZb5.png" tvg-name="Elsharq TV (1080p) [Not 24/7]",Elsharq TV (1080p) [Not 24/7]
 #EXTGRP:Genel
 https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
@@ -266,9 +263,6 @@ https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ESTV.tr@SD" tvg-logo="https://i.imgur.com/epAEBrp.png" tvg-name="ES TV (720p)",ES TV (720p)
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="ETVKayseri.tr@SD" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_msPtG6zfPKIJIIdvG4dehXLoVoXcHM2-2HL9YxsNYzGQ=s512-c-k-c0x00ffffff-no-rj" tvg-name="ETV Kayseri (720p)",ETV Kayseri (720p)
-#EXTGRP:Genel
-https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ETVManisa.tr@SD" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" tvg-name="ETV Manisa (1080p) [Not 24/7]",ETV Manisa (1080p) [Not 24/7]
 #EXTGRP:Genel
 https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
@@ -335,6 +329,9 @@ https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="MaviKaradenizTV.tr@SD" tvg-logo="https://i.imgur.com/wyWappU.png" tvg-name="MaviKaradeniz TV (1080p) [Not 24/7]",MaviKaradeniz TV (1080p) [Not 24/7]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="MeltemTV.tr@SD" tvg-logo="https://i.imgur.com/C3m6w5S.png" tvg-name="Meltem TV (1080p)",Meltem TV (1080p)
+#EXTGRP:Genel
+https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="MercanTV.tr@SD" tvg-logo="https://i.imgur.com/3CWV8bS.png" tvg-name="Mercan TV (576p) [Not 24/7]",Mercan TV (576p) [Not 24/7]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
