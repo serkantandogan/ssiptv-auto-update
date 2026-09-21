@@ -170,9 +170,6 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91
 #EXTINF:-1 group-title="Kültür" tvg-id="SercemTV.tr@HD" tvg-logo="https://sercemtv.com.tr/sercemlogo.jpg" tvg-name="Sercem TV (1080p)",Sercem TV (1080p)
 #EXTGRP:Kültür
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
-#EXTINF:-1 group-title="Kültür" tvg-id="TRTGenc.tr@SD" tvg-logo="https://i.imgur.com/fCHQYWS.png" tvg-name="TRT Genc (1440p) [Geo-blocked]",TRT Genc (1440p) [Geo-blocked]
-#EXTGRP:Kültür
-https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Eğitim" tvg-id="TRTEBA.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TRT_EBA_TV_logo.svg/960px-TRT_EBA_TV_logo.svg.png" tvg-name="TRT EBA (720p)",TRT EBA (720p)
 #EXTGRP:Eğitim
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
@@ -326,6 +323,9 @@ https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u
 #EXTINF:-1 group-title="Genel" tvg-id="KocaeliTV.tr@SD" tvg-logo="https://i.imgur.com/LeTP4zq.png" tvg-name="Kocaeli TV (1080p)",Kocaeli TV (1080p)
 #EXTGRP:Genel
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="KonyaOlayTV.tr@SD" tvg-logo="https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg" tvg-name="Konya Olay TV (720p)",Konya Olay TV (720p)
+#EXTGRP:Genel
+https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="LineTV.tr@SD" tvg-logo="https://i.imgur.com/6GNp7f8.png" tvg-name="Line TV (720p) [Not 24/7]",Line TV (720p) [Not 24/7]
 #EXTGRP:Genel
 https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
