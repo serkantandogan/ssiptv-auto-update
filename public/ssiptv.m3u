@@ -227,6 +227,9 @@ https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="AltasTV.tr@SD" tvg-logo="https://i.imgur.com/XaJ7fp6.png" tvg-name="Altas TV (1080p)",Altas TV (1080p)
 #EXTGRP:Genel
 https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="AnadoluNetTV.tr@SD" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" tvg-name="Anadolu Net TV (1080p)",Anadolu Net TV (1080p)
+#EXTGRP:Genel
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ArasTV.tr@SD" tvg-logo="https://i.imgur.com/JsDCyWG.png" tvg-name="Aras TV (576p) [Not 24/7]",Aras TV (576p) [Not 24/7]
 #EXTGRP:Genel
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
