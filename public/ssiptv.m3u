@@ -173,6 +173,9 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91
 #EXTINF:-1 group-title="Kültür" tvg-id="SercemTV.tr@HD" tvg-logo="https://sercemtv.com.tr/sercemlogo.jpg" tvg-name="Sercem TV (1080p)",Sercem TV (1080p)
 #EXTGRP:Kültür
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
+#EXTINF:-1 group-title="Kültür" tvg-id="TRTGenc.tr@SD" tvg-logo="https://i.imgur.com/fCHQYWS.png" tvg-name="TRT Genc (1440p) [Geo-blocked]",TRT Genc (1440p) [Geo-blocked]
+#EXTGRP:Kültür
+https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Eğitim" tvg-id="TRTEBA.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TRT_EBA_TV_logo.svg/960px-TRT_EBA_TV_logo.svg.png" tvg-name="TRT EBA (720p)",TRT EBA (720p)
 #EXTGRP:Eğitim
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
@@ -242,6 +245,9 @@ https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="BirTV.tr@SD" tvg-logo="https://birtv.tv/assets/upload/637f83951df60.png" tvg-name="Bir TV (720p)",Bir TV (720p)
 #EXTGRP:Genel
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="BricveSatrancTV.tr@SD" tvg-logo="https://i.imgur.com/TXDV1ty.png" tvg-name="Bric ve Satranc TV (480p) [Not 24/7]",Bric ve Satranc TV (480p) [Not 24/7]
+#EXTGRP:Genel
+http://139.162.182.79/live/test/index.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="BRTV.tr@SD" tvg-logo="https://i.imgur.com/U3qlEAp.png" tvg-name="BRTV (Turkiye) (720p) [Geo-blocked]",BRTV (Turkiye) (720p) [Geo-blocked]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
@@ -317,9 +323,6 @@ https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="KayTV.tr@SD" tvg-logo="https://i.imgur.com/MymuDJ1.png" tvg-name="Kay TV (576p) [Geo-blocked]",Kay TV (576p) [Geo-blocked]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="KentTurk.tr@SD" tvg-logo="https://i.imgur.com/FQKPjsm.png" tvg-name="Kent Turk (1080p) [Not 24/7]",Kent Turk (1080p) [Not 24/7]
-#EXTGRP:Genel
-https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="KocaeliTV.tr@SD" tvg-logo="https://i.imgur.com/LeTP4zq.png" tvg-name="Kocaeli TV (1080p)",Kocaeli TV (1080p)
 #EXTGRP:Genel
 https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
