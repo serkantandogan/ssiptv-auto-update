@@ -71,6 +71,9 @@ https://tv.ensonhaber.com/haberturk/haberturk.m3u8
 #EXTINF:-1 group-title="Haber" tvg-id="HalkTV.tr@SD" tvg-logo="https://i.imgur.com/xM0HA30.png" tvg-name="Halk TV SD (1080p)",Halk TV SD (1080p)
 #EXTGRP:Haber
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+#EXTINF:-1 group-title="Haber" tvg-id="LifeTV.tr@SD" tvg-logo="https://i.imgur.com/lWeJxm0.png" tvg-name="Life TV (Turkiye) (720p) [Not 24/7]",Life TV (Turkiye) (720p) [Not 24/7]
+#EXTGRP:Haber
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #EXTINF:-1 group-title="Haber" tvg-id="MekameleenTV.tr@SD" tvg-logo="https://i.imgur.com/q7iVchl.png" tvg-name="Mekameleen TV (1080p)",Mekameleen TV (1080p)
 #EXTGRP:Haber
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
