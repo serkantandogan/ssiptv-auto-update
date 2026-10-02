@@ -56,9 +56,6 @@ https://yayin30.haber100.com/live/finansturk/playlist.m3u8
 #EXTINF:-1 group-title="Haber" tvg-id="FlashHaberTV.tr@SD" tvg-logo="" tvg-name="Flash Haber TV",Flash Haber TV
 #EXTGRP:Haber
 https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
-#EXTINF:-1 group-title="Haber" tvg-id="GuneydoguTV.tr@SD" tvg-logo="https://i.imgur.com/JT5pp3Y.png" tvg-name="Guneydogu TV (720p)",Guneydogu TV (720p)
-#EXTGRP:Haber
-https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Haber" tvg-id="HaberGlobal.tr@SD" tvg-logo="https://i.imgur.com/fu6XeGS.png" tvg-name="Haber Global (720p) [Not 24/7]",Haber Global (720p) [Not 24/7]
 #EXTGRP:Haber
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
@@ -86,9 +83,6 @@ https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 group-title="Haber" tvg-id="TRTHaber.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/960px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png" tvg-name="TRT Haber (720p)",TRT Haber (720p)
 #EXTGRP:Haber
 https://tv-trthaber.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Haber" tvg-id="TurkHaberTV.tr@SD" tvg-logo="https://i.imgur.com/2AcRKdL.png" tvg-name="TurkHaber TV (720p)",TurkHaber TV (720p)
-#EXTGRP:Haber
-https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Ekonomi" tvg-id="CNBCe.tr@SD" tvg-logo="https://s.cnbce.com/dist/images/logo-nav.png" tvg-name="CNBC-e",CNBC-e
 #EXTGRP:Ekonomi
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
@@ -173,9 +167,6 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91
 #EXTINF:-1 group-title="Kültür" tvg-id="SercemTV.tr@HD" tvg-logo="https://sercemtv.com.tr/sercemlogo.jpg" tvg-name="Sercem TV (1080p)",Sercem TV (1080p)
 #EXTGRP:Kültür
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
-#EXTINF:-1 group-title="Kültür" tvg-id="TRTGenc.tr@SD" tvg-logo="https://i.imgur.com/fCHQYWS.png" tvg-name="TRT Genc (1440p) [Geo-blocked]",TRT Genc (1440p) [Geo-blocked]
-#EXTGRP:Kültür
-https://tv-trtgenc.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Eğitim" tvg-id="TRTEBA.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TRT_EBA_TV_logo.svg/960px-TRT_EBA_TV_logo.svg.png" tvg-name="TRT EBA (720p)",TRT EBA (720p)
 #EXTGRP:Eğitim
 https://tv-e-okul01.medya.trt.com.tr/master.m3u8
@@ -215,9 +206,6 @@ https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 group-title="Eğlence" tvg-id="PersianaTurkiye.fr@SD" tvg-logo="" tvg-name="Persiana Turkiye",Persiana Turkiye
 #EXTGRP:Eğlence
 https://turkhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 group-title="Yaşam" tvg-id="FortunaTV.tr@SD" tvg-logo="https://i.imgur.com/ZbUSlOC.png" tvg-name="Fortuna TV (720p)",Fortuna TV (720p)
-#EXTGRP:Yaşam
-https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="A2TV.tr@SD" tvg-logo="https://iatv.tmgrup.com.tr/site/v2/a2tv/i/a2tv-logo.png" tvg-name="A2TV (1080p)",A2TV (1080p)
 #EXTGRP:Genel
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
@@ -227,15 +215,15 @@ https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="AlanyaPostaTV.tr@SD" tvg-logo="https://i.imgur.com/a3w9eFe.png" tvg-name="Alanya Posta TV (1080p)",Alanya Posta TV (1080p)
 #EXTGRP:Genel
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="AltasTV.tr@SD" tvg-logo="https://i.imgur.com/XaJ7fp6.png" tvg-name="Altas TV (1080p)",Altas TV (1080p)
-#EXTGRP:Genel
-https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="AnadoluNetTV.tr@SD" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" tvg-name="Anadolu Net TV (1080p)",Anadolu Net TV (1080p)
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ArasTV.tr@SD" tvg-logo="https://i.imgur.com/JsDCyWG.png" tvg-name="Aras TV (576p) [Not 24/7]",Aras TV (576p) [Not 24/7]
 #EXTGRP:Genel
 http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" tvg-name="ATV (Turkiye) (1080p)",ATV (Turkiye) (1080p)
+#EXTGRP:Genel
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ATVAlanya.tr@SD" tvg-logo="https://i.imgur.com/bUwarR0.png" tvg-name="ATV Alanya (1080p)",ATV Alanya (1080p)
 #EXTGRP:Genel
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
@@ -248,9 +236,6 @@ http://139.162.182.79/live/test/index.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="BRTV.tr@SD" tvg-logo="https://i.imgur.com/U3qlEAp.png" tvg-name="BRTV (Turkiye) (720p) [Geo-blocked]",BRTV (Turkiye) (720p) [Geo-blocked]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="CayTV.tr@SD" tvg-logo="https://i.imgur.com/ndupxwu.png" tvg-name="Cay TV (720p)",Cay TV (720p)
-#EXTGRP:Genel
-https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="DenizPostasiTV.tr@SD" tvg-logo="https://i.imgur.com/Mm8hdfx.png" tvg-name="Deniz Postasi TV (720p) [Not 24/7]",Deniz Postasi TV (720p) [Not 24/7]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
@@ -269,15 +254,9 @@ https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ETVKayseri.tr@SD" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_msPtG6zfPKIJIIdvG4dehXLoVoXcHM2-2HL9YxsNYzGQ=s512-c-k-c0x00ffffff-no-rj" tvg-name="ETV Kayseri (720p)",ETV Kayseri (720p)
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="ETVManisa.tr@SD" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" tvg-name="ETV Manisa (1080p) [Not 24/7]",ETV Manisa (1080p) [Not 24/7]
-#EXTGRP:Genel
-https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="EuroD.tr@SD" tvg-logo="https://i.imgur.com/x9kHsXo.png" tvg-name="Euro D (720p)",Euro D (720p)
 #EXTGRP:Genel
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="IcelTV.tr@SD" tvg-logo="https://i.imgur.com/CGwImKv.png" tvg-name="Icel TV (720p) [Not 24/7]",Icel TV (720p) [Not 24/7]
-#EXTGRP:Genel
-https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="IlkeTV.tr@HD" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" tvg-name="Ilke TV (1080p)",Ilke TV (1080p)
 #EXTGRP:Genel
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
@@ -296,12 +275,6 @@ https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="Kanal3.tr@SD" tvg-logo="https://i.imgur.com/eXErSv0.png" tvg-name="Kanal 3 (1080p) [Not 24/7]",Kanal 3 (1080p) [Not 24/7]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="Kanal32.tr@SD" tvg-logo="" tvg-name="Kanal 32 (720p) [Not 24/7]",Kanal 32 (720p) [Not 24/7]
-#EXTGRP:Genel
-https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="Kanal33.tr@SD" tvg-logo="https://i.imgur.com/5WYaoFZ.png" tvg-name="Kanal 33 (720p) [Not 24/7]",Kanal 33 (720p) [Not 24/7]
-#EXTGRP:Genel
-https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="Kanal58.tr@SD" tvg-logo="https://i.imgur.com/Rgc66sv.png" tvg-name="Kanal 58 (720p) [Not 24/7]",Kanal 58 (720p) [Not 24/7]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
@@ -329,9 +302,6 @@ https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="KonyaOlayTV.tr@SD" tvg-logo="https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg" tvg-name="Konya Olay TV (720p)",Konya Olay TV (720p)
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="LineTV.tr@SD" tvg-logo="https://i.imgur.com/6GNp7f8.png" tvg-name="Line TV (720p) [Not 24/7]",Line TV (720p) [Not 24/7]
-#EXTGRP:Genel
-https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="MaviKaradenizTV.tr@SD" tvg-logo="https://i.imgur.com/wyWappU.png" tvg-name="MaviKaradeniz TV (1080p) [Not 24/7]",MaviKaradeniz TV (1080p) [Not 24/7]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
@@ -341,9 +311,6 @@ https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="MercanTV.tr@SD" tvg-logo="https://i.imgur.com/3CWV8bS.png" tvg-name="Mercan TV (576p) [Not 24/7]",Mercan TV (576p) [Not 24/7]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="MTurkTV.tr@SD" tvg-logo="https://i.imgur.com/xj1gvrq.png" tvg-name="MTurk TV (1080p)",MTurk TV (1080p)
-#EXTGRP:Genel
-https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="NTV.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png" tvg-name="NTV (Turkiye)",NTV (Turkiye)
 #EXTGRP:Genel
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
@@ -401,18 +368,12 @@ https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TRTTurk.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/960px-TRT_T%C3%BCrk_logo.svg.png" tvg-name="TRT Turk (720p)",TRT Turk (720p)
 #EXTGRP:Genel
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="TV1.tr@SD" tvg-logo="https://i.imgur.com/8CtrYVb.png" tvg-name="TV 1 (720p)",TV 1 (720p)
-#EXTGRP:Genel
-https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TV264.tr@SD" tvg-logo="https://i.imgur.com/tudXdOZ.png" tvg-name="TV 264 (1080p)",TV 264 (1080p)
 #EXTGRP:Genel
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TV4.tr@SD" tvg-logo="https://i.imgur.com/UpsQsbd.png" tvg-name="TV 4 (720p)",TV 4 (720p)
 #EXTGRP:Genel
 https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="TV52.tr@SD" tvg-logo="https://i.imgur.com/k4R5CzO.png" tvg-name="TV 52 (720p) [Not 24/7]",TV 52 (720p) [Not 24/7]
-#EXTGRP:Genel
-https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TVDen.tr@SD" tvg-logo="https://i.imgur.com/Uhg95Ze.png" tvg-name="TV Den (576p) [Not 24/7]",TV Den (576p) [Not 24/7]
 #EXTGRP:Genel
 http://canli.tvden.com.tr/hls/live.m3u8
