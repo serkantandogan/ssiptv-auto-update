@@ -284,6 +284,9 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 #EXTINF:-1 group-title="Genel" tvg-id="KanalFirat.tr@SD" tvg-logo="https://i.imgur.com/3o8Rokp.png" tvg-name="Kanal Firat (720p) [Not 24/7]",Kanal Firat (720p) [Not 24/7]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="KanalHayat.tr@SD" tvg-logo="https://i.imgur.com/eikZj19.png" tvg-name="Kanal Hayat (1080p)",Kanal Hayat (1080p)
+#EXTGRP:Genel
+https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="KanalV.tr@SD" tvg-logo="https://i.imgur.com/7RNjTno.png" tvg-name="Kanal V (720p) [Not 24/7]",Kanal V (720p) [Not 24/7]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
