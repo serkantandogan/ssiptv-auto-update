@@ -465,6 +465,22 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
+    "channel": "Eurosport 1 Turkiye",
+    "category": "Spor",
+    "url": "https://andro.mangeinde4.lat/checklist/androstreamlivees1.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
+    "channel": "Eurosport 2 Turkiye",
+    "category": "Spor",
+    "url": "https://andro.mangeinde4.lat/checklist/androstreamlivees2.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
     "channel": "FB TV",
     "category": "Spor",
     "url": "http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8",
@@ -1313,14 +1329,6 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "TV 100 (Turkiye)",
-    "category": "Genel",
-    "url": "https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8",
-    "ok": false,
-    "status": "GET 403"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
     "channel": "TV 264 (1080p)",
     "category": "Genel",
     "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8",
@@ -1332,8 +1340,8 @@
     "channel": "TV Den (576p) [Not 24/7]",
     "category": "Genel",
     "url": "http://canli.tvden.com.tr/hls/live.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org Turkey public channels",

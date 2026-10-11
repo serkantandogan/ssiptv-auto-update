@@ -104,6 +104,12 @@ https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Spor" tvg-id="ASpor.tr@SD" tvg-logo="https://i.imgur.com/ZhkZzLf.png" tvg-name="A Spor SD (1080p)",A Spor SD (1080p)
 #EXTGRP:Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 group-title="Spor" tvg-id="Eurosport1.fr@Turkiye" tvg-logo="https://i.imgur.com/olQJgm7.png" tvg-name="Eurosport 1 Turkiye",Eurosport 1 Turkiye
+#EXTGRP:Spor
+https://andro.mangeinde4.lat/checklist/androstreamlivees1.m3u8
+#EXTINF:-1 group-title="Spor" tvg-id="Eurosport2.fr@Turkiye" tvg-logo="https://i.imgur.com/f56dHgR.png" tvg-name="Eurosport 2 Turkiye",Eurosport 2 Turkiye
+#EXTGRP:Spor
+https://andro.mangeinde4.lat/checklist/androstreamlivees2.m3u8
 #EXTINF:-1 group-title="Spor" tvg-id="FBTV.tr@SD" tvg-logo="https://i.imgur.com/qBVqtYd.png" tvg-name="FB TV",FB TV
 #EXTGRP:Spor
 http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
@@ -377,9 +383,6 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee2
 #EXTINF:-1 group-title="Genel" tvg-id="TV4.tr@SD" tvg-logo="https://i.imgur.com/UpsQsbd.png" tvg-name="TV 4 (720p)",TV 4 (720p)
 #EXTGRP:Genel
 https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="TVDen.tr@SD" tvg-logo="https://i.imgur.com/Uhg95Ze.png" tvg-name="TV Den (576p) [Not 24/7]",TV Den (576p) [Not 24/7]
-#EXTGRP:Genel
-http://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TV8.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png" tvg-name="TV8 (Turkiye) (1080p)",TV8 (Turkiye) (1080p)
 #EXTGRP:Genel
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
