@@ -56,9 +56,15 @@ https://yayin30.haber100.com/live/finansturk/playlist.m3u8
 #EXTINF:-1 group-title="Haber" tvg-id="FlashHaberTV.tr@SD" tvg-logo="" tvg-name="Flash Haber TV",Flash Haber TV
 #EXTGRP:Haber
 https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
+#EXTINF:-1 group-title="Haber" tvg-id="HaberGlobal.tr@SD" tvg-logo="https://i.imgur.com/fu6XeGS.png" tvg-name="Haber Global (720p) [Not 24/7]",Haber Global (720p) [Not 24/7]
+#EXTGRP:Haber
+https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
 #EXTINF:-1 group-title="Haber" tvg-id="Haber61TV.tr@SD" tvg-logo="https://i.imgur.com/2a2XUKl.png" tvg-name="Haber61 TV (720p) [Not 24/7]",Haber61 TV (720p) [Not 24/7]
 #EXTGRP:Haber
 https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
+#EXTINF:-1 group-title="Haber" tvg-id="HaberturkTV.tr@SD" tvg-logo="https://i.imgur.com/6Tw3rUp.png" tvg-name="Haberturk TV (720p) [Not 24/7]",Haberturk TV (720p) [Not 24/7]
+#EXTGRP:Haber
+https://tv.ensonhaber.com/haberturk/haberturk.m3u8
 #EXTINF:-1 group-title="Haber" tvg-id="HalkTV.tr@SD" tvg-logo="https://i.imgur.com/xM0HA30.png" tvg-name="Halk TV SD (1080p)",Halk TV SD (1080p)
 #EXTGRP:Haber
 https://halktv-live.daioncdn.net/halktv/halktv.m3u8
@@ -188,6 +194,9 @@ https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95
 #EXTINF:-1 group-title="Dini" tvg-id="DiyarTV.tr@SD" tvg-logo="https://i.imgur.com/qWkHjRA.png" tvg-name="Diyar TV (720p)",Diyar TV (720p)
 #EXTGRP:Dini
 https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
+#EXTINF:-1 group-title="Dini" tvg-id="DostTV.tr@SD" tvg-logo="https://dosttv.com/wp-content/uploads/2022/02/dost_logo.png" tvg-name="Dost TV (576p)",Dost TV (576p)
+#EXTGRP:Dini
+https://dost.stream.emsal.im/tv/live.m3u8
 #EXTINF:-1 group-title="Dini" tvg-id="LalegulTV.tr@SD" tvg-logo="https://i.imgur.com/wwCysFs.png" tvg-name="Lalegul TV (1080p)",Lalegul TV (1080p)
 #EXTGRP:Dini
 https://lbl.netmedya.net/hls/lalegultv.m3u8
@@ -356,9 +365,6 @@ https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" tvg-name="TRT 1 (1440p)",TRT 1 (1440p)
 #EXTGRP:Genel
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="TRT2.tr@SD" tvg-logo="https://i.imgur.com/iOCQdyD.png" tvg-name="TRT 2 (1440p) [Geo-blocked]",TRT 2 (1440p) [Geo-blocked]
-#EXTGRP:Genel
-https://tv-trt2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TRT3.tr@SD" tvg-logo="https://i.imgur.com/JrWFwBd.png" tvg-name="TRT 3 (720p)",TRT 3 (720p)
 #EXTGRP:Genel
 https://tv-trt3.live.trt.com.tr/master.m3u8
