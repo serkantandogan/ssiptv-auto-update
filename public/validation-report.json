@@ -285,7 +285,7 @@
     "category": "Genel",
     "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
     "ok": true,
-    "status": "GET 200"
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -636,8 +636,8 @@
     "channel": "Ilke TV (1080p)",
     "category": "Genel",
     "url": "https://stream.ilketv.com.tr/hls/ilkecanli.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1196,8 +1196,8 @@
     "channel": "TRT 2 (1440p) [Geo-blocked]",
     "category": "Genel",
     "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
-    "ok": false,
-    "status": "GET 403"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1268,8 +1268,8 @@
     "channel": "TRT Genc (1440p) [Geo-blocked]",
     "category": "Kültür",
     "url": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1333,7 +1333,7 @@
     "category": "Genel",
     "url": "http://176.65.153.26:6004/play/a02s/index.m3u8",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1388,8 +1388,8 @@
     "channel": "TV 264 (1080p)",
     "category": "Genel",
     "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
