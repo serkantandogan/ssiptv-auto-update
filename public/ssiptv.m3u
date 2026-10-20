@@ -8,9 +8,6 @@ https://halktv-live.daioncdn.net/halktv/halktv.m3u8
 #EXTINF:-1 group-title="Favori Listem" tvg-chno="4" tvg-id="KanalD.tr@SD" tvg-logo="https://i.imgur.com/9o1atM6.png" tvg-name="Kanal D",Kanal D
 #EXTGRP:Favori Listem
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
-#EXTINF:-1 group-title="Favori Listem" tvg-chno="2" tvg-id="NOWTV.tr@SD" tvg-logo="https://i.imgur.com/5EYjWK7.png" tvg-name="NOW TV",NOW TV
-#EXTGRP:Favori Listem
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 group-title="Favori Listem" tvg-chno="5" tvg-id="ShowTV.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Show_TV.svg/512px-Show_TV.svg.png" tvg-name="Show TV",Show TV
 #EXTGRP:Favori Listem
 https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1
@@ -209,9 +206,6 @@ https://canli.edessatv.com/hls/stream.m3u8
 #EXTINF:-1 group-title="Eğlence" tvg-id="Kanal7Avrupa.tr@SD" tvg-logo="https://i.imgur.com/wlfyj5l.png" tvg-name="Kanal 7 Avrupa (720p) [Not 24/7]",Kanal 7 Avrupa (720p) [Not 24/7]
 #EXTGRP:Eğlence
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
-#EXTINF:-1 group-title="Eğlence" tvg-id="NOWTV.tr@SD" tvg-logo="https://i.imgur.com/5EYjWK7.png" tvg-name="NOW TV (720p)",NOW TV (720p)
-#EXTGRP:Eğlence
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 group-title="Eğlence" tvg-id="PersianaTurkiye.fr@SD" tvg-logo="" tvg-name="Persiana Turkiye",Persiana Turkiye
 #EXTGRP:Eğlence
 https://turkhls.persiana.live/hls/stream.m3u8
