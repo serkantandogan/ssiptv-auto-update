@@ -14,6 +14,9 @@ https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-3
 #EXTINF:-1 group-title="Favori Listem" tvg-chno="3" tvg-id="StarTV.tr@SD" tvg-logo="https://i.imgur.com/9O3DHRB.png" tvg-name="Star TV",Star TV
 #EXTGRP:Favori Listem
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
+#EXTINF:-1 group-title="Favori Listem" tvg-chno="9" tvg-id="Tele1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" tvg-name="Tele1",Tele1
+#EXTGRP:Favori Listem
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 group-title="Favori Listem" tvg-chno="1" tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" tvg-name="TRT 1",TRT 1
 #EXTGRP:Favori Listem
 https://tv-trt1.medya.trt.com.tr/master.m3u8
@@ -47,15 +50,9 @@ https://cdn.ekoturk.net/hls/master.m3u8
 #EXTINF:-1 group-title="Haber" tvg-id="FinansTurkTV.tr@SD" tvg-logo="https://i.ibb.co/wBwmB1T/iY0osc7.png" tvg-name="Finans Turk TV (720p)",Finans Turk TV (720p)
 #EXTGRP:Haber
 https://yayin30.haber100.com/live/finansturk/playlist.m3u8
-#EXTINF:-1 group-title="Haber" tvg-id="FlashHaberTV.tr@SD" tvg-logo="" tvg-name="Flash Haber TV",Flash Haber TV
-#EXTGRP:Haber
-https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
 #EXTINF:-1 group-title="Haber" tvg-id="HaberGlobal.tr@SD" tvg-logo="https://i.imgur.com/fu6XeGS.png" tvg-name="Haber Global (720p) [Not 24/7]",Haber Global (720p) [Not 24/7]
 #EXTGRP:Haber
 https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
-#EXTINF:-1 group-title="Haber" tvg-id="Haber61TV.tr@SD" tvg-logo="https://i.imgur.com/2a2XUKl.png" tvg-name="Haber61 TV (720p) [Not 24/7]",Haber61 TV (720p) [Not 24/7]
-#EXTGRP:Haber
-https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
 #EXTINF:-1 group-title="Haber" tvg-id="HaberturkTV.tr@SD" tvg-logo="https://i.imgur.com/6Tw3rUp.png" tvg-name="Haberturk TV (720p) [Not 24/7]",Haberturk TV (720p) [Not 24/7]
 #EXTGRP:Haber
 https://tv.ensonhaber.com/haberturk/haberturk.m3u8
@@ -113,9 +110,6 @@ https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
 #EXTINF:-1 group-title="Müzik" tvg-id="DreamTurk.tr@SD" tvg-logo="https://i.imgur.com/vJ8VaZi.png" tvg-name="Dream Turk (720p)",Dream Turk (720p)
 #EXTGRP:Müzik
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
-#EXTINF:-1 group-title="Müzik" tvg-id="KNMusicTV.az@SD" tvg-logo="https://www.knmusictv.com/wp-content/uploads/2026/01/LOGO2112.png" tvg-name="KN Music TV",KN Music TV
-#EXTGRP:Müzik
-https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Müzik" tvg-id="KralPopTV.tr@SD" tvg-logo="https://i.imgur.com/ch365lh.png" tvg-name="Kral Pop TV (720p)",Kral Pop TV (720p)
 #EXTGRP:Müzik
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
@@ -248,9 +242,6 @@ https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="EuroD.tr@SD" tvg-logo="https://i.imgur.com/x9kHsXo.png" tvg-name="Euro D (720p)",Euro D (720p)
 #EXTGRP:Genel
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="IlkeTV.tr@HD" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" tvg-name="Ilke TV (1080p)",Ilke TV (1080p)
-#EXTGRP:Genel
-https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="Kanal12.tr@SD" tvg-logo="https://i.imgur.com/51xCkXG.png" tvg-name="Kanal 12 (720p)",Kanal 12 (720p)
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
@@ -326,6 +317,9 @@ https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TBMMTV.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" tvg-name="TBMM TV (720p)",TBMM TV (720p)
 #EXTGRP:Genel
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="Tele1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" tvg-name="Tele 1 (1080p)",Tele 1 (1080p)
+#EXTGRP:Genel
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TempoTV.tr@SD" tvg-logo="https://i.imgur.com/tZpx32y.png" tvg-name="Tempo TV (720p)",Tempo TV (720p)
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
@@ -341,6 +335,9 @@ https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" tvg-name="TRT 1 (1440p)",TRT 1 (1440p)
 #EXTGRP:Genel
 https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="TRT2.tr@SD" tvg-logo="https://i.imgur.com/iOCQdyD.png" tvg-name="TRT 2 (1440p) [Geo-blocked]",TRT 2 (1440p) [Geo-blocked]
+#EXTGRP:Genel
+https://tv-trt2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TRT3.tr@SD" tvg-logo="https://i.imgur.com/JrWFwBd.png" tvg-name="TRT 3 (720p)",TRT 3 (720p)
 #EXTGRP:Genel
 https://tv-trt3.live.trt.com.tr/master.m3u8
