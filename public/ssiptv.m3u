@@ -224,9 +224,6 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ATVAlanya.tr@SD" tvg-logo="https://i.imgur.com/bUwarR0.png" tvg-name="ATV Alanya (1080p)",ATV Alanya (1080p)
 #EXTGRP:Genel
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="BirTV.tr@SD" tvg-logo="https://birtv.tv/assets/upload/637f83951df60.png" tvg-name="Bir TV (720p)",Bir TV (720p)
-#EXTGRP:Genel
-https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="BricveSatrancTV.tr@SD" tvg-logo="https://i.imgur.com/TXDV1ty.png" tvg-name="Bric ve Satranc TV (480p) [Not 24/7]",Bric ve Satranc TV (480p) [Not 24/7]
 #EXTGRP:Genel
 http://139.162.182.79/live/test/index.m3u8

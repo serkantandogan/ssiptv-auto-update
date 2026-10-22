@@ -324,8 +324,8 @@
     "channel": "Bir TV (720p)",
     "category": "Genel",
     "url": "https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org Turkey public channels",
