@@ -1,6 +1,14 @@
 [
   {
     "source": "IPTV-org Turkey public channels",
+    "channel": "BabyTV Turkiye [Geo-blocked]",
+    "category": "Çocuk",
+    "url": "https://saran-live.ercdn.net/babytv/index.m3u8",
+    "ok": false,
+    "status": "excluded by keyword filter"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
     "channel": "BBC Earth Turkiye",
     "category": "Belgesel",
     "url": "https://nord.ayakkabiparti.lol/bbc/index.m3u8",
@@ -569,6 +577,14 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
+    "channel": "FX (Turkiye) [Geo-blocked]",
+    "category": "Genel",
+    "url": "https://saran-live.ercdn.net/fx/index.m3u8",
+    "ok": false,
+    "status": "GET 401"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
     "channel": "Guneydogu TV (720p)",
     "category": "Haber",
     "url": "https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8",
@@ -921,6 +937,14 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
+    "channel": "NOW (720p)",
+    "category": "Eğlence",
+    "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
+    "ok": true,
+    "status": "HEAD 200"
+  },
+  {
+    "source": "IPTV-org Turkey public channels",
     "channel": "NTV (Turkiye)",
     "category": "Genel",
     "url": "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web",
@@ -1124,8 +1148,8 @@
     "channel": "Tele 1 (1080p)",
     "category": "Genel",
     "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
-    "ok": true,
-    "status": "GET 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1268,8 +1292,8 @@
     "channel": "TRT Genc (1440p) [Geo-blocked]",
     "category": "Kültür",
     "url": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1474,6 +1498,14 @@
   {
     "source": "favorite_channels",
     "channel": "Sözcü TV",
+    "category": "Favori Listem",
+    "url": null,
+    "ok": false,
+    "status": "not found among validated channels"
+  },
+  {
+    "source": "favorite_channels",
+    "channel": "Tele1",
     "category": "Favori Listem",
     "url": null,
     "ok": false,
