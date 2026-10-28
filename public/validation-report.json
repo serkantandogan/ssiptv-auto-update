@@ -25,94 +25,6 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "beIN Box Office 1",
-    "category": "Film",
-    "url": "https://nord.ayakkabiparti.lol/box1/index.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "beIN Box Office 2",
-    "category": "Film",
-    "url": "https://nord.ayakkabiparti.lol/box2/index.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "beIN Box Office 3",
-    "category": "Film",
-    "url": "https://nord.ayakkabiparti.lol/box3/index.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "beIN Movies Stars",
-    "category": "Film",
-    "url": "https://nord.ayakkabiparti.lol/bsaction1/index.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "beIN Movies Turk",
-    "category": "Film",
-    "url": "https://nord.ayakkabiparti.lol/bsturk/index.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "beIN Sports 1 Turk",
-    "category": "Spor",
-    "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs1.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "beIN Sports 2 Turk",
-    "category": "Spor",
-    "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs2.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "beIN Sports 3 Turk",
-    "category": "Spor",
-    "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs3.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "beIN Sports 4 Turk",
-    "category": "Spor",
-    "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs4.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "beIN Sports 5 Turk",
-    "category": "Spor",
-    "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebs5.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "beIN Sports Haber",
-    "category": "Spor",
-    "url": "https://andro.mangeinde4.lat/checklist/androstreamlivebsh.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
     "channel": "Disney Jr. (Turkiye) (1080p) [Geo-blocked]",
     "category": "Çocuk",
     "url": "https://saran-live.ercdn.net/disneyjunior/index.m3u8",
@@ -145,17 +57,9 @@
   },
   {
     "source": "IPTV-org Turkey public channels",
-    "channel": "S Sport 2 (720p)",
+    "channel": "S Sport 2",
     "category": "Spor",
-    "url": "https://corestream.siteyaptim.live/s-sport2/index.m3u8",
-    "ok": false,
-    "status": "excluded by keyword filter"
-  },
-  {
-    "source": "IPTV-org Turkey public channels",
-    "channel": "S Sport (720p)",
-    "category": "Spor",
-    "url": "https://corestream.siteyaptim.live/s-sport/index.m3u8",
+    "url": "https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8",
     "ok": false,
     "status": "excluded by keyword filter"
   },
@@ -252,8 +156,8 @@
     "channel": "Alanya Posta TV (1080p)",
     "category": "Genel",
     "url": "https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -300,16 +204,16 @@
     "channel": "ATV (Turkiye) (1080p)",
     "category": "Genel",
     "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
-    "ok": true,
-    "status": "GET 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org Turkey public channels",
     "channel": "ATV Alanya (1080p)",
     "category": "Genel",
     "url": "https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -373,7 +277,7 @@
     "category": "Genel",
     "url": "https://win1.yayin.com.tr/bursatv/bursatv/playlist.m3u8",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -492,8 +396,8 @@
     "channel": "Erzurum Web TV (720p)",
     "category": "Genel",
     "url": "https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -941,7 +845,7 @@
     "category": "Eğlence",
     "url": "https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8",
     "ok": false,
-    "status": "GET ReadTimeout"
+    "status": "GET 502"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1149,7 +1053,7 @@
     "category": "Genel",
     "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
     "ok": true,
-    "status": "HEAD 200"
+    "status": "GET 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1220,8 +1124,8 @@
     "channel": "TRT 2 (1440p) [Geo-blocked]",
     "category": "Genel",
     "url": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
-    "ok": false,
-    "status": "GET 403"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
