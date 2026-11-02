@@ -404,8 +404,8 @@ category_rules:
     - muzik
 
 validation:
-  timeout_seconds: 5
-  max_workers: 16
+  timeout_seconds: 4
+  max_workers: 64
   user_agent: "SSIPTV-Auto-Update/1.0"
   # HEAD is faster, but some IPTV hosts reject it. The script falls back to GET.
   verify_tls: true
