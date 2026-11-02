@@ -47,3 +47,21 @@ python scripts/update_playlist.py
 - `public/durum.md`: Türkçe güncelleme özeti
 - `public/validation-report.json`: Kanal bazlı doğrulama raporu
 
+## English
+
+This repository generates an automatically updated, SS IPTV-compatible M3U playlist from public and authorized IPTV sources.
+
+- Turkish channels stay in Turkish categories such as `Ulusal`, `Haber`, `Spor` and `Belgesel`.
+- Foreign channels are grouped under `Dünya Kanalları / ...`, for example `Dünya Kanalları / Haber` and `Dünya Kanalları / Spor`.
+- `Favori Listem` contains the selected favorite channels.
+- Stream URLs are checked automatically and unavailable entries are removed from the generated playlist.
+- GitHub Actions refreshes the playlist approximately every 6 hours.
+
+Playlist URL:
+
+```text
+https://raw.githubusercontent.com/serkantandogan/ssiptv-auto-update/main/public/ssiptv.m3u
+```
+
+The project uses public or authorized sources only. Paid, protected or unauthorized streams are intentionally excluded.
+
