@@ -336,8 +336,28 @@ def build_favorite_channels(valid_channels: list[Channel], config: dict, report:
     return favorites
 
 
-def write_status(valid_channels: list[Channel], favorite_channels: list[Channel], report: list[dict]) -> None:
+def write_status(
+    valid_channels: list[Channel],
+    favorite_channels: list[Channel],
+    report: list[dict],
+    category_order: list[str],
+) -> None:
     checked_at = datetime.now(timezone.utc).astimezone(ZoneInfo("Europe/Istanbul"))
+    month_names = {
+        1: "Ocak",
+        2: "Şubat",
+        3: "Mart",
+        4: "Nisan",
+        5: "Mayıs",
+        6: "Haziran",
+        7: "Temmuz",
+        8: "Ağustos",
+        9: "Eylül",
+        10: "Ekim",
+        11: "Kasım",
+        12: "Aralık",
+    }
+    date_text = f"{checked_at.day} {month_names[checked_at.month]} {checked_at.year}"
     categories = Counter(channel.category for channel in valid_channels)
     failed = sum(1 for row in report if row.get("ok") is False and row.get("status") != "excluded by keyword filter")
     excluded = sum(1 for row in report if row.get("status") == "excluded by keyword filter")
@@ -346,6 +366,7 @@ def write_status(valid_channels: list[Channel], favorite_channels: list[Channel]
     lines = [
         "# Güncel Kanal Durumu",
         "",
+        f"Güncelleme tarihi: **{date_text}**",
         f"Son kontrol: **{checked_at:%d.%m.%Y %H:%M} (Türkiye saati)**",
         "",
         f"Doğrulanan benzersiz kanal: **{len(valid_channels)}**",
@@ -367,8 +388,26 @@ def write_status(valid_channels: list[Channel], favorite_channels: list[Channel]
             "Bu dosya GitHub Actions tarafından otomatik güncellenir.",
             "",
             "Playlist: [ssiptv.m3u](ssiptv.m3u)",
+            "",
+            "## Tüm Kanallar",
+            "",
+            "Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gösterir.",
+            "",
         ]
     )
+
+    grouped: dict[str, list[str]] = {}
+    for channel in favorite_channels + valid_channels:
+        grouped.setdefault(channel.category, []).append(channel.name)
+
+    order_index = {category: index for index, category in enumerate(category_order)}
+    for category in sorted(grouped, key=lambda value: (order_index.get(value, len(order_index)), value.lower())):
+        lines.append(f"### {category}")
+        lines.append("")
+        for name in sorted(grouped[category], key=str.casefold):
+            lines.append(f"- {name}")
+        lines.append("")
+
     STATUS_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -477,7 +516,7 @@ def main() -> None:
     favorite_channels = build_favorite_channels(valid_channels, config, report)
     write_playlist(favorite_channels + valid_channels, category_order, preserve_order=selected_only)
     REPORT_PATH.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    write_status(valid_channels, favorite_channels, report)
+    write_status(valid_channels, favorite_channels, report, category_order)
     print(f"Wrote {len(valid_channels)} valid channels to {PLAYLIST_PATH}")
 
 
