@@ -1,14 +1,14 @@
 # Güncel Kanal Durumu
 
 Güncelleme tarihi: **2 Kasım 2026**
-Son kontrol: **02.11.2026 14:09 (Türkiye saati)**
+Son kontrol: **02.11.2026 14:10 (Türkiye saati)**
 
-Doğrulanan benzersiz kanal: **126**
-Favori Listem girdisi: **6**
-Playlist toplam girdisi: **132**
-Çalışmayan veya bulunamayan kayıt: **43**
+Doğrulanan benzersiz kanal: **121**
+Favori Listem girdisi: **7**
+Playlist toplam girdisi: **128**
+Çalışmayan veya bulunamayan kayıt: **47**
 Filtrelenen premium/şüpheli kayıt: **9**
-Benzersiz yayın adresi: **126**
+Benzersiz yayın adresi: **121**
 
 ## Kategoriler
 
@@ -17,14 +17,14 @@ Benzersiz yayın adresi: **126**
 | Dini | 5 |
 | Ekonomi | 1 |
 | Eğitim | 3 |
-| Eğlence | 4 |
-| Genel | 63 |
-| Haber | 18 |
-| Kültür | 4 |
+| Eğlence | 5 |
+| Genel | 62 |
+| Haber | 17 |
+| Kültür | 3 |
 | Müzik | 14 |
 | Spor | 5 |
 | Yaşam | 1 |
-| Çocuk | 6 |
+| Çocuk | 5 |
 
 Bu dosya GitHub Actions tarafından otomatik güncellenir.
 
@@ -40,6 +40,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Halk TV
 - Kanal D
 - Star TV
+- Tele1
 - TRT 1
 - TV8
 
@@ -50,7 +51,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - A Haber (1080p)
 - Almahriah TV (576p)
 - AS TV (900p)
-- DHA (720p) [Not 24/7]
 - Ekoturk (720p)
 - Finans Turk TV (720p)
 - Flash Haber TV
@@ -68,17 +68,12 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 
 - CNBC-e
 
-### Belgesel
-
-- TRT Belgesel (720p)
-
 ### Çocuk
 
 - Cartoon Network (Turkiye)
 - Minika Cocuk (720p)
 - Minika Go (720p)
 - Spacetoon Turkey (720p) [Not 24/7]
-- TRT Cocuk (1440p)
 - TRT Diyanet Cocuk (720p)
 
 ### Spor
@@ -87,7 +82,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - FB TV
 - HTSpor TV (1080p)
 - TJK TV (1080p)
-- TJK TV 2 (1080p) [Not 24/7]
 - TRT Spor Yildiz (1440p) [Geo-blocked]
 
 ### Müzik
@@ -112,7 +106,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Ciftci TV (720p) [Not 24/7]
 - Luys TV (1080p)
 - Sercem TV (1080p)
-- TRT Genc (1440p) [Geo-blocked]
 
 ### Eğitim
 
@@ -133,6 +126,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - 4U TV (720p)
 - Edessa TV (1080p)
 - Kanal 7 Avrupa (720p) [Not 24/7]
+- NOW (720p)
 - Persiana Turkiye
 
 ### Yaşam
@@ -158,7 +152,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - ES TV (720p)
 - ETV Kayseri (720p)
 - Euro D (720p)
-- FX (Turkiye) [Geo-blocked]
 - Ilke TV (1080p)
 - Kanal 12 (720p)
 - Kanal 15 (720p) [Not 24/7]
@@ -185,12 +178,12 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Star TV (Turkiye) (720p)
 - Sun RTV (720p) [Not 24/7]
 - TBMM TV (720p)
+- Tele 1 (1080p)
 - Tempo TV (720p)
 - TGRT Belgesel (576p) [Not 24/7]
 - Tivi 6 (720p)
 - Ton TV (720p) [Not 24/7]
 - TRT 1 (1440p)
-- TRT 2 (1440p) [Geo-blocked]
 - TRT 3 (720p)
 - TRT Avaz (720p)
 - TRT Kurdi (720p)
