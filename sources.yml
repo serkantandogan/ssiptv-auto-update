@@ -13,31 +13,37 @@ sources:
   - name: IPTV-org public news channels worldwide
     enabled: true
     category: Haber
+    category_prefix: Dünya Kanalları
     url: https://iptv-org.github.io/iptv/categories/news.m3u
 
   - name: IPTV-org public sports channels worldwide
     enabled: true
     category: Spor
+    category_prefix: Dünya Kanalları
     url: https://iptv-org.github.io/iptv/categories/sports.m3u
 
   - name: IPTV-org public kids channels worldwide
     enabled: true
     category: Çocuk
+    category_prefix: Dünya Kanalları
     url: https://iptv-org.github.io/iptv/categories/kids.m3u
 
   - name: IPTV-org public documentary channels worldwide
     enabled: true
     category: Belgesel
+    category_prefix: Dünya Kanalları
     url: https://iptv-org.github.io/iptv/categories/documentary.m3u
 
   - name: IPTV-org public music channels worldwide
     enabled: true
     category: Müzik
+    category_prefix: Dünya Kanalları
     url: https://iptv-org.github.io/iptv/categories/music.m3u
 
   - name: IPTV-org public business channels worldwide
     enabled: true
     category: Ekonomi
+    category_prefix: Dünya Kanalları
     url: https://iptv-org.github.io/iptv/categories/business.m3u
 
   # Optional: the worldwide public playlist is very large.

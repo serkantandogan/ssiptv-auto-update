@@ -129,6 +129,29 @@ def parse_m3u(text: str, fallback_category: str, rules: dict) -> Iterable[Channe
         pending = None
 
 
+def is_turkish_channel(channel: Channel) -> bool:
+    identifiers = " ".join(
+        [
+            channel.attrs.get("tvg-id", ""),
+            channel.attrs.get("tvg-country", ""),
+            channel.attrs.get("tvg-language", ""),
+        ]
+    ).lower()
+    return bool(re.search(r"(?:^|[.@_\- ])tr(?:$|[.@_\- ])", identifiers))
+
+
+def apply_source_category(channel: Channel, source: dict) -> Channel:
+    prefix = str(source.get("category_prefix", "")).strip()
+    if not prefix or is_turkish_channel(channel):
+        return channel
+    return Channel(
+        name=channel.name,
+        url=channel.url,
+        category=f"{prefix} / {channel.category}",
+        attrs=channel.attrs,
+    )
+
+
 def load_dynamic_channel(channel_config: dict) -> Channel:
     page_url = channel_config["page_url"]
     pattern = channel_config["url_pattern"]
@@ -444,6 +467,7 @@ def main() -> None:
             continue
 
         for channel in channels:
+            channel = apply_source_category(channel, source)
             if should_exclude_channel(channel, exclude_keywords):
                 report.append(
                     {
