@@ -20,6 +20,7 @@ Bu bağlantıyı SS IPTV’ye veya VLC’de `Medya > Ağ Akışı Aç` bölümü
 
 - `Favori Listem` kategorisi: Öncelikli kanallar
 - Ulusal, Haber, Ekonomi, Belgesel, Çocuk, Spor, Müzik, Kültür, Eğitim ve diğer kategoriler
+- Türkiye public kanallarına ek olarak dünya public Haber, Spor, Çocuk, Belgesel, Müzik ve Ekonomi kaynakları
 - Çalışmayan yayın adresleri otomatik olarak listeden çıkarılır
 - Resmi sayfadan süreli yayın adresi alınan kanallar her çalışmada yeniden güncellenir
 - GitHub Actions listeyi yaklaşık 6 saatte bir yeniler
