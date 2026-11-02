@@ -1,56 +1,47 @@
-# SS IPTV Auto Update
+# SS IPTV Güncel Kanal Listesi
 
-This repo generates an SS IPTV-compatible M3U playlist from authorized IPTV sources and keeps it fresh with GitHub Actions.
+Bu repo, yalnızca açık ve yetkili IPTV kaynaklarını kontrol ederek SS IPTV ve VLC ile kullanılabilecek güncel bir M3U listesi üretir.
 
-## What it does
+## Güncel Durum
 
-- Reads source playlists from `sources.yml`
-- Keeps only channels whose stream URLs respond successfully
-- Groups channels by category
-- Writes `public/ssiptv.m3u`
-- Runs automatically on a schedule
+Her otomatik çalışmada kanal sayısı, kategori dağılımı ve son kontrol zamanı güncellenir:
 
-## Legal note
+[Güncel kanal durumu](public/durum.md)
 
-Use only streams that you own, operate, or have permission to redistribute. This project is intentionally built as a validator and playlist generator; it does not scrape paid, protected, or unauthorized channel links.
-
-## Setup
-
-1. Create a GitHub repository.
-2. Upload these files to the repository.
-3. Edit `sources.yml` and add your authorized M3U URLs or local playlist files.
-4. Enable GitHub Actions.
-5. After the first run, use this raw playlist URL in SS IPTV:
+## SS IPTV / VLC bağlantısı
 
 ```text
-https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/public/ssiptv.m3u
+https://raw.githubusercontent.com/serkantandogan/ssiptv-auto-update/main/public/ssiptv.m3u
 ```
 
-Replace `USERNAME` and `REPOSITORY` with your GitHub values.
+Bu bağlantıyı SS IPTV’ye veya VLC’de `Medya > Ağ Akışı Aç` bölümüne ekleyebilirsin.
 
-## Update Frequency
+## İçerik
 
-The workflow runs every 6 hours by default. You can change this in `.github/workflows/update-playlist.yml`.
+- `Favori Listem` kategorisi: Öncelikli kanallar
+- Ulusal, Haber, Ekonomi, Belgesel, Çocuk, Spor, Müzik, Kültür, Eğitim ve diğer kategoriler
+- Çalışmayan yayın adresleri otomatik olarak listeden çıkarılır
+- Resmi sayfadan süreli yayın adresi alınan kanallar her çalışmada yeniden güncellenir
+- GitHub Actions listeyi yaklaşık 6 saatte bir yeniler
 
-## Manual Run
+## Kaynak ve kullanım sınırı
 
-In GitHub:
+Kaynak olarak açıkça yayınlanmış public kanallar ve resmi canlı yayın sayfaları kullanılır. Ücretli, korumalı veya izinsiz yayın adresleri bilerek listeye eklenmez. `sources.yml` içindeki kaynaklar ve filtreler bu amaçla tutulur.
 
-1. Open the repository.
-2. Go to `Actions`.
-3. Select `Update SS IPTV playlist`.
-4. Click `Run workflow`.
+## Elle güncelleme
 
-## Local Run
+GitHub’da `Actions > Update SS IPTV playlist > Run workflow` yoluyla elle çalıştırabilirsin.
+
+## Yerelde çalıştırma
 
 ```bash
 python -m pip install -r requirements.txt
 python scripts/update_playlist.py
 ```
 
-The generated playlist will be saved at:
+Üretilen dosyalar:
 
-```text
-public/ssiptv.m3u
-```
+- `public/ssiptv.m3u`: SS IPTV/VLC playlisti
+- `public/durum.md`: Türkçe güncelleme özeti
+- `public/validation-report.json`: Kanal bazlı doğrulama raporu
 

@@ -27,9 +27,12 @@ jobs:
       - name: Build playlist
         run: python scripts/update_playlist.py
 
+      - name: Show Turkish update summary
+        run: cat public/durum.md >> "$GITHUB_STEP_SUMMARY"
+
       - name: Commit playlist changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update SS IPTV playlist"
-          file_pattern: "public/ssiptv.m3u public/validation-report.json"
+          file_pattern: "public/ssiptv.m3u public/validation-report.json public/durum.md"
 

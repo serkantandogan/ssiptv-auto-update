@@ -5,10 +5,13 @@ import re
 import unicodedata
 from html import unescape
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from collections import Counter
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 from urllib.parse import urlparse
+from zoneinfo import ZoneInfo
 
 import requests
 import yaml
@@ -19,6 +22,7 @@ CONFIG_PATH = ROOT / "sources.yml"
 PUBLIC_DIR = ROOT / "public"
 PLAYLIST_PATH = PUBLIC_DIR / "ssiptv.m3u"
 REPORT_PATH = PUBLIC_DIR / "validation-report.json"
+STATUS_PATH = PUBLIC_DIR / "durum.md"
 
 
 EXTINF_RE = re.compile(r'#EXTINF:(?P<duration>-?\d+)(?P<attrs>.*),(?P<name>.*)')
@@ -332,6 +336,42 @@ def build_favorite_channels(valid_channels: list[Channel], config: dict, report:
     return favorites
 
 
+def write_status(valid_channels: list[Channel], favorite_channels: list[Channel], report: list[dict]) -> None:
+    checked_at = datetime.now(timezone.utc).astimezone(ZoneInfo("Europe/Istanbul"))
+    categories = Counter(channel.category for channel in valid_channels)
+    failed = sum(1 for row in report if row.get("ok") is False and row.get("status") != "excluded by keyword filter")
+    excluded = sum(1 for row in report if row.get("status") == "excluded by keyword filter")
+    unique_urls = len({channel.url for channel in valid_channels})
+
+    lines = [
+        "# Güncel Kanal Durumu",
+        "",
+        f"Son kontrol: **{checked_at:%d.%m.%Y %H:%M} (Türkiye saati)**",
+        "",
+        f"Doğrulanan benzersiz kanal: **{len(valid_channels)}**",
+        f"Favori Listem girdisi: **{len(favorite_channels)}**",
+        f"Playlist toplam girdisi: **{len(valid_channels) + len(favorite_channels)}**",
+        f"Çalışmayan veya bulunamayan kayıt: **{failed}**",
+        f"Filtrelenen premium/şüpheli kayıt: **{excluded}**",
+        f"Benzersiz yayın adresi: **{unique_urls}**",
+        "",
+        "## Kategoriler",
+        "",
+        "| Kategori | Kanal |",
+        "|---|---:|",
+    ]
+    lines.extend(f"| {category} | {count} |" for category, count in sorted(categories.items()))
+    lines.extend(
+        [
+            "",
+            "Bu dosya GitHub Actions tarafından otomatik güncellenir.",
+            "",
+            "Playlist: [ssiptv.m3u](ssiptv.m3u)",
+        ]
+    )
+    STATUS_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def main() -> None:
     config = load_config()
     rules = config.get("category_rules") or {}
@@ -437,6 +477,7 @@ def main() -> None:
     favorite_channels = build_favorite_channels(valid_channels, config, report)
     write_playlist(favorite_channels + valid_channels, category_order, preserve_order=selected_only)
     REPORT_PATH.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    write_status(valid_channels, favorite_channels, report)
     print(f"Wrote {len(valid_channels)} valid channels to {PLAYLIST_PATH}")
 
 
