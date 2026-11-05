@@ -14,9 +14,9 @@ https://a-cdn.klowdtv.com/live2/rightnowtv_720p/playlist.m3u8
 #EXTINF:-1 group-title="Favori Listem" tvg-chno="3" tvg-id="StarTV.tr@SD" tvg-logo="https://i.imgur.com/9O3DHRB.png" tvg-name="Star TV",Star TV
 #EXTGRP:Favori Listem
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
-#EXTINF:-1 group-title="Favori Listem" tvg-chno="9" tvg-id="Tele1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" tvg-name="Tele1",Tele1
+#EXTINF:-1 group-title="Favori Listem" tvg-chno="1" tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" tvg-name="TRT 1",TRT 1
 #EXTGRP:Favori Listem
-https://tele1-live.ercdn.net/tele1/tele1.m3u8
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Favori Listem" tvg-chno="8" tvg-id="TV8.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png" tvg-name="TV8",TV8
 #EXTGRP:Favori Listem
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
@@ -203,6 +203,9 @@ https://canli.edessatv.com/hls/stream.m3u8
 #EXTINF:-1 group-title="Eğlence" tvg-id="Kanal7Avrupa.tr@SD" tvg-logo="https://i.imgur.com/wlfyj5l.png" tvg-name="Kanal 7 Avrupa (720p) [Not 24/7]",Kanal 7 Avrupa (720p) [Not 24/7]
 #EXTGRP:Eğlence
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
+#EXTINF:-1 group-title="Eğlence" tvg-id="NOW.tr@SD" tvg-logo="https://i.imgur.com/5EYjWK7.png" tvg-name="NOW (720p)",NOW (720p)
+#EXTGRP:Eğlence
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #EXTINF:-1 group-title="Eğlence" tvg-id="PersianaTurkiye.fr@SD" tvg-logo="" tvg-name="Persiana Turkiye",Persiana Turkiye
 #EXTGRP:Eğlence
 https://turkhls.persiana.live/hls/stream.m3u8
@@ -230,9 +233,6 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ATVAlanya.tr@SD" tvg-logo="https://i.imgur.com/bUwarR0.png" tvg-name="ATV Alanya (1080p)",ATV Alanya (1080p)
 #EXTGRP:Genel
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="BirTV.tr@SD" tvg-logo="https://birtv.tv/assets/upload/637f83951df60.png" tvg-name="Bir TV (720p)",Bir TV (720p)
-#EXTGRP:Genel
-https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="BricveSatrancTV.tr@SD" tvg-logo="https://i.imgur.com/TXDV1ty.png" tvg-name="Bric ve Satranc TV (480p) [Not 24/7]",Bric ve Satranc TV (480p) [Not 24/7]
 #EXTGRP:Genel
 http://139.162.182.79/live/test/index.m3u8
@@ -245,9 +245,6 @@ https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist
 #EXTINF:-1 group-title="Genel" tvg-id="ElsharqTV.tr@SD" tvg-logo="https://i.imgur.com/8vmfZb5.png" tvg-name="Elsharq TV (1080p) [Not 24/7]",Elsharq TV (1080p) [Not 24/7]
 #EXTGRP:Genel
 https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="ERTV.tr@SD" tvg-logo="https://i.imgur.com/VDGEPrD.png" tvg-name="ERTV (1080p) [Geo-blocked]",ERTV (1080p) [Geo-blocked]
-#EXTGRP:Genel
-https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="ErzurumWebTV.tr@SD" tvg-logo="https://i.imgur.com/HF7N4Li.png" tvg-name="Erzurum Web TV (720p)",Erzurum Web TV (720p)
 #EXTGRP:Genel
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
@@ -338,9 +335,6 @@ https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TBMMTV.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" tvg-name="TBMM TV (720p)",TBMM TV (720p)
 #EXTGRP:Genel
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
-#EXTINF:-1 group-title="Genel" tvg-id="Tele1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" tvg-name="Tele 1 (1080p)",Tele 1 (1080p)
-#EXTGRP:Genel
-https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TempoTV.tr@SD" tvg-logo="https://i.imgur.com/tZpx32y.png" tvg-name="Tempo TV (720p)",Tempo TV (720p)
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
@@ -353,6 +347,12 @@ https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TonTV.tr@SD" tvg-logo="https://i.imgur.com/f0Soeob.png" tvg-name="Ton TV (720p) [Not 24/7]",Ton TV (720p) [Not 24/7]
 #EXTGRP:Genel
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="TRT1.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" tvg-name="TRT 1 (1440p)",TRT 1 (1440p)
+#EXTGRP:Genel
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="TRT2.tr@SD" tvg-logo="https://i.imgur.com/iOCQdyD.png" tvg-name="TRT 2 (1440p) [Geo-blocked]",TRT 2 (1440p) [Geo-blocked]
+#EXTGRP:Genel
+https://tv-trt2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TRT3.tr@SD" tvg-logo="https://i.imgur.com/JrWFwBd.png" tvg-name="TRT 3 (720p)",TRT 3 (720p)
 #EXTGRP:Genel
 https://tv-trt3.live.trt.com.tr/master.m3u8
@@ -365,6 +365,9 @@ https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TRTTurk.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/960px-TRT_T%C3%BCrk_logo.svg.png" tvg-name="TRT Turk (720p)",TRT Turk (720p)
 #EXTGRP:Genel
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Genel" tvg-id="TV264.tr@SD" tvg-logo="https://i.imgur.com/tudXdOZ.png" tvg-name="TV 264 (1080p)",TV 264 (1080p)
+#EXTGRP:Genel
+https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 #EXTINF:-1 group-title="Genel" tvg-id="TV4.tr@SD" tvg-logo="https://i.imgur.com/UpsQsbd.png" tvg-name="TV 4 (720p)",TV 4 (720p)
 #EXTGRP:Genel
 https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
@@ -401,6 +404,9 @@ https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="AlArabiyaPrograms.ae@SD" tvg-logo="https://i.imgur.com/Hoc3cfO.png" tvg-name="Al Arabiya Programs (1280p)",Al Arabiya Programs (1280p)
 #EXTGRP:Dünya Kanalları / Belgesel
 https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="AmericanHeroesChannel.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/American_Heroes_Channel_logo.svg/960px-American_Heroes_Channel_logo.svg.png" tvg-name="American Heroes Channel (720p)",American Heroes Channel (720p)
+#EXTGRP:Dünya Kanalları / Belgesel
+http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="AnimalPlanet.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANIMAL_PLANET/images/LOGO_HD/image.png" tvg-name="Animal Planet (India) (720p)",Animal Planet (India) (720p)
 #EXTGRP:Dünya Kanalları / Belgesel
 https://drk6xq0vhn.gpcdn.net/live/animal_planet_sd_abr/index.m3u8
@@ -545,6 +551,9 @@ http://88.212.7.14/live/history_hun/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="History.pl@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" tvg-name="History (Poland) (576i)",History (Poland) (576i)
 #EXTGRP:Dünya Kanalları / Belgesel
 http://92.114.85.87:8015/play/a00c/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="History.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" tvg-name="History (United States) (720p)",History (United States) (720p)
+#EXTGRP:Dünya Kanalları / Belgesel
+http://212.5.144.156:8080/history/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="History2LatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png" tvg-name="History 2 Latin America (1080p)",History 2 Latin America (1080p)
 #EXTGRP:Dünya Kanalları / Belgesel
 http://138.121.15.230:9002/HISTORY-2/index.m3u8
@@ -584,6 +593,9 @@ https://drk6xq0vhn.gpcdn.net/live/id_hd_abr/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="InvestigationDiscovery.ru@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" tvg-name="Investigation Discovery (Russia) (1080p)",Investigation Discovery (Russia) (1080p)
 #EXTGRP:Dünya Kanalları / Belgesel
 http://stream.mcquack.net/205/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="InvestigationDiscovery.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png" tvg-name="Investigation Discovery (United States) (1080p) [Geo-blocked]",Investigation Discovery (United States) (1080p) [Geo-blocked]
+#EXTGRP:Dünya Kanalları / Belgesel
+http://212.5.144.156:8080/id/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="INWILD.nl@SD" tvg-logo="https://cdn.uc.assets.prezly.com/92770c71-9d6f-400f-8311-38e9cfec52c2/InWild_landscape-green.png" tvg-name="INWILD (1080p)",INWILD (1080p)
 #EXTGRP:Dünya Kanalları / Belgesel
 https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
@@ -617,9 +629,6 @@ https://frndly.keralive.workers.dev/v1/master/840a24ccd7c75076211d060179b3ad0c64
 #EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="MRTVFarmer.mm@SD" tvg-logo="https://i.imgur.com/f4PWvrW.jpg" tvg-name="MRTV Farmer",MRTV Farmer
 #EXTGRP:Dünya Kanalları / Belgesel
 https://mrtvott.com/cache/MRTV-FARMER/master.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="MWDDocumentary.mm@SD" tvg-logo="https://i.imgur.com/4XV7cjU.png" tvg-name="MWD Documentary [Geo-blocked]",MWD Documentary [Geo-blocked]
-#EXTGRP:Dünya Kanalları / Belgesel
-http://203.81.84.130/hls/mwd_document/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="N24Doku.de@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/N24Doku.svg/960px-N24Doku.svg.png" tvg-name="N24 Doku",N24 Doku
 #EXTGRP:Dünya Kanalları / Belgesel
 https://jmp2.uk/plu-60080e8a4bf36000076a81b1.m3u8
@@ -872,6 +881,9 @@ https://amg00735-videosolutionsa-wedobigdocs-ono-0urlz.amagi.tv/playlist/amg0073
 #EXTINF:-1 group-title="Dünya Kanalları / Belgesel" tvg-id="WildEarth.za@SD" tvg-logo="https://i.imgur.com/Vhv5gjN.png" tvg-name="WildEarth (1080p)",WildEarth (1080p)
 #EXTGRP:Dünya Kanalları / Belgesel
 https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Ekonomi" tvg-id="100NEWS.ua@SD" tvg-logo="https://i.imgur.com/bSXKdK5.png" tvg-name="100% NEWS (576p)",100% NEWS (576p)
+#EXTGRP:Dünya Kanalları / Ekonomi
+http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Ekonomi" tvg-id="30AInvestmentPitch.us@SD" tvg-logo="https://i.imgur.com/CKCtZo7.png" tvg-name="30A Investment Pitch (720p)",30A Investment Pitch (720p)
 #EXTGRP:Dünya Kanalları / Ekonomi
 https://30a-tv.com/feeds/xodglobal/30atv.m3u8
@@ -899,12 +911,18 @@ https://svs.itworkscdn.net/asharqradiovlive/asharqradiov/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Ekonomi" tvg-id="AusbizTV.au@SD" tvg-logo="https://i.imgur.com/8vGGdB0.png" tvg-name="Ausbiz TV (720p) [Not 24/7]",Ausbiz TV (720p) [Not 24/7]
 #EXTGRP:Dünya Kanalları / Ekonomi
 https://d9quh89lh7dtw.cloudfront.net/public-output/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Ekonomi" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMBusiness.fr@SD" tvg-logo="https://i.imgur.com/psqIHn4.png" tvg-name="BFM Business (1080p)",BFM Business (1080p)
+#EXTGRP:Dünya Kanalları / Ekonomi
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_BUSINESS/index.m3u8?end=END&start=LIVE
 #EXTINF:-1 group-title="Dünya Kanalları / Ekonomi" tvg-id="BloombergOriginals.us@US" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" tvg-name="Bloomberg Originals (1080p)",Bloomberg Originals (1080p)
 #EXTGRP:Dünya Kanalları / Ekonomi
 https://bloomberg.com/media-manifest/streams/qt.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Ekonomi" tvg-id="BloombergOriginals.us@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" tvg-name="Bloomberg Originals SD (1080p)",Bloomberg Originals SD (1080p)
 #EXTGRP:Dünya Kanalları / Ekonomi
 https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Ekonomi" tvg-id="BloombergTV.us@US" tvg-logo="https://i.imgur.com/OuogLHx.png" tvg-name="Bloomberg TV (1080p)",Bloomberg TV (1080p)
+#EXTGRP:Dünya Kanalları / Ekonomi
+http://23.237.104.106:8080/USA_BLOOMBERG/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Ekonomi" tvg-id="BloombergTV.us@Plus" tvg-logo="https://i.imgur.com/OuogLHx.png" tvg-name="Bloomberg TV + (2160p)",Bloomberg TV + (2160p)
 #EXTGRP:Dünya Kanalları / Ekonomi
 https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8
@@ -1019,6 +1037,9 @@ https://content.uplynk.com/channel/f9aafa1f132e40af9b9e7238bc18d128.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Ekonomi" tvg-id="TelewizjaBiznesowa.pl@SD" tvg-logo="https://i.imgur.com/XC7i7ZL.png" tvg-name="Telewizja Biznesowa (1080p)",Telewizja Biznesowa (1080p)
 #EXTGRP:Dünya Kanalları / Ekonomi
 https://s-pl-01.mediatool.tv/playout/tbpl-abr/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Ekonomi" tvg-id="Tevex.cl@SD" tvg-logo="https://i.imgur.com/FnInQRd.png" tvg-name="Tevex (1080p)",Tevex (1080p)
+#EXTGRP:Dünya Kanalları / Ekonomi
+https://v2.tustreaming.cl/tevex/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Ekonomi" tvg-id="YahooFinance.us@SD" tvg-logo="https://i.imgur.com/43oHsHL.png" tvg-name="Yahoo! Finance (1080p)",Yahoo! Finance (1080p)
 #EXTGRP:Dünya Kanalları / Ekonomi
 https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
@@ -1130,6 +1151,9 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Film" tvg-id="IndywoodTV.in@SD" tvg-logo="https://i.ibb.co/jT3NCPp/logo-tv.png" tvg-name="Indywood TV (720p)",Indywood TV (720p)
 #EXTGRP:Dünya Kanalları / Film
 https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Film" tvg-id="NextHD.py@SD" tvg-logo="https://i.imgur.com/c2rF3SS.png" tvg-name="Next HD (480p)",Next HD (480p)
+#EXTGRP:Dünya Kanalları / Film
+https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Genel" tvg-id="ArirangTV.kr@SD" tvg-logo="https://i.imgur.com/Asu5pE9.png" tvg-name="Arirang TV (1080p)",Arirang TV (1080p)
 #EXTGRP:Dünya Kanalları / Genel
 http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
@@ -1139,9 +1163,6 @@ https://freem3u.xyz/api/live/play.m3u8?vid=111
 #EXTINF:-1 group-title="Dünya Kanalları / Genel" tvg-id="Canal33Tijuana.mx@SD" tvg-logo="https://iili.io/JCt1Nbn.png" tvg-name="Canal 33 Tijuana (720p)",Canal 33 Tijuana (720p)
 #EXTGRP:Dünya Kanalları / Genel
 https://5f2c1b0d880e5.streamlock.net/canal33tijuana/videocanal33tijuana/playlist.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Genel" tvg-id="CEACOMTV.bo@SD" tvg-logo="https://i.imgur.com/hutdRfk.png" tvg-name="CEACOM TV (1080p) [Not 24/7]",CEACOM TV (1080p) [Not 24/7]
-#EXTGRP:Dünya Kanalları / Genel
-https://eu1.servers10.com:8081/ceacom/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Genel" tvg-id="DongNaiTV1.vn@SD" tvg-logo="https://i.imgur.com/oQyioVa.png" tvg-name="Dong Nai TV 1 (1080p)",Dong Nai TV 1 (1080p)
 #EXTGRP:Dünya Kanalları / Genel
 https://freem3u.xyz/api/live/play.m3u8?vid=53
@@ -1235,9 +1256,6 @@ https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="4SiDESTV.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4sites.png" tvg-name="4 SiDES TV (1080p)",4 SiDES TV (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://stream.ottlive.co.in/4sidestv/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="4DmasNoticiasTV.py@SD" tvg-logo="https://i.ibb.co/1fb5BtN/unnamed.png" tvg-name="4Dmas Noticias TV (1080p) [Not 24/7]",4Dmas Noticias TV (1080p) [Not 24/7]
-#EXTGRP:Dünya Kanalları / Haber
-https://rds3.desdeparaguay.net/4dmasnoticiastv/4dmasnoticiastv/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" tvg-id="4TVNews.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" tvg-name="4TV News (576p)",4TV News (576p)
 #EXTGRP:Dünya Kanalları / Haber
 https://fta.ektv.in/live/647/master.m3u8
@@ -1466,6 +1484,9 @@ https://stream-aleph.m.ro/Aleph/ngrp:Alephnewsmain.stream_all/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="AlertTV.gr@SD" tvg-logo="https://i.imgur.com/xqa87lG.png" tvg-name="Alert TV (576p) [Not 24/7]",Alert TV (576p) [Not 24/7]
 #EXTGRP:Dünya Kanalları / Haber
 https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="AlghadeerTV.iq@SD" tvg-logo="https://i.imgur.com/YPj6kXq.png" tvg-name="Alghadeer TV (1080p)",Alghadeer TV (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://sd343444.vodu.store:3356/live/Alghadeer/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="AlhaqeqaAldawlia.jo@SD" tvg-logo="" tvg-name="Alhaqeqa Aldawlia (1080p) [Not 24/7]",Alhaqeqa Aldawlia (1080p) [Not 24/7]
 #EXTGRP:Dünya Kanalları / Haber
 https://ghaasiflu.online/alhqeqa/index.m3u8
@@ -1538,6 +1559,12 @@ https://stream.ottlive.co.in/asiannews/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="AsianetNews.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ASIANET_NEWS/images/LOGO_HD/image.png" tvg-name="Asianet News (1080p)",Asianet News (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" tvg-id="AsianetSuvarnaNews.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142682_ld_h15_aa.png?lock=720x540" tvg-name="Asianet Suvarna News (576p)",Asianet Suvarna News (576p)
+#EXTGRP:Dünya Kanalları / Haber
+https://fta.ektv.in/live/692/master.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="AssamTalks.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142683_ld_h15_aa.png?lock=720x540" tvg-name="Assam Talks (576p)",Assam Talks (576p)
+#EXTGRP:Dünya Kanalları / Haber
+http://tvsen7.aynascope.net/AssamTalks/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="AstraTV.gr@SD" tvg-logo="https://i.imgur.com/oYRPfZm.png" tvg-name="Astra TV (1080p)",Astra TV (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://server.gointernet.gr/live/livestream.m3u8
@@ -1559,9 +1586,6 @@ https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="B1.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/B1_TV_logo.svg/960px-B1_TV_logo.svg.png" tvg-name="B1",B1
 #EXTGRP:Dünya Kanalları / Haber
 https://hls02ns.antenaplay.ro/hls/b1-tv-hd/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="BakuTV.az@SD" tvg-logo="https://i.imgur.com/r4FzxSg.png" tvg-name="Baku.TV",Baku.TV
-#EXTGRP:Dünya Kanalları / Haber
-https://rtmp.baku.tv/hls/bakutv.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="BalafonTV.cm@SD" tvg-logo="https://i.imgur.com/EqOzhYw.png" tvg-name="Balafon TV [Geo-blocked]",Balafon TV [Geo-blocked]
 #EXTGRP:Dünya Kanalları / Haber
 https://broadcasting-channels.com:9044/hls/test.m3u8
@@ -1577,6 +1601,9 @@ https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabi
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="BBCNews.uk@Africa" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" tvg-name="BBC News Africa (1080p)",BBC News Africa (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/hevc_iptv_mse_v0.mpd
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="BBCNews.uk@NorthAmerica" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" tvg-name="BBC News North America (1080p)",BBC News North America (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="BBCNews.uk@SouthAsia" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png" tvg-name="BBC News South Asia (720p)",BBC News South Asia (720p)
 #EXTGRP:Dünya Kanalları / Haber
 https://mumbai-edge.smartplaytv.in/BBCNews/index.m3u8
@@ -1595,6 +1622,39 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" http-referrer="https://rtm-player.glueapi.io/" tvg-id="BeritaRTM.my@SD" tvg-logo="https://i.imgur.com/1Xzxsgl.png" tvg-name="Berita RTM [Geo-blocked]",Berita RTM [Geo-blocked]
 #EXTGRP:Dünya Kanalları / Haber
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMCotedAzur.fr@SD" tvg-logo="https://i.imgur.com/iiVFvIw.png" tvg-name="BFM Cote d'Azur (1080p)",BFM Cote d'Azur (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NICECOTEDAZUR/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMDICIAlpesduSud.fr@SD" tvg-logo="https://i.imgur.com/bV77l68.png" tvg-name="BFM DICI Alpes du Sud (1080p)",BFM DICI Alpes du Sud (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_ALPESDUSUD/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMDICIHauteProvence.fr@SD" tvg-logo="https://i.imgur.com/bV77l68.png" tvg-name="BFM DICI Haute-Provence (1080p)",BFM DICI Haute-Provence (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_HAUTEPROVENCE/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMGrandLille.fr@SD" tvg-logo="https://i.imgur.com/HE5xP0r.png" tvg-name="BFM Grand Lille (1080p)",BFM Grand Lille (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLILLE/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMGrandLittoral.fr@SD" tvg-logo="https://i.imgur.com/j7F9MwH.png" tvg-name="BFM Grand Littoral (1080p)",BFM Grand Littoral (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLITTORAL/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMLyon.fr@SD" tvg-logo="https://i.imgur.com/0uiiZRo.png" tvg-name="BFM Lyon (1080p)",BFM Lyon (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_LYON/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMMarseille.fr@SD" tvg-logo="https://i.imgur.com/h7t0l6q.png" tvg-name="BFM Marseille (1080p)",BFM Marseille (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMNormandie.fr@SD" tvg-logo="https://i.imgur.com/WWWQ44G.png" tvg-name="BFM Normandie (1080p)",BFM Normandie (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NORMANDIE/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMTechCo.fr@SD" tvg-logo="https://i.imgur.com/FQ0FpXV.png" tvg-name="BFM Tech & Co (1080p)",BFM Tech & Co (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TECHANDCO/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMTV.fr@SD" tvg-logo="https://i.imgur.com/YJCcczD.png" tvg-name="BFM TV (1080p)",BFM TV (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?end=END&start=LIVE
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" tvg-id="BFMVar.fr@SD" tvg-logo="https://i.imgur.com/vp1oVj3.png" tvg-name="BFM Var (1080p)",BFM Var (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TOULONVAR/index.m3u8?end=END&start=LIVE
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="BFM2.fr@HD" tvg-logo="https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg" tvg-name="BFM2 (1080p)",BFM2 (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
@@ -1811,6 +1871,9 @@ https://d25usgadhphvwi.cloudfront.net/hls/main.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="CNNenEspanol.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png" tvg-name="CNN en Espanol (1080p)",CNN en Espanol (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://streaming.onnethn.com/CNN_ESPANOL/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="CNN.us@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNN.png" tvg-name="CNN HD (720p) [Geo-blocked]",CNN HD (720p) [Geo-blocked]
+#EXTGRP:Dünya Kanalları / Haber
+http://212.5.144.156:8080/cnn/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36" tvg-id="CNNIndonesia.id@SD" tvg-logo="https://i.imgur.com/l0JyOrm.png" tvg-name="CNN Indonesia",CNN Indonesia
 #EXTGRP:Dünya Kanalları / Haber
 https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8
@@ -1919,12 +1982,12 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/master.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="DW.de@Russian" tvg-logo="https://i.imgur.com/8MRNFb9.png" tvg-name="DW Russian (1080p)",DW Russian (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/master.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="DY365.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143015_ld_h15_aa.png?lock=720x540" tvg-name="DY 365 (360p)",DY 365 (360p)
-#EXTGRP:Dünya Kanalları / Haber
-https://cdn.smartstream.video/smartstream-us/dy365/dy365/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" tvg-id="EagleNews.mn@SD" tvg-logo="https://www.mongolsat.mn/assets/img/channel/13.png" tvg-name="Eagle News (1080p)",Eagle News (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://cdn4.skygo.mn/live/disk1/Eagle/DASH-FTA/Eagle.mpd
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="EcotelTV.ec@SD" tvg-logo="https://i.imgur.com/pVlZUSV.png" tvg-name="Ecotel TV (720p)",Ecotel TV (720p)
+#EXTGRP:Dünya Kanalları / Haber
+https://ecoteltv.streamseguro.com:5443/LiveApp/streams/streaming.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="EkamraBharatOdia.in@SD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ekamra_Bharat_Odia.png" tvg-name="Ekamra Bharat Odia (400p)",Ekamra Bharat Odia (400p)
 #EXTGRP:Dünya Kanalları / Haber
 https://live.ekamraott.com/bharat/bharat/index.m3u8
@@ -2057,6 +2120,9 @@ http://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="GBNews.uk@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png" tvg-name="GB News (1080p)",GB News (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://amg01076-lightningintern-gbnewsau-samsungau-et7fz.amagi.tv/playlist/amg01076-lightningintern-gbnewsau-samsungau/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="GiornaleRadioTV.it@SD" tvg-logo="https://i.imgur.com/2Y5qiao.png" tvg-name="Giornale Radio TV (720p)",Giornale Radio TV (720p)
+#EXTGRP:Dünya Kanalları / Haber
+https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="GlobalIndia.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Global_India.png" tvg-name="Global India (720p)",Global India (720p)
 #EXTGRP:Dünya Kanalları / Haber
 https://server.livelegitpro.in/globalindiatv/globalindiatv/video.m3u8
@@ -2087,6 +2153,9 @@ https://cdn-edge1.streamcomedia.com/abr_tngr969fm/abr-tngr969fm_streams/playlist
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="Guatevision.gt@SD" tvg-logo="https://i.imgur.com/mbmHPnO.png" tvg-name="Guatevision (1080p)",Guatevision (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 http://200.115.120.1:8000/play/ca066/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="GugbangTV.kr@SD" tvg-logo="https://i.imgur.com/f1tz5fg.png" tvg-name="Gugbang TV (1080p) [Not 24/7]",Gugbang TV (1080p) [Not 24/7]
+#EXTGRP:Dünya Kanalları / Haber
+http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" tvg-id="GulistanNews.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143097_ld_h15_aa.png?lock=720x540" tvg-name="Gulistan News (576p)",Gulistan News (576p)
 #EXTGRP:Dünya Kanalları / Haber
 https://fta.ektv.in/live/427/master.m3u8
@@ -2120,6 +2189,9 @@ https://highmedia.livebox.co.in/HIGHNEWShls/LIVE.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="HindiKhabar.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HINDI_KHABAR/images/LOGO_HD/image.png" tvg-name="Hindi Khabar (1080p)",Hindi Khabar (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://stream.ottlive.co.in/hindikhabar/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="HLN.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/HLN_%28TV_network%29_2017_logo.svg/960px-HLN_%28TV_network%29_2017_logo.svg.png" tvg-name="HLN (720p)",HLN (720p)
+#EXTGRP:Dünya Kanalları / Haber
+http://23.237.104.106:8080/USA_HLN/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="HMTV.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143136_ld_h15_aa.png?lock=720x540" tvg-name="HMTV (India) (720p)",HMTV (India) (720p)
 #EXTGRP:Dünya Kanalları / Haber
 https://cdn.pishow.tv/ott/live/280/master.m3u8
@@ -2306,6 +2378,9 @@ https://dai.google.com/linear/hls/event/oYQGDqEGTmGdHE_fz9oLlg/master.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="LCI.fr@SD" tvg-logo="https://i.imgur.com/DED8EXs.png" tvg-name="LCI",LCI
 #EXTGRP:Dünya Kanalları / Haber
 http://149.62.177.107:9999/LCI/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="LeMondeen24h.cd@SD" tvg-logo="https://i.imgur.com/2igwi7g.png" tvg-name="Le Monde en 24h",Le Monde en 24h
+#EXTGRP:Dünya Kanalları / Haber
+https://stream.berosat.live/hls/monde24h-tv-index/monde24h-tv-index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="LencaTV.hn@SD" tvg-logo="https://i.imgur.com/fc5IHSy.png" tvg-name="Lenca TV (720p) [Not 24/7]",Lenca TV (720p) [Not 24/7]
 #EXTGRP:Dünya Kanalları / Haber
 https://lencatelevision.com/hls/stream.m3u8
@@ -2576,39 +2651,24 @@ https://cdn.pishow.tv/ott/live/1433/master.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News1.th@SD" tvg-logo="" tvg-name="News1",News1
 #EXTGRP:Dünya Kanalları / Haber
 https://live-us1.thaimomo.com/live-as/chnews1-2/playlist.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12Bronx.us@SD" tvg-logo="https://i.imgur.com/d6xQiaf.png" tvg-name="News12 Bronx [Geo-blocked]",News12 Bronx [Geo-blocked]
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12Brooklyn.us@SD" tvg-logo="https://i.imgur.com/fvcOzzK.png" tvg-name="News12 Brooklyn [Geo-blocked]",News12 Brooklyn [Geo-blocked]
 #EXTGRP:Dünya Kanalları / Haber
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12XH_A1/index_new.m3u8?omap=https
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8?omap=https
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12Conneticut.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" tvg-name="News12 Conneticut [Geo-blocked]",News12 Conneticut [Geo-blocked]
 #EXTGRP:Dünya Kanalları / Haber
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12CH_FFLD_MILF_A1/index_new.m3u8?omap=https
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12HudsonValley.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" tvg-name="News12 Hudson Valley [Geo-blocked]",News12 Hudson Valley [Geo-blocked]
-#EXTGRP:Dünya Kanalları / Haber
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12HH_A1/index_new.m3u8?omap=https
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12LongIsland.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" tvg-name="News12 Long Island (1080p) [Geo-blocked]",News12 Long Island (1080p) [Geo-blocked]
 #EXTGRP:Dünya Kanalları / Haber
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8?omap=https
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12NewJersey.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" tvg-name="News12 New Jersey [Geo-blocked]",News12 New Jersey [Geo-blocked]
-#EXTGRP:Dünya Kanalları / Haber
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12JH_CENT_A1/index_new.m3u8?omap=https
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12Westchester.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" tvg-name="News12 Westchester [Geo-blocked]",News12 Westchester [Geo-blocked]
 #EXTGRP:Dünya Kanalları / Haber
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12WH_A1/index_new.m3u8?omap=https
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12PlusConnecticut.us@HD" tvg-logo="https://i.ibb.co/n8m2mcsV/news12plus-CT.jpg" tvg-name="News12+ Connecticut (1080p) [Geo-blocked]",News12+ Connecticut (1080p) [Geo-blocked]
-#EXTGRP:Dünya Kanalları / Haber
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_CT_A1/index_new.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12PlusHudsonValley.us@HD" tvg-logo="https://i.ibb.co/cKkdC203/news12plus-HV.jpg" tvg-name="News12+ Hudson Valley (1080p) [Geo-blocked]",News12+ Hudson Valley (1080p) [Geo-blocked]
 #EXTGRP:Dünya Kanalları / Haber
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_WC_A1/index_new.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12PlusLongIsland.us@HD" tvg-logo="https://i.ibb.co/p6FPNcCk/news12plus-LI.jpg" tvg-name="News12+ Long Island (1080p) [Geo-blocked]",News12+ Long Island (1080p) [Geo-blocked]
 #EXTGRP:Dünya Kanalları / Haber
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12PlusNewJersey.us@HD" tvg-logo="https://i.ibb.co/qYCVcWDV/news12plus-NJ.jpg" tvg-name="News12+ New Jersey (1080p) [Geo-blocked]",News12+ New Jersey (1080p) [Geo-blocked]
-#EXTGRP:Dünya Kanalları / Haber
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NJ_A1/index_new.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News12PlusNewYork.us@HD" tvg-logo="https://i.ibb.co/tThKYM09/news12plus-NYC.jpg" tvg-name="News12+ New York (1080p) [Geo-blocked]",News12+ New York (1080p) [Geo-blocked]
-#EXTGRP:Dünya Kanalları / Haber
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NYC_A1/index_new.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="News18AssamNorthEast.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS18_ASSAM_NORTHSYMHYPEAST/images/LOGO_HD/image.png" tvg-name="News18 Assam North-East (1080p)",News18 Assam North-East (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/master.m3u8
@@ -2711,9 +2771,6 @@ https://play.cdn.enetres.net/621B146D29C541AFB1507809F038F471021/021/playlist.m3
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3" tvg-id="NovaNews.bg@SD" tvg-logo="https://i.imgur.com/s6IryS3.png" tvg-name="Nova News",Nova News
 #EXTGRP:Dünya Kanalları / Haber
 http://213.91.179.28:8000/play/a063
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="NovorossiyaTV.ru@SD" tvg-logo="https://i.imgur.com/ijmf0bV.png" tvg-name="Novorossiya TV (1080p) [Geo-blocked]",Novorossiya TV (1080p) [Geo-blocked]
-#EXTGRP:Dünya Kanalları / Haber
-http://31.131.139.253:9002/novoros/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" http-referrer="https://www.npy.com.py/" tvg-id="NPY.py@SD" tvg-logo="https://i.imgur.com/pUEkaiW.png" tvg-name="NPY (1080p)",NPY (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://copacogen.desdeparaguay.net/npy/npy_py_alta/playlist.m3u8?admin=tvaccion
@@ -2741,15 +2798,21 @@ https://ext.cdn.nashnet.tv/228.0.0.148/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="ObservatorNews.ro@SD" tvg-logo="https://i.imgur.com/f6xEIAr.png" tvg-name="Observator News (360p)",Observator News (360p)
 #EXTGRP:Dünya Kanalları / Haber
 https://live77cdn2.antenaplay.ro/live_ObservatorNews/live_ObservatorNews.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="ObshchestvennoeNezavisimoeTelevidenie.ua@SD" tvg-logo="https://i.imgur.com/jFP50g2.png" tvg-name="Obshchestvennoe Nezavisimoe Televidenie (576p)",Obshchestvennoe Nezavisimoe Televidenie (576p)
+#EXTGRP:Dünya Kanalları / Haber
+http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="OmanTVMubashir.om@SD" tvg-logo="https://i.imgur.com/UkQTR5b.png" tvg-name="Oman TV Mubashir (1080p)",Oman TV Mubashir (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="OneAmericaNewsNetwork.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/8/84/One_America_News_Network_logo.svg/960px-One_America_News_Network_logo.svg.png" tvg-name="One America News Network (720p)",One America News Network (720p)
+#EXTGRP:Dünya Kanalları / Haber
+http://23.237.104.106:8080/USA_OAN/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="OnlyBharat.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AMV_NETWORK/images/LOGO_HD/image.png" tvg-name="Only Bharat (576p)",Only Bharat (576p)
 #EXTGRP:Dünya Kanalları / Haber
 https://mumt07.tangotv.in/zHjX9OFlONLYBHARAT/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="OplotTV.ru@SD" tvg-logo="https://i.imgur.com/RvUkId2.png" tvg-name="Oplot TV SD (1080p) [Geo-blocked]",Oplot TV SD (1080p) [Geo-blocked]
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="OplotTV.ru@Khartsyzsk" tvg-logo="https://i.imgur.com/RvUkId2.png" tvg-name="Oplot TV (1080p) [Geo-blocked]",Oplot TV (1080p) [Geo-blocked]
 #EXTGRP:Dünya Kanalları / Haber
-http://31.131.139.253:9002/oplot_hd/index.m3u8
+http://31.131.141.195:8000/play/a006/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="PalestineAlYawm.lb@SD" tvg-logo="https://i.imgur.com/n8dSgx4.png" tvg-name="Palestine Al Yawm (720p)",Palestine Al Yawm (720p)
 #EXTGRP:Dünya Kanalları / Haber
 https://live.paltodaytv.com/paltv/live/playlist_sfm4s.m3u8
@@ -2789,6 +2852,9 @@ https://segment.yuppcdn.net/110322/polimernews/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" tvg-id="PowerTV.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_POWER_TV/images/LOGO_HD/image.png" tvg-name="Power TV (India) (576p)",Power TV (India) (576p)
 #EXTGRP:Dünya Kanalları / Haber
 https://powertvkannada.com/hls/stream.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="Pradesh24Gujarati.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Pradesh24_Gujarati.png" tvg-name="Pradesh24 Gujarati (1080p)",Pradesh24 Gujarati (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+https://stream2.livebox.co.in/pradesh24hls/live.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="PragNews.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s143671_ld_h15_aa.png?lock=720x540" tvg-name="Prag News (576p)",Prag News (576p)
 #EXTGRP:Dünya Kanalları / Haber
 https://streams.tangotv.in/PRAGNEWS/ORIGIN/index.m3u8
@@ -2864,9 +2930,6 @@ https://server.playontv.in/raatdinbangla/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="RadioAncon.pa@SD" tvg-logo="https://i.imgur.com/xum8PNe.jpg" tvg-name="Radio Ancon (720p)",Radio Ancon (720p)
 #EXTGRP:Dünya Kanalları / Haber
 https://www.streaming507.net:19360/anconvideo/anconvideo.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="RadioUnoTacna.pe@SD" tvg-logo="https://i.imgur.com/PswowQP.png" tvg-name="Radio Uno Tacna (720p)",Radio Uno Tacna (720p)
-#EXTGRP:Dünya Kanalları / Haber
-https://live-evg7.tv360.bitel.com.pe/bitel/radiounotv/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="RaiNews24.it@HD" tvg-logo="https://i.imgur.com/n2u57y3.png" tvg-name="Rai News 24 HD (1080p)",Rai News 24 HD (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8
@@ -2876,6 +2939,9 @@ https://mumt04.tangotv.in/m18aqlK4RAJNEWSMALAYALAM/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="RajNewsTelugu.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_NEWS_TELUGU/images/LOGO_HD/image.png" tvg-name="Raj News Telugu (576p)",Raj News Telugu (576p)
 #EXTGRP:Dünya Kanalları / Haber
 https://mumt04.tangotv.in/m18aqlK4RAJNEWSTELUGU/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="RCVTV.hn@SD" tvg-logo="https://i.imgur.com/0TEeEFG.jpg" tvg-name="RCV TV (712p)",RCV TV (712p)
+#EXTGRP:Dünya Kanalları / Haber
+https://59d39900ebfb8.streamlock.net/rcv/rcv/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="RDN.do@SD" tvg-logo="https://i.imgur.com/x02CGSW.png" tvg-name="RDN (1080p) [Not 24/7]",RDN (1080p) [Not 24/7]
 #EXTGRP:Dünya Kanalları / Haber
 https://edge.essastream.com/rdntv/tracks-v1a1/mono.m3u8
@@ -2927,6 +2993,9 @@ http://190.93.224.42/RPP/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="RSelvaTV.pe@SD" tvg-logo="https://i.imgur.com/DAK5ZnD.png" tvg-name="RSelvaTV (720p)",RSelvaTV (720p)
 #EXTGRP:Dünya Kanalları / Haber
 https://live-evg11.tv360.bitel.com.pe/bitel/selvaticaSRT/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="RT.ru@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142401_ld_h15_aa.png?lock=720x540" tvg-name="RT (720p)",RT (720p)
+#EXTGRP:Dünya Kanalları / Haber
+http://212.5.144.156:8080/rt/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="RTArabic.ru@SD" tvg-logo="https://i.imgur.com/G8vGrn1.png" tvg-name="RT Arabic (1080p) [Geo-blocked]",RT Arabic (1080p) [Geo-blocked]
 #EXTGRP:Dünya Kanalları / Haber
 https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8
@@ -3077,9 +3146,6 @@ https://redirector.dps.live/hls/t13/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TCM10HD.br@SD" tvg-logo="https://i.imgur.com/aMuMVvB.png" tvg-name="TCM 10 HD (1080p)",TCM 10 HD (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://live.tcm10.com.br/tcm10hd/stream.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TeleCauquenes.cl@SD" tvg-logo="https://i.imgur.com/cNYDqhp.png" tvg-name="TeleCauquenes (720p)",TeleCauquenes (720p)
-#EXTGRP:Dünya Kanalları / Haber
-https://lbgo.bozztv.com/ssh101/ssh101/telecauquenestv/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="Telegela647.it@SD" tvg-logo="https://i.imgur.com/ppkX45f.png" tvg-name="Telegela 647",Telegela 647
 #EXTGRP:Dünya Kanalları / Haber
 https://64b16f23efbee.streamlock.net/telegela/telegela/playlist.m3u8
@@ -3128,6 +3194,9 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TimesNowNavbharat.in@HD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TIMES_NOW_NAVBHARAT_HD/images/LOGO_HD/image.png" tvg-name="Times Now Navbharat HD (1080p)",Times Now Navbharat HD (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://yupprestreamliveus.akamaized.net/v1/vglive-sk-717514/main.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TN.ar@SD" tvg-logo="https://i.imgur.com/vFwPhPS.png" tvg-name="TN (1080p)",TN (1080p)
+#EXTGRP:Dünya Kanalları / Haber
+http://158.172.155.130:8000/play/a0dp/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TNPNews.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TNP_News.png" tvg-name="TNP News (1080p)",TNP News (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8
@@ -3173,9 +3242,9 @@ https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TVArta.xk@SD" tvg-logo="https://i.imgur.com/MAhJkK9.png" tvg-name="TV Arta (720p)",TV Arta (720p)
 #EXTGRP:Dünya Kanalları / Haber
 https://gjirafa-video-live.gjirafa.net/gjvideo-live/mps-vgx-u9p-qv1/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TVBrusque.br@SD" tvg-logo="https://i.imgur.com/J2EAZPS.png" tvg-name="TV Brusque (720p)",TV Brusque (720p)
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TVJadran.hr@SD" tvg-logo="https://i.imgur.com/UWMHnOG.png" tvg-name="TV Jadran (720p) [Not 24/7]",TV Jadran (720p) [Not 24/7]
 #EXTGRP:Dünya Kanalları / Haber
-https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8df00d/playlist.m3u8
+https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TVPeruNoticias.pe@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/TV_Per%C3%BA_Noticias_-_2019_logo.png/960px-TV_Per%C3%BA_Noticias_-_2019_logo.png" tvg-name="TV Peru Noticias (1080p)",TV Peru Noticias (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 http://190.93.224.42/TV-PERU-NOTICIAS/index.m3u8
@@ -3185,6 +3254,9 @@ https://932y483pdjv8-hls-live.5centscdn.com/stream/deb10bae362f810630ec3abedcae5
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TVSimCachoeiro.br@SD" tvg-logo="https://i.imgur.com/t5oUK3C.png" tvg-name="TV Sim Cachoeiro (720p)",TV Sim Cachoeiro (720p)
 #EXTGRP:Dünya Kanalları / Haber
 https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TVSimSaoMateus.br@SD" tvg-logo="https://i.imgur.com/t5oUK3C.png" tvg-name="TV Sim Sao Mateus (720p)",TV Sim Sao Mateus (720p)
+#EXTGRP:Dünya Kanalları / Haber
+https://5cf4a2c2512a2.streamlock.net/8236/8236/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="TV13Gujarati.in@SD" tvg-logo="https://www.tv13gujarati.com/assets/front/img/footer-logo.jpg" tvg-name="TV13 Gujarati (480p)",TV13 Gujarati (480p)
 #EXTGRP:Dünya Kanalları / Haber
 https://live.wrencdn.in/wrencdn/hls/tv13_web/index.m3u8
@@ -3317,9 +3389,6 @@ http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f5
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="WorldPunjabiTV.in@SD" tvg-logo="https://papaji.freetvindia.com/media/World_Punjabi_TV.png" tvg-name="World Punjabi TV (1080p)",World Punjabi TV (1080p)
 #EXTGRP:Dünya Kanalları / Haber
 https://live1.ottlive.co.in/worldpunjabitv/worldpunjabitv/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="WPLG101.us@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg/500px-WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg.png" tvg-name="WPLG 10.1 (720p)",WPLG 10.1 (720p)
-#EXTGRP:Dünya Kanalları / Haber
-https://pubads.g.doubleclick.net/ssai/event/tQD6w9OJQVOobcyV3Dammw/master.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Haber" tvg-id="WSOCNow.us@SD" tvg-logo="https://i.imgur.com/tUb1mdc.png" tvg-name="WSOC Now (1080p) [Geo-blocked]",WSOC Now (1080p) [Geo-blocked]
 #EXTGRP:Dünya Kanalları / Haber
 https://amg00327-coxmediagroup-wsocbreaking-plex-t51et.amagi.tv/playlist/amg00327-coxmediagroup-wsocbreaking-plex/playlist.m3u8
@@ -3620,9 +3689,6 @@ http://stream.mcquack.net/92/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="BRIDGEHits.ru@SD" tvg-logo="https://i.imgur.com/sIW9oR4.png" tvg-name="BRIDGE Hits (576p)",BRIDGE Hits (576p)
 #EXTGRP:Dünya Kanalları / Müzik
 http://stream.mcquack.net/320/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="BRIDGERock.ru@SD" tvg-logo="https://i.imgur.com/MHuwct2.png" tvg-name="BRIDGE Rock (576p)",BRIDGE Rock (576p)
-#EXTGRP:Dünya Kanalları / Müzik
-http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="BTATV.ve@SD" tvg-logo="https://i.imgur.com/vygOosC.png" tvg-name="BTA TV (720p)",BTA TV (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
@@ -3689,6 +3755,9 @@ https://stream.cmctv.hr:49998/cmc/live.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="CMCUSACountryMusicChannel.us@SD" tvg-logo="https://i.imgur.com/QsANRSu.png" tvg-name="CMC-USA Country Music Channel (720p)",CMC-USA Country Music Channel (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="CMT.us@East" tvg-logo="https://i.imgur.com/S7DOpdY.png" tvg-name="CMT (720p)",CMT (720p)
+#EXTGRP:Dünya Kanalları / Müzik
+http://23.237.104.106:8080/USA_CMT/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="CMTEqualPlay.us@SD" tvg-logo="https://i.imgur.com/9ysjkkL.png" tvg-name="CMT Equal Play (720p)",CMT Equal Play (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://jmp2.uk/plu-5f68f53eb1e5800007390bf8.m3u8
@@ -3764,9 +3833,6 @@ https://cdn.pishow.tv/ott/live/1456/master.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="DiscoPoloMusic.pl@SD" tvg-logo="https://i.imgur.com/ZZbuTv7.png" tvg-name="Disco Polo Music (1080p)",Disco Polo Music (1080p)
 #EXTGRP:Dünya Kanalları / Müzik
 http://185.227.34.179:8080/disco-polo-music/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="DismarRadioTV.py@SD" tvg-logo="https://i.imgur.com/KOuxdMD.png" tvg-name="Dismar Radio TV (720p)",Dismar Radio TV (720p)
-#EXTGRP:Dünya Kanalları / Müzik
-https://rds3.desdeparaguay.net/dismartv/dismartv/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" tvg-id="DMSat.rs@SD" tvg-logo="https://i.imgur.com/LdeA1Cn.png" tvg-name="DM Sat (576p)",DM Sat (576p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://shift03.isp.bg/DMSat/index.m3u8
@@ -3824,9 +3890,6 @@ http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="EuropaPlusTV.ru@Belarus" tvg-logo="https://i.imgur.com/GLc4qrc.png" tvg-name="Europa Plus TV Belarus (576p)",Europa Plus TV Belarus (576p)
 #EXTGRP:Dünya Kanalları / Müzik
 http://46.53.200.153:7777/play/EuropaPlus/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="ExaTV.mx@SD" tvg-logo="https://i.imgur.com/JWOqr1a.png" tvg-name="Exa TV",Exa TV
-#EXTGRP:Dünya Kanalları / Müzik
-http://190.61.90.17:40000/play/a0hk/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="FabulosaEstereo1005FM.pa@SD" tvg-logo="https://i.imgur.com/YFmzkOp.png" tvg-name="Fabulosa Estereo 100.5 FM (720p)",Fabulosa Estereo 100.5 FM (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8
@@ -3836,9 +3899,6 @@ https://shd-amg-fast.edgenextcdn.net/tx029/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="FalastiniTV.ps@SD" tvg-logo="https://i.imgur.com/6B3Cims.png" tvg-name="Falastini TV (1080p)",Falastini TV (1080p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="FarraPlay.py@SD" tvg-logo="https://i.imgur.com/bXWzstH.png" tvg-name="Farra Play (576p)",Farra Play (576p)
-#EXTGRP:Dünya Kanalları / Müzik
-https://stream.farra.com.py/live/farra_low.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="FiestaTV.co@SD" tvg-logo="https://i.imgur.com/42wImV2.png" tvg-name="Fiesta TV",Fiesta TV
 #EXTGRP:Dünya Kanalları / Müzik
 https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8
@@ -3878,9 +3938,6 @@ https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="FTV.uz@SD" tvg-logo="https://i.imgur.com/7lpISyN.jpg" tvg-name="FTV (Uzbekistan) (576p)",FTV (Uzbekistan) (576p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://stream8.cinerama.uz/1018/playlist.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="FuegoTV.do@SD" tvg-logo="https://i.imgur.com/T9vWjeB.png" tvg-name="Fuego TV [Not 24/7]",Fuego TV [Not 24/7]
-#EXTGRP:Dünya Kanalları / Müzik
-https://streamunoapp.com:3553/live/cromtvlive.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="FunVision.be@SD" tvg-logo="https://i.imgur.com/AhkKr7Y.png" tvg-name="Fun Vision",Fun Vision
 #EXTGRP:Dünya Kanalları / Müzik
 https://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8
@@ -3890,6 +3947,9 @@ https://edge20.vedge.infomaniak.com/livecast/ik:fusiontv/manifest.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="GenialTV.cl@SD" tvg-logo="https://i.imgur.com/uBC8e96.png" tvg-name="Genial TV (720p)",Genial TV (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://v1.tustreaming.cl/genialtv/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="GigantFM.nl@SD" tvg-logo="https://i.imgur.com/LwEHfjD.png" tvg-name="Gigant FM (720p)",Gigant FM (720p)
+#EXTGRP:Dünya Kanalları / Müzik
+https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="GugakTV.kr@SD" tvg-logo="https://i.imgur.com/Ey7Htm8.png" tvg-name="Gugak TV (1080p)",Gugak TV (1080p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
@@ -3995,6 +4055,9 @@ https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Song/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="JRTVJarviradio.fi@SD" tvg-logo="https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg" tvg-name="JRTV Jarviradio (720p)",JRTV Jarviradio (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="KalikaTV.in@SD" tvg-logo="https://i.imgur.com/XWXFoJA.png" tvg-name="Kalika TV (576p)",Kalika TV (576p)
+#EXTGRP:Dünya Kanalları / Müzik
+http://server.applelive.in/kalikatv/kalikatv.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="Karibena.pe@SD" tvg-logo="https://i.imgur.com/cgHjg1e.png" tvg-name="Karibena (720p)",Karibena (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 http://187.102.210.46/KARIBENA/index.m3u8
@@ -4163,9 +4226,6 @@ https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="MetropoliMediosTV.ec@SD" tvg-logo="https://i.imgur.com/yID5T2S.jpg" tvg-name="Metropoli Medios TV (720p)",Metropoli Medios TV (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://eu1.servers10.com:8081/8214/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="MetropolitanadelCuzco.pe@SD" tvg-logo="https://i.imgur.com/0B04qgM.png" tvg-name="Metropolitana del Cuzco",Metropolitana del Cuzco
-#EXTGRP:Dünya Kanalları / Müzik
-https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="MezzoLive.fr@SD" tvg-logo="https://i.imgur.com/H9ytKPN.png" tvg-name="Mezzo Live (1080p)",Mezzo Live (1080p)
 #EXTGRP:Dünya Kanalları / Müzik
 http://stream.mcquack.net/276/index.m3u8
@@ -4232,6 +4292,9 @@ https://jmp2.uk/plu-5d3609cd6a6c78d7672f2a81.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="MTVFlowLatino.us@LatAm" tvg-logo="https://images.pluto.tv/channels/62b218fc511d4b00070ddc0c/colorLogoPNG.png" tvg-name="MTV Flow Latino LatAm (720p)",MTV Flow Latino LatAm (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://jmp2.uk/plu-62b218fc511d4b00070ddc0c.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="MTVLive.us@SD" tvg-logo="https://i.imgur.com/3UByLqb.png" tvg-name="MTV Live (720p)",MTV Live (720p)
+#EXTGRP:Dünya Kanalları / Müzik
+http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="MTVSpankinNew.us@US" tvg-logo="https://images.pluto.tv/channels/6541010f770cf1000866be98/colorLogoPNG.png" tvg-name="MTV Spankin' New (1080p)",MTV Spankin' New (1080p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://jmp2.uk/plu-5d14fdb8ca91eedee1633117.m3u8
@@ -4412,6 +4475,9 @@ https://sistemastr.tropicalmoonmedia.com/live/7C452409423F57ADC960F6405635267F/7
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="Planet1009FM.pa@SD" tvg-logo="https://i.imgur.com/8ZIBs8l.png" tvg-name="Planet 100.9 FM (1080p)",Planet 100.9 FM (1080p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://streamlov.alsolnet.com/planet1009fm/live/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="PlayTV.cm@SD" tvg-logo="https://i.imgur.com/1dmBqpf.png" tvg-name="Play TV (Cameroon) (720p) [Not 24/7]",Play TV (Cameroon) (720p) [Not 24/7]
+#EXTGRP:Dünya Kanalları / Müzik
+http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="PlayTV.gr@SD" tvg-logo="https://i.imgur.com/JWFOYuD.png" tvg-name="Play TV (Greece) (480p) [Not 24/7]",Play TV (Greece) (480p) [Not 24/7]
 #EXTGRP:Dünya Kanalları / Müzik
 http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
@@ -4478,9 +4544,6 @@ http://stream7.xdevel.com/video0s975758-1051/stream/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="RadioCapitalTiVu.it@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/it/3/38/Radio_Capital_logo_%282020%29.svg" tvg-name="Radio Capital TiVu (720p)",Radio Capital TiVu (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Müzik" http-referrer="https://radiochisinau.md/" tvg-id="RadioChisinau.md@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/56/Radio_Chi%C8%99in%C4%83u.svg" tvg-name="Radio Chisinau (576p)",Radio Chisinau (576p)
-#EXTGRP:Dünya Kanalları / Müzik
-https://radiochisinau.md/hls/RChisinau.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="RadioClasicaTV.bo@SD" tvg-logo="https://radioclasicapotosi.com/players/nexoplayer/assets/logo.png" tvg-name="Radio Clasica TV (720p)",Radio Clasica TV (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8
@@ -4613,9 +4676,6 @@ https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="Reyali.co@SD" tvg-logo="https://i.imgur.com/YmFjnsF.png" tvg-name="Reyali (614p)",Reyali (614p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://eu1.servers10.com:8081/8090/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="RFPtv.pt@SD" tvg-logo="https://i.imgur.com/I60nQuR.png" tvg-name="RFPtv (360p)",RFPtv (360p)
-#EXTGRP:Dünya Kanalları / Müzik
-https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="RHTGuadeloupe.gp@SD" tvg-logo="https://i.imgur.com/hQ0Q6nE.png" tvg-name="RHT Guadeloupe (720p)",RHT Guadeloupe (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://edge12.vedge.infomaniak.com/livecast/ik:livehautetension/manifest.m3u8
@@ -4991,6 +5051,9 @@ https://shift03.isp.bg/RodinaTV/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="TVOMIX.es@HD" tvg-logo="https://ugc.production.linktr.ee/7ef61237-c46d-456b-afe3-a42ef49a979e_Mejorado2.png" tvg-name="TVOMIX (1080p)",TVOMIX (1080p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://cloud.tvomix.com/TVOMIX/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="TVONENicaragua.ni@SD" tvg-logo="https://i.imgur.com/FNk6rdz.png" tvg-name="TVONE Nicaragua (720p) [Not 24/7]",TVONE Nicaragua (720p) [Not 24/7]
+#EXTGRP:Dünya Kanalları / Müzik
+https://hdbox.chunklistv.com/live?stream=tvone
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="TVSMusicNetwork.us@SD" tvg-logo="" tvg-name="TVS Music Network (720p)",TVS Music Network (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://rpn.bozztv.com/gusa/gusa-tvsmusic/index.m3u8
@@ -5036,6 +5099,9 @@ https://d1hf773q57zx9s.cloudfront.net/Vevo_R_B.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="VevoTrueSchoolHipHop.us@SD" tvg-logo="https://i.imgur.com/owUXUih.png" tvg-name="Vevo True School Hip-Hop",Vevo True School Hip-Hop
 #EXTGRP:Dünya Kanalları / Müzik
 https://jmp2.uk/plu-61d4c2817a823d00070ba53e.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="VideoMixTV.us@SD" tvg-logo="https://i.imgur.com/nyLrIPP.png" tvg-name="Video Mix TV",Video Mix TV
+#EXTGRP:Dünya Kanalları / Müzik
+https://2-fss-2.streamhoster.com/pl_118/206436-3189488-1/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="VideoTourChannel.cr@SD" tvg-logo="https://i.imgur.com/zEi8eMC.png" tvg-name="Video Tour Channel",Video Tour Channel
 #EXTGRP:Dünya Kanalları / Müzik
 https://59ef525c24caa.streamlock.net/videotour/videotour/playlist.m3u8
@@ -5135,9 +5201,6 @@ https://vidaa.kableone.com/hls/live/2111218/YrfMusic/1.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="ZBMusic.in@HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbmusic.png" tvg-name="ZB Music (720p)",ZB Music (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://server.zillarbarta.com/zbmusic/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="ZICOTV.rs@SD" tvg-logo="https://i.imgur.com/8wbTnNW.png" tvg-name="ZICO TV (720p)",ZICO TV (720p)
-#EXTGRP:Dünya Kanalları / Müzik
-https://gjirafa-video-live.gjirafa.net/gjvideo-live/j3a-n14-2pf-g3s/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Müzik" tvg-id="Zoom.in@SD" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZOOM/images/LOGO_HD/image.png" tvg-name="Zoom (India) (720p)",Zoom (India) (720p)
 #EXTGRP:Dünya Kanalları / Müzik
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
@@ -5201,9 +5264,6 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="Belarus5.by@HD" tvg-logo="https://i.imgur.com/NJsRFud.png" tvg-name="Belarus-5 HD (1080p)",Belarus-5 HD (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 http://178.124.179.122:8080/BT5/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="Belarus5.by@Internet" tvg-logo="https://i.imgur.com/NJsRFud.png" tvg-name="Belarus-5 Internet (1080p) [Not 24/7]",Belarus-5 Internet (1080p) [Not 24/7]
-#EXTGRP:Dünya Kanalları / Spor
-https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="BellatorMMA.us@SD" tvg-logo="https://i.imgur.com/VBKoLHk.png" tvg-name="Bellator MMA",Bellator MMA
 #EXTGRP:Dünya Kanalları / Spor
 https://jmp2.uk/plu-5ebc8688f3697d00072f7cf8.m3u8
@@ -5213,9 +5273,6 @@ https://pb-wm04vonaerv0k.akamaized.net/billi.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="BrondbyTV.se@DK" tvg-logo="https://images.pluto.tv/channels/685029cda1e091e16ff57fc8/colorLogoPNG_1750246109707.png" tvg-name="Brondby TV",Brondby TV
 #EXTGRP:Dünya Kanalları / Spor
 https://jmp2.uk/plu-685029cda1e091e16ff57fc8.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="CanalShowsport.ar@SD" tvg-logo="https://i.imgur.com/0L9tW3Z.png" tvg-name="Canal Showsport (720p)",Canal Showsport (720p)
-#EXTGRP:Dünya Kanalları / Spor
-https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="CazeTV.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Caz%C3%A9TV_logo.svg/1280px-Caz%C3%A9TV_logo.svg.png" tvg-name="CazeTV",CazeTV
 #EXTGRP:Dünya Kanalları / Spor
 http://138.204.86.4:8080/CAZE_TV/playlist.m3u8
@@ -5237,9 +5294,6 @@ http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="CDNDeportes.do@SD" tvg-logo="https://i.imgur.com/yU5LqTL.png" tvg-name="CDN Deportes (720p) [Not 24/7]",CDN Deportes (720p) [Not 24/7]
 #EXTGRP:Dünya Kanalları / Spor
 https://hls.tvabierta.net/hls/036.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ClaroSports.mx@SD" tvg-logo="https://i.imgur.com/n0kd17r.png" tvg-name="Claro Sports (1080p)",Claro Sports (1080p)
-#EXTGRP:Dünya Kanalları / Spor
-http://168.196.127.137:6001/play/a08r/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ColimdoTV.do@SD" tvg-logo="https://i.imgur.com/ZeUgLCa.png" tvg-name="Colimdo TV (720p)",Colimdo TV (720p)
 #EXTGRP:Dünya Kanalları / Spor
 https://cnn.livestreaminggroup.info:3132/live/colimdotvlive.m3u8
@@ -5255,6 +5309,9 @@ https://live1.acangroup.org:1929/publiclive/crtv_sport/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="CTSport.cz@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/%C4%8CT_sport_logo.png/960px-%C4%8CT_sport_logo.png" tvg-name="CT Sport (720p)",CT Sport (720p)
 #EXTGRP:Dünya Kanalları / Spor
 http://88.212.15.50/live/test_ctsport_25p/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="DAZN3.uk@Portugal" tvg-logo="https://i.imgur.com/2rXsq2m.png" tvg-name="DAZN 3 Portugal (720p)",DAZN 3 Portugal (720p)
+#EXTGRP:Dünya Kanalları / Spor
+http://23.237.104.106:8080/DAZN_3/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="DAZNCombat.uk@SD" tvg-logo="https://i.postimg.cc/VsW3Jsrz/logo-DAZN-Combat.png" tvg-name="DAZN Combat (684p)",DAZN Combat (684p)
 #EXTGRP:Dünya Kanalları / Spor
 https://jmp2.uk/plu-64d626ac9b414d000820e2fc.m3u8
@@ -5303,33 +5360,48 @@ http://stream.mcquack.net/485/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="Equidia.fr@SD" tvg-logo="https://i.imgur.com/QPpbRcZ.png" tvg-name="Equidia (1080p)",Equidia (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" tvg-name="ESPN (Brazil) (1080p)",ESPN (Brazil) (1080p)
+#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" tvg-name="ESPN (United States) (432p)",ESPN (United States) (432p)
 #EXTGRP:Dünya Kanalları / Spor
-http://181.78.197.59:8000/play/a07z/index.m3u8
+http://tvsen7.aynascope.net/espn/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN.us@HD" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd_c.png" tvg-name="ESPN (United States) HD (720p)",ESPN (United States) HD (720p)
 #EXTGRP:Dünya Kanalları / Spor
 http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN2.us@HD" tvg-logo="https://i.imgur.com/00tsvjE.png" tvg-name="ESPN 2 (United States) HD (720p)",ESPN 2 (United States) HD (720p)
 #EXTGRP:Dünya Kanalları / Spor
 http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN2LatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" tvg-name="ESPN 2 Latin America (1080p)",ESPN 2 Latin America (1080p)
+#EXTGRP:Dünya Kanalları / Spor
+https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN2LatinAmerica.us@Colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" tvg-name="ESPN 2 Latin America Colombia (1080p)",ESPN 2 Latin America Colombia (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 http://190.61.47.54:8000/play/a005/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN3LatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png" tvg-name="ESPN 3 Latin America (1080p)",ESPN 3 Latin America (1080p)
+#EXTGRP:Dünya Kanalları / Spor
+https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN4.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png" tvg-name="ESPN 4 (Brazil) (1080p)",ESPN 4 (Brazil) (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 http://181.78.197.59:8000/play/a07n/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN4LatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png" tvg-name="ESPN 4 Latin America (1080p)",ESPN 4 Latin America (1080p)
+#EXTGRP:Dünya Kanalları / Spor
+https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN5LatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/ESPN_5_logo.svg/960px-ESPN_5_logo.svg.png" tvg-name="ESPN 5 Latin America (1080p)",ESPN 5 Latin America (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN6LatinAmerica.us@SD" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/ESPN_6_logo.svg/960px-ESPN_6_logo.svg.png" tvg-name="ESPN 6 Latin America (1080p)",ESPN 6 Latin America (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPN7LatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/ESPN_7_logo.svg/960px-ESPN_7_logo.svg.png" tvg-name="ESPN 7 Latin America (1080p)",ESPN 7 Latin America (1080p)
+#EXTGRP:Dünya Kanalları / Spor
+https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Spor" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" tvg-id="ESPNExtraLatinAmerica.us@Argentine" tvg-logo="https://i.imgur.com/8P8N2Ov.png" tvg-name="ESPN Extra Latin America (1080p)",ESPN Extra Latin America (1080p)
+#EXTGRP:Dünya Kanalları / Spor
+https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd?
+#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPNLatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" tvg-name="ESPN Latin America (1080p)",ESPN Latin America (1080p)
+#EXTGRP:Dünya Kanalları / Spor
+https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPNLatinAmerica.us@Colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" tvg-name="ESPN Latin America Colombia (1080p)",ESPN Latin America Colombia (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 http://190.61.47.54:8000/play/a004/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPNLatinAmerica.us@Mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" tvg-name="ESPN Latin America Mexico (1080p)",ESPN Latin America Mexico (1080p)
-#EXTGRP:Dünya Kanalları / Spor
-http://168.228.44.241:9997/play/a06p/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="ESPNPremium.ar@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png" tvg-name="ESPN Premium HD (1080p)",ESPN Premium HD (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 http://158.172.155.130:8000/play/a0ao/index.m3u8
@@ -5432,6 +5504,9 @@ http://138.59.227.20:8000/play/a085/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="FoxSports1.us@HD" tvg-logo="https://i.imgur.com/O9BapV9.png" tvg-name="Fox Sports 1 (720p)",Fox Sports 1 (720p)
 #EXTGRP:Dünya Kanalları / Spor
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="FoxSports2.us@HD" tvg-logo="https://imgx.fubo.tv/station_logos/fs2_c.png" tvg-name="Fox Sports 2 (720p)",Fox Sports 2 (720p)
+#EXTGRP:Dünya Kanalları / Spor
+https://tvsen7.aynascope.net/foxsports2/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="FoxSports.ar@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" tvg-name="Fox Sports HD",Fox Sports HD
 #EXTGRP:Dünya Kanalları / Spor
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/1552.m3u8
@@ -5456,9 +5531,6 @@ https://amg01074-fueltv-amg01074c1-firetv-us-3150.playouts.now.amagi.tv/playlist
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="FutbolTV.uz@HD" tvg-logo="https://i.ibb.co/h1gQSkbB/Futbol-TV.png" tvg-name="Futbol TV (1080p)",Futbol TV (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 http://stream3.cinerama.uz/1010/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="FUTV.cr@SD" tvg-logo="https://i.imgur.com/f8BkLql.png" tvg-name="FUTV (1080p)",FUTV (1080p)
-#EXTGRP:Dünya Kanalları / Spor
-http://45.228.234.9:8000/play/a06o/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="GamePlus.ca@SD" tvg-logo="https://i.imgur.com/Lj69WbR.png" tvg-name="Game+ (720p)",Game+ (720p)
 #EXTGRP:Dünya Kanalları / Spor
 https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
@@ -5483,9 +5555,6 @@ https://a-cdn.klowdtv.com/live3/hbcugo_720p/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="HorseTV.it@SD" tvg-logo="https://i.imgur.com/nK4UUX4.png" tvg-name="Horse TV (720p)",Horse TV (720p)
 #EXTGRP:Dünya Kanalları / Spor
 https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="HTVSports.vn@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/3/3f/HTV_THETHAO_2014.png" tvg-name="HTV Sports (1080i)",HTV Sports (1080i)
-#EXTGRP:Dünya Kanalları / Spor
-https://vmttv.dpdns.org/tv360/?id=htv-the-thao
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="InterTV.it@SD" tvg-logo="https://i.imgur.com/FUTqh2L.png" tvg-name="Inter TV (Italy) (1080p)",Inter TV (Italy) (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 https://d3k8wzt41aflvx.cloudfront.net/INTERTV/Live.m3u8
@@ -5594,6 +5663,9 @@ https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGc
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="NauticalChannel.it@SD" tvg-logo="https://i.imgur.com/2ByDyzL.png" tvg-name="Nautical Channel (720p)",Nautical Channel (720p)
 #EXTGRP:Dünya Kanalları / Spor
 https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="NBATV.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" tvg-name="NBA TV (720p)",NBA TV (720p)
+#EXTGRP:Dünya Kanalları / Spor
+http://23.237.104.106:8080/USA_NBA/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="NBCSportsNOW.us@SD" tvg-logo="https://i.imgur.com/EzNf2Yx.png" tvg-name="NBC Sports NOW (1080p)",NBC Sports NOW (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
@@ -5834,9 +5906,6 @@ http://88.212.15.50/live/test_sport1_25p/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" tvg-id="Sport2.cz@SD" tvg-logo="https://i.imgur.com/UxflVoU.png" tvg-name="Sport2",Sport2
 #EXTGRP:Dünya Kanalları / Spor
 http://88.212.15.50/live/test_sport_2/playlist.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="Sportitalia.it@SD" tvg-logo="https://i.imgur.com/0CJGGgd.png" tvg-name="Sportitalia (1080p)",Sportitalia (1080p)
-#EXTGRP:Dünya Kanalları / Spor
-https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="Sportivnyy.ru@SD" tvg-logo="https://i.imgur.com/ujS6mMo.png" tvg-name="Sportivnyy (1080p)",Sportivnyy (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 https://live-3.otcnet.ru/sportivny/index.m3u8
@@ -5957,9 +6026,6 @@ https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="TyCSports.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" tvg-name="TyC Sports (1080p)",TyC Sports (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="TyCSportsUSA.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" tvg-name="TyC Sports USA",TyC Sports USA
-#EXTGRP:Dünya Kanalları / Spor
-http://45.170.130.224:8000/play/a020/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="Unbeaten.us@SD" tvg-logo="https://i.imgur.com/LmkNt3v.png" tvg-name="Unbeaten (1080p)",Unbeaten (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
@@ -5975,6 +6041,9 @@ http://46.53.200.153:7777/play/a01l/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="VoyoSport1.ro@HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a3/VoyoSport1.svg" tvg-name="Voyo Sport 1 (1080i)",Voyo Sport 1 (1080i)
 #EXTGRP:Dünya Kanalları / Spor
 https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/16677.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="Willow.us@SD" tvg-logo="https://cricket.willow.tv/_nuxt/img/willow_blue_logo.362ed8e.png" tvg-name="Willow (720p)",Willow (720p)
+#EXTGRP:Dünya Kanalları / Spor
+http://tvsen5.aynascope.net/willowhd/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="WillowSports.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" tvg-name="Willow Sports (1080p)",Willow Sports (1080p)
 #EXTGRP:Dünya Kanalları / Spor
 https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
@@ -6002,6 +6071,9 @@ https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlis
 #EXTINF:-1 group-title="Dünya Kanalları / Spor" tvg-id="XFCTV.us@SD" tvg-logo="https://i.imgur.com/LcfzmG0.png" tvg-name="XFC TV (720p)",XFC TV (720p)
 #EXTGRP:Dünya Kanalları / Spor
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247
+#EXTINF:-1 group-title="Dünya Kanalları / Yaşam" tvg-id="NowMediaTelevision.us@HD" tvg-logo="https://i.imgur.com/8m8gy0n.png" tvg-name="NowMedia Television (1080p)",NowMedia Television (1080p)
+#EXTGRP:Dünya Kanalları / Yaşam
+https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a4243540d4b911f0b624bda5e9a32aa9/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Yaşam" tvg-id="NowMediaTelevision.us@Spanish" tvg-logo="https://i.imgur.com/8m8gy0n.png" tvg-name="NowMedia Television Spanish (1080p)",NowMedia Television Spanish (1080p)
 #EXTGRP:Dünya Kanalları / Yaşam
 https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a16fa020f4c411f09ddaa1978319689a/index.m3u8
@@ -6056,9 +6128,6 @@ https://jmp2.uk/plu-6759ee82bd523200083b4f0f.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="BabySharkTV.us@SD" tvg-logo="https://i.imgur.com/SbBKr8L.png" tvg-name="Baby Shark TV (1080p)",Baby Shark TV (1080p)
 #EXTGRP:Dünya Kanalları / Çocuk
 https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="BabyTime.ru@SD" tvg-logo="https://i.imgur.com/lW3WIBD.png" tvg-name="Baby Time (576p)",Baby Time (576p)
-#EXTGRP:Dünya Kanalları / Çocuk
-http://178.134.1.158:8081/babytime/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="BabyFirst.us@US" tvg-logo="https://i.imgur.com/WxLHBwu.png" tvg-name="BabyFirst (720p)",BabyFirst (720p)
 #EXTGRP:Dünya Kanalları / Çocuk
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
@@ -6089,6 +6158,9 @@ https://boing.akamaized.net/6380392800112/eu-central-1/6284318116001/eyJhbGciOiJ
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="Bolajon.uz@SD" tvg-logo="https://i.imgur.com/s7o0ifu.png" tvg-name="Bolajon (576p)",Bolajon (576p)
 #EXTGRP:Dünya Kanalları / Çocuk
 https://stream8.cinerama.uz/1007/playlist.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="Boomerang.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" tvg-name="Boomerang (720p)",Boomerang (720p)
+#EXTGRP:Dünya Kanalları / Çocuk
+http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="BoxKidsTV.br@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/18/Boxkidstv.png" tvg-name="Box Kids TV (720p)",Box Kids TV (720p)
 #EXTGRP:Dünya Kanalları / Çocuk
 http://170.83.49.66:8083/BOXKIDSHD/index.m3u8
@@ -6116,6 +6188,9 @@ https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="CartoonNetwork.pk@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" tvg-name="Cartoon Network (Pakistan)",Cartoon Network (Pakistan)
 #EXTGRP:Dünya Kanalları / Çocuk
 https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="CartoonNetwork.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" tvg-name="Cartoon Network (United States) (720p) [Geo-blocked]",Cartoon Network (United States) (720p) [Geo-blocked]
+#EXTGRP:Dünya Kanalları / Çocuk
+http://212.5.144.156:8080/cartoon/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="CartoonNetworkArabic.ae@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_Arabic_logo.png/960px-Cartoon_Network_Arabic_logo.png" tvg-name="Cartoon Network Arabic",Cartoon Network Arabic
 #EXTGRP:Dünya Kanalları / Çocuk
 http://149.100.11.252:8000/play/a056/index.m3u8
@@ -6233,9 +6308,6 @@ http://15.204.246.24:8080/DisneyHD/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="DisneyChannelLatinAmerica.ar@Center" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" tvg-name="Disney Channel Latin America Center (1080p)",Disney Channel Latin America Center (1080p)
 #EXTGRP:Dünya Kanalları / Çocuk
 http://181.78.8.199:8000/play/a0dn/index.m3u8
-#EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="DisneyChannelLatinAmerica.ar@Mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" tvg-name="Disney Channel Latin America Mexico (720p)",Disney Channel Latin America Mexico (720p)
-#EXTGRP:Dünya Kanalları / Çocuk
-http://45.166.93.156:9999/play/a0f3/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="DisneyChannelLatinAmerica.ar@North" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" tvg-name="Disney Channel Latin America North (576p)",Disney Channel Latin America North (576p)
 #EXTGRP:Dünya Kanalları / Çocuk
 http://138.121.15.230:9002/DISNEY-CHANNEL/index.m3u8
@@ -6356,6 +6428,9 @@ https://foxkidstv.be:3369/stream/play.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" tvg-id="JimJam.hu@SD" tvg-logo="https://i.imgur.com/ODhkYyx.png" tvg-name="JimJam",JimJam
 #EXTGRP:Dünya Kanalları / Çocuk
 http://88.212.7.14/live/jim_jam_hun/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="JimJamEurope.uk@SD" tvg-logo="https://i.imgur.com/ODhkYyx.png" tvg-name="JimJam Europe (720p)",JimJam Europe (720p)
+#EXTGRP:Dünya Kanalları / Çocuk
+http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="KapitanFantastika.ru@SD" tvg-logo="https://i.imgur.com/K3PSHiT.png" tvg-name="Kapitan Fantastika (1080p)",Kapitan Fantastika (1080p)
 #EXTGRP:Dünya Kanalları / Çocuk
 http://stream.mcquack.net/144/index.m3u8
@@ -6461,6 +6536,9 @@ http://92.114.85.87:8013/play/a004/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="NickJr.ru@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" tvg-name="Nick Jr. (Russia) (576p)",Nick Jr. (Russia) (576p)
 #EXTGRP:Dünya Kanalları / Çocuk
 http://stream.mcquack.net/220/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="NickJr.us@East" tvg-logo="https://i.imgur.com/KT4tdQs.png" tvg-name="Nick Jr. (United States) (720p)",Nick Jr. (United States) (720p)
+#EXTGRP:Dünya Kanalları / Çocuk
+http://212.5.144.156:8080/nickjr/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="NickJrClub.de@DACH" tvg-logo="https://images.pluto.tv/channels/67f3eb1c443f0671bc03ece8/colorLogoPNG_1748329104247.png" tvg-name="Nick Jr. Club (Germany) (720p)",Nick Jr. Club (Germany) (720p)
 #EXTGRP:Dünya Kanalları / Çocuk
 https://jmp2.uk/plu-67f3eb1c443f0671bc03ece8.m3u8
@@ -6506,6 +6584,9 @@ http://92.114.85.87:8013/play/a005/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="Nickelodeon.ru@SD" tvg-logo="https://i.imgur.com/w8iE8dV.png" tvg-name="Nickelodeon (Russia) (576p)",Nickelodeon (Russia) (576p)
 #EXTGRP:Dünya Kanalları / Çocuk
 http://stream.mcquack.net/443/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="Nickelodeon.uk@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" tvg-name="Nickelodeon (United Kingdom) (576p)",Nickelodeon (United Kingdom) (576p)
+#EXTGRP:Dünya Kanalları / Çocuk
+http://tvsen7.aynascope.net/nicklodean/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="NickelodeonCIS.kz@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" tvg-name="Nickelodeon CIS (1080p)",Nickelodeon CIS (1080p)
 #EXTGRP:Dünya Kanalları / Çocuk
 https://stream8.cinerama.uz/1500/playlist.m3u8
@@ -6746,6 +6827,9 @@ https://jmp2.uk/plu-5d00e8adaab96b5635b2a005.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="SpongeBobSquarePants.us@CA" tvg-logo="https://images.pluto.tv/channels/63f87d057533d80008ab9549/colorLogoPNG.png" tvg-name="SpongeBob SquarePants (720p)",SpongeBob SquarePants (720p)
 #EXTGRP:Dünya Kanalları / Çocuk
 https://jmp2.uk/plu-63f87d057533d80008ab9549.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="StarzKidsFamily.us@East" tvg-logo="https://i.imgur.com/eE9FzEP.png" tvg-name="Starz Kids & Family (1080p)",Starz Kids & Family (1080p)
+#EXTGRP:Dünya Kanalları / Çocuk
+http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="SuperSimpleSongs.us@SD" tvg-logo="https://i.imgur.com/3k4F7O9.png" tvg-name="Super Simple Songs (1080p)",Super Simple Songs (1080p)
 #EXTGRP:Dünya Kanalları / Çocuk
 https://janson-supersimplesongs-1-us.roku.wurl.tv/playlist.m3u8
@@ -6782,6 +6866,9 @@ https://jmp2.uk/plu-62619405c733e8000732d1fe.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="TeenNick.pl@SD" tvg-logo="https://i.imgur.com/KZq73CE.png" tvg-name="TeenNick (Poland) (576i)",TeenNick (Poland) (576i)
 #EXTGRP:Dünya Kanalları / Çocuk
 http://92.114.85.87:8010/play/a009/index.m3u8
+#EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="TeenNick.us@East" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TeenNick_2019_logo.svg/960px-TeenNick_2019_logo.svg.png" tvg-name="TeenNick (United States) (432p)",TeenNick (United States) (432p)
+#EXTGRP:Dünya Kanalları / Çocuk
+http://tvsen7.aynascope.net/teennick/index.m3u8
 #EXTINF:-1 group-title="Dünya Kanalları / Çocuk" tvg-id="TeletoonPlus.pl@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/T%C3%A9l%C3%A9toon%2B_Logo.png/960px-T%C3%A9l%C3%A9toon%2B_Logo.png" tvg-name="Teletoon+ HD (1080i)",Teletoon+ HD (1080i)
 #EXTGRP:Dünya Kanalları / Çocuk
 http://92.114.85.87:8009/play/a006/index.m3u8
