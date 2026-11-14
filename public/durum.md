@@ -1,42 +1,42 @@
 # Güncel Kanal Durumu
 
 Güncelleme tarihi: **14 Kasım 2026**
-Son kontrol: **14.11.2026 09:20 (Türkiye saati)**
+Son kontrol: **14.11.2026 21:00 (Türkiye saati)**
 
-Doğrulanan benzersiz kanal: **2356**
-Favori Listem girdisi: **9**
-Playlist toplam girdisi: **2365**
-Çalışmayan veya bulunamayan kayıt: **774**
+Doğrulanan benzersiz kanal: **2367**
+Favori Listem girdisi: **8**
+Playlist toplam girdisi: **2375**
+Çalışmayan veya bulunamayan kayıt: **764**
 Filtrelenen premium/şüpheli kayıt: **103**
-Benzersiz yayın adresi: **2356**
+Benzersiz yayın adresi: **2367**
 
 ## Kategoriler
 
 | Kategori | Kanal |
 |---|---:|
 | Dini | 6 |
-| Dünya Kanalları / Belgesel | 161 |
-| Dünya Kanalları / Ekonomi | 55 |
+| Dünya Kanalları / Belgesel | 164 |
+| Dünya Kanalları / Ekonomi | 56 |
 | Dünya Kanalları / Eğitim | 12 |
 | Dünya Kanalları / Eğlence | 18 |
 | Dünya Kanalları / Film | 4 |
-| Dünya Kanalları / Genel | 20 |
+| Dünya Kanalları / Genel | 21 |
 | Dünya Kanalları / Haber | 745 |
 | Dünya Kanalları / Kültür | 20 |
-| Dünya Kanalları / Müzik | 563 |
+| Dünya Kanalları / Müzik | 559 |
 | Dünya Kanalları / Spor | 323 |
 | Dünya Kanalları / Yaşam | 2 |
-| Dünya Kanalları / Çocuk | 308 |
+| Dünya Kanalları / Çocuk | 316 |
 | Ekonomi | 2 |
 | Eğitim | 3 |
-| Eğlence | 4 |
-| Genel | 62 |
-| Haber | 20 |
+| Eğlence | 5 |
+| Genel | 61 |
+| Haber | 21 |
 | Kültür | 3 |
 | Müzik | 14 |
 | Spor | 5 |
 | Yaşam | 1 |
-| Çocuk | 5 |
+| Çocuk | 6 |
 
 Bu dosya GitHub Actions tarafından otomatik güncellenir.
 
@@ -54,7 +54,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - NOW TV
 - Star TV
 - Sözcü TV
-- Tele1
 - TRT 1
 - TV8
 
@@ -67,6 +66,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - AS TV (Turkiye) (900p)
 - CNN Turk (1080p)
 - Ekoturk (720p)
+- Finans Turk TV (720p)
 - Flash Haber TV
 - Haber Global (720p) [Not 24/7]
 - Haber61 TV (720p) [Not 24/7]
@@ -92,6 +92,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Minika Cocuk (720p)
 - Minika Go (720p)
 - Spacetoon Turkey (720p) [Not 24/7]
+- TRT Cocuk (1440p)
 - TRT Diyanet Cocuk (720p)
 
 ### Spor
@@ -145,6 +146,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - 4U TV (720p)
 - Edessa TV (1080p)
 - Kanal 7 Avrupa (720p) [Not 24/7]
+- NOW (720p)
 - Persiana Turkiye
 
 ### Yaşam
@@ -158,8 +160,8 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Alanya Posta TV (1080p)
 - Anadolu Net TV (1080p)
 - Aras TV (576p) [Not 24/7]
-- ATV (Turkiye) (1080p)
 - ATV Alanya (1080p)
+- Bir TV (720p)
 - Bric ve Satranc TV (480p) [Not 24/7]
 - BRTV (Turkiye) (720p) [Geo-blocked]
 - Deniz Postasi TV (720p) [Not 24/7]
@@ -196,7 +198,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Star TV (Turkiye) (720p)
 - Sun RTV (720p) [Not 24/7]
 - TBMM TV (720p)
-- Tele 1 (1080p)
 - Tempo TV (720p)
 - TGRT Belgesel (576p) [Not 24/7]
 - Tivi 6 (720p)
@@ -227,6 +228,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Animal Planet (United Kingdom)
 - Animal Planet (United States) (720p)
 - Animal Planet Latin America (1080p)
+- Animal Planet Latin America HD (720p) [Geo-blocked]
 - Archivos Forenses
 - Arsenal (576p)
 - Asharq Discovery (1080p)
@@ -269,9 +271,11 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - History (Czech Republic)
 - History (Hungary)
 - History (Poland) (576i)
+- History (United States) (720p)
 - History 2 Latin America (1080p)
 - History Asia (720p)
 - History Hit (1080p)
+- History Latin America (1080p)
 - History Latin America South
 - History TV18 HD (1080p) [Geo-blocked]
 - ID
@@ -281,6 +285,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Investigation Discovery (France)
 - Investigation Discovery (Hungary)
 - Investigation Discovery (Russia) (1080p)
+- Investigation Discovery (United States) (1080p) [Geo-blocked]
 - Investigation Discovery Latin America South
 - INWILD (1080p)
 - Italiana (1080p)
@@ -291,7 +296,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Love The Planet (1080p)
 - Lucky Dog (720p)
 - MagellanTV Now (1080p)
-- MRTV Farmer
 - MWD Documentary [Geo-blocked]
 - N24 Doku
 - Nano (576p)
@@ -416,6 +420,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - CNBC Asia HD (1080p)
 - CNBC Awaaz (1080p)
 - CNBC Bajar (1080p)
+- CNBC Indonesia
 - CNBC Mongolia (720p)
 - CNBC TV18 (1080p)
 - CNBC TV18 Prime HD (1080p)
@@ -423,13 +428,13 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - DeFiance Media (1080p)
 - EntrepreneurTV (720p)
 - Fox Business Network (576p)
-- JOB TV (1080p)
 - Le Nouveau Manager TV
 - MNTV
 - NDTV Profit (1080p)
 - Negocios TV (1080p)
 - News Capital Market (1080p)
 - ON Info TV (1080p)
+- Pro Business (720p)
 - RBK-TV (576p)
 - Schwab Network (1080p)
 - Telewizja Biznesowa (1080p)
@@ -486,6 +491,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Arirang TV (1080p)
 - Arirang TV HD (1080p)
 - Canal 33 Tijuana (720p)
+- CEACOM TV (1080p) [Not 24/7]
 - Dong Nai TV 1 (1080p)
 - FomixTV (1080p)
 - HTV9 (720p)
@@ -512,6 +518,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - 24 Kanal (720p)
 - 24 News (576p)
 - 24 News HD
+- 24/7 Canal de Noticias (360p)
 - 2GB (1080p)
 - 30A Lionel Nation
 - 360° News (1080p)
@@ -625,7 +632,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Asianet Suvarna News (720p)
 - Astra TV (1080p)
 - Astrahan 24 (720p)
-- Atacama Noticias (720p) [Not 24/7]
 - ATN Samachar (1080p)
 - ATV+ (1080p)
 - Awaaz India TV (720p) [Not 24/7]
@@ -696,7 +702,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Channel 5 (Ukraine) (1080p)
 - Channel 9 (Israel) (1080p)
 - Channel8 (720p)
-- Chardikla Gurbaani TV (1080p)
+- Chardikla Time TV (1080p)
 - Chardikla Time TV North America (1080p)
 - Cheddar News (1080p)
 - Chifeng Comprehensive News Chanel
@@ -714,7 +720,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - CNN (720p)
 - CNN Brasil (1080p)
 - CNN en Espanol (1080p)
-- CNN Indonesia
+- CNN HD (720p) [Geo-blocked]
 - CNN International (1080p)
 - CNN International Latin America (1080p)
 - CNN International North America (1080p)
@@ -807,7 +813,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - GloboNews (1080p)
 - Good News Today (1080p)
 - Govorit Moskva (720p)
-- GS TV (576p)
 - GTC News (1080p)
 - Guarantee News (1080p)
 - Guardian Talk Radio (1080p)
@@ -894,12 +899,13 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Lanzhou Comprehensive News Channel
 - Latina Noticias 24/7 (1080p)
 - Le Monde en 24h
-- Leman Bleu (1080p)
 - Lenca TV (720p) [Not 24/7]
+- Linieros TV (480p) [Not 24/7]
 - Lira TV
 - Live Times (720p)
 - LiveNOW from FOX (1080p)
 - Living India News (1080p)
+- LN24SA (1080p)
 - Lokshahi News (576p)
 - LRT Radijas (1080p)
 - M Nadu TV (576p)
@@ -936,13 +942,12 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Monaco Info (1080p)
 - Mongolian News Channel (1080p)
 - Moon TV (576p)
-- MRTV News
 - MS NOW (432p)
-- Multivision Federal
 - Munsif TV (1080p)
 - My-Ukraina TV (1080p)
 - Nachrichten 360 (1080p) [Geo-blocked]
 - Naftemporiki TV (1080p)
+- NAN TV (720p)
 - Nanduti (1080p)
 - Nation News (720p)
 - Nation TV (576p)
@@ -990,14 +995,12 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - News1 (576p)
 - News12 Bronx (1080p) [Geo-blocked]
 - News12 Brooklyn (720p) [Geo-blocked]
-- News12 Conneticut [Geo-blocked]
 - News12 Hudson Valley (1080p) [Geo-blocked]
 - News12 Long Island (1080p) [Geo-blocked]
 - News12 New Jersey (1080p) [Geo-blocked]
-- News12 Westchester (1080p) [Geo-blocked]
-- News12+ Connecticut (1080p) [Geo-blocked]
 - News12+ Hudson Valley (1080p) [Geo-blocked]
 - News12+ Long Island (1080p) [Geo-blocked]
+- News12+ New York (1080p) [Geo-blocked]
 - News18 Assam North-East (1080p)
 - News18 Bangla (1080p)
 - News18 Bihar Jharkhand (1080p)
@@ -1074,6 +1077,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - PSM News
 - PSN Canal 45.2 (288p)
 - PTC News (576p)
+- PTV (Ukraine) (720p)
 - Public TV (720p)
 - Pudhari News (576p)
 - Puranoticia TV (720p)
@@ -1081,7 +1085,9 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Puthiya Thalaimurai Express (720p)
 - Qosqo Times (720p)
 - Quantica TV
+- Raatdin Bangla (720p)
 - Radio Ancon (720p)
+- Radio Uno Tacna (720p)
 - Rai News 24 HD (1080p)
 - Raj News Kannada (576p)
 - Raj News Malayalam (576p)
@@ -1103,6 +1109,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Rozana Spokesman (1080p)
 - RPP TV (1080p)
 - RSelvaTV (720p)
+- RT (720p)
 - RT Arabic (1080p) [Geo-blocked]
 - RT Balkan (1080p)
 - RT DE (1080p) [Not 24/7]
@@ -1186,11 +1193,11 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Turno (720p)
 - TV A Folha (720p)
 - TV Arta (720p)
-- TV Brusque (720p)
 - TV Jadran (720p) [Not 24/7]
 - TV Peru Noticias (1080p)
 - TV Punjab (720p) [Geo-blocked]
 - TV Sim Cachoeiro (720p)
+- TV Sim Sao Mateus (720p)
 - TV13 Gujarati (480p)
 - TV27 News (1080p)
 - TV30 India (1080p)
@@ -1221,7 +1228,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Velicham TV (576p)
 - Vesti FM (720p)
 - Visir (1080p)
-- Vistaar News (1080p)
 - VIVE TV (1080p)
 - VNP
 - VoA TV (1080p)
@@ -1308,7 +1314,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Aghani Aghani TV (1080p)
 - AlbKanale Music TV HD (1080p)
 - Alcance FM PLAY TV
-- Allegro HD (1080p)
 - Antenne Kaernten (720p)
 - Antenne Steiermark (720p)
 - Arabica TV (720p)
@@ -1345,7 +1350,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - CCTV-15 (720p)
 - CCTV-Storm Music (1080p)
 - Chamame TV
-- Chocolate FM (720p)
 - City Eden Birma Play [Not 24/7]
 - City Eden Classic Music [Not 24/7]
 - City Eden Play [Not 24/7]
@@ -1374,7 +1378,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - DanceTV Techno Warehouse (1080p)
 - DASDING 90.8 (720p)
 - DBM TV (1080p)
-- Deluxe Dance (1080p)
 - Deluxe Lounge (720p)
 - Deluxe Music (720p)
 - Deluxe Rap (1080p)
@@ -1382,7 +1385,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Dhool TV (576p)
 - Dhoom Music (720p)
 - Disco Polo Music (1080p)
-- Dismar Radio TV (720p)
 - DM Sat (576p)
 - DMF (1080p) [Not 24/7]
 - DSTV (Bulgaria) (614p) [Not 24/7]
@@ -1420,6 +1422,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Fuego TV [Not 24/7]
 - Fun Vision
 - FUSION TV (1080p)
+- Galactica TV
 - Genial TV (720p)
 - Gigant FM (720p)
 - Gugak TV (1080p)
@@ -1458,7 +1461,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Jordan Songs (1080p)
 - JRTV Jarviradio (720p)
 - Kalika TV (576p)
-- KandelaTV (480p)
 - Karibena (720p)
 - Kayhan TV (720p)
 - Kiss Kiss Napoli TV (720p)
@@ -1477,7 +1479,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - La-X (720p)
 - Lamore Rock Show WebTV (720p)
 - Lausitzwelle (1080p)
-- Lingkar TV
 - LiraTV (720p)
 - Live Music Channel HD (1080p)
 - Live99FM (1080p)
@@ -1512,6 +1513,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Messatida TV (720p)
 - Metaleitor TV
 - Metropoli Medios TV (720p)
+- Metropolitana del Cuzco
 - Mezzo
 - Mezzo Live (1080p)
 - mfm (1080p)
@@ -1558,6 +1560,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Muzyka Kino [Not 24/7]
 - Muzyka Live (576p)
 - Muzyka Pervogo (576p)
+- Nande Portetepe TV
 - NASHE Music (720p)
 - Navahang TV (720p)
 - NEW K-POP (1080p)
@@ -1613,6 +1616,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Punjabi Music HD (720p)
 - Qello Concerts by Stingray (1080p)
 - Qmusic (720p)
+- Quiero Musica en mi Idioma (1080p)
 - Qwest TV (1080p)
 - Qwest TV Jazz & Beyond (1080p)
 - Rabeh Saqer (1080p)
@@ -1641,7 +1645,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Radio Pudahuel (720p)
 - Radio Realpolitik (720p)
 - Radio Romania 3Net (480p)
-- Radio Romania Antena Satelor (720p) [Not 24/7]
 - Radio Rumba TV (720p)
 - Radio San Cristobal 88.7 FM
 - Radio SWH TV (1080p)
@@ -1761,7 +1764,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - TMA (1080p)
 - TMF (1080p)
 - Today Radio (720p)
-- Top Latino TV
 - TopEstrada TV (720p)
 - Topical Moon RD (720p) [Not 24/7]
 - Totalmusic (1080p)
@@ -1977,6 +1979,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Golf + (1080p) [Geo-blocked]
 - Golf Channel (Czech Republic)
 - Golf Channel (United States) (576p)
+- Golf Channel Latin America (1080p)
 - HBCU-GO Sports (720p)
 - Horse TV (720p)
 - HTV Sports (1080i)
@@ -1984,14 +1987,12 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - InTrouble (1080p)
 - IRIB 3
 - Jordan Sport (1080p) [Geo-blocked]
-- Kabaddi 24x7 (720p)
 - Kozoom TV (1080p)
 - KTV Sport (1080p)
 - KTV Sport Plus (1080p)
 - L'Equipe (1080p)
 - L1 Max (1080p)
 - Lacrosse TV (720p)
-- Lazio Style Channel HD (720p)
 - M Sports (1080p)
 - M-Net Sport (720p)
 - M4 Sport (1080p)
@@ -2015,7 +2016,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Monster Jam (720p)
 - Monterrico TV
 - More Than Sports TV (1080p)
-- MRTV Sports [Not 24/7]
 - MUTV (720p)
 - Nautical Channel (720p)
 - NBA TV (720p)
@@ -2075,6 +2075,8 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Setanta Sports 1 Eurasia (1080p)
 - Setanta Sports 2 Eurasia (1080p)
 - Setanta Sports 3 (1080p)
+- Setanta Sports+ Georgia (1080p)
+- Sky Racing 1 (720p)
 - Sky Sport 1
 - Sky Sport 2
 - Sky Sport 3
@@ -2194,8 +2196,8 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Baby Shark TV (1080p)
 - Baby Time (576p)
 - BabyFirst (720p)
-- BabyFirst Spanish (1080p)
 - Balapan HD (1080p)
+- Balapan International (1080p)
 - BeJoy.kids (1080p)
 - Bob Esponja (720p)
 - Bob Esponja Calca Quadrada (720p)
@@ -2217,6 +2219,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Cartoon Network (Italy)
 - Cartoon Network (Pakistan)
 - Cartoon Network (United States) [Not 24/7;Geo-blocked]
+- Cartoon Network (United States) West (1080p) [Geo-blocked]
 - Cartoon Network Arabic
 - Cartoon Network Asia (720p)
 - Cartoon Network Asia Thailand
@@ -2225,6 +2228,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Cartoon Network CEE Czech Republic
 - Cartoon Network CEE Poland
 - Cartoon Network CEE Ukraine (576p)
+- Cartoon Network Latin America Brazil (720p) [Geo-blocked]
 - Cartoon Network Latin America North Atlantic (1080p)
 - Cartoon Network Latin America South Atlantic (1080p)
 - Cartoon Network Latin America South Pacific (576p)
@@ -2250,6 +2254,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Detskiy (576p)
 - Dios Te Ve Kids (720p)
 - Discovery Kids Latin America (1080p)
+- Discovery Kids Latin America Brazil (720p) [Geo-blocked]
 - Discovery Kids Latin America Chile (1080p)
 - Discovery Kids Latin America Colombia (1080p)
 - Disney Channel (Bulgaria) (576i)
@@ -2258,6 +2263,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Disney Channel (Hungary)
 - Disney Channel (Poland) HD (1080p)
 - Disney Channel (United States) (720p)
+- Disney Channel Latin America (1080p)
 - Disney Channel Latin America Center (1080p)
 - Disney Channel Latin America Mexico (720p)
 - Disney Channel Latin America North (576p)
@@ -2275,7 +2281,6 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - EKids (576p)
 - Epic Kids Digital (1080p)
 - Extrema Kids TV (1080p) [Not 24/7]
-- FMH Kids (720p)
 - Forever Kids
 - FunBox
 - Garfield and Friends
@@ -2296,12 +2301,13 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Inazuma Eleven
 - IRIB Omid
 - Iunior TV (1080p)
+- JapanimTV (1080p)
 - JimJam
+- JimJam Europe (720p)
 - Kapitan Fantastika (1080p)
 - Kartoon Channel! (1080p)
 - Kidoodle.TV (1080p)
 - Kids Movie Club
-- Kids TV
 - KidsFlix (1080p) [Not 24/7]
 - KiKA (1080p) [Not 24/7]
 - KiKA HD
@@ -2328,11 +2334,13 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Mr Bean Animated IT (1080p)
 - Mr Bean Live Action (1080p)
 - Mult i muzyka (576p)
+- Nick Jr. (Croatia) (576p)
 - Nick Jr. (Czech Republic)
 - Nick Jr. (Hungary)
 - Nick Jr. (Italy) (720p)
 - Nick Jr. (Poland) (576i)
 - Nick Jr. (Russia) (576p)
+- Nick Jr. (United States) (720p)
 - Nick Jr. Asia
 - Nick Jr. Club (Germany) (720p)
 - Nick Jr. Club (United States) BR (720p)
@@ -2343,6 +2351,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - Nick/Comedy Central +1
 - Nickelodeon (Brazil) (480p)
 - Nickelodeon (Bulgaria)
+- Nickelodeon (Croatia) (720p)
 - Nickelodeon (Czech Republic)
 - Nickelodeon (Germany)
 - Nickelodeon (Hungary)
@@ -2441,6 +2450,7 @@ Aşağıdaki liste son doğrulamada çalışan kanalları kategori bazında gös
 - SvampBob Fyrkant (720p)
 - SvampeBob Firkant (720p)
 - SvampeBob Firkant NO (720p)
+- Taha TV (576p)
 - Tamyr (576p)
 - Teenage Mutant Ninja Turtles (720p)
 - Teletoon+ HD (1080i)
