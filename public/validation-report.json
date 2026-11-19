@@ -956,16 +956,16 @@
     "channel": "ATV (Turkiye) (1080p)",
     "category": "Genel",
     "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8",
-    "ok": false,
-    "status": "GET ReadTimeout"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
     "channel": "ATV Alanya (1080p)",
     "category": "Genel",
     "url": "https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1092,8 +1092,8 @@
     "channel": "DHA (720p) [Not 24/7]",
     "category": "Haber",
     "url": "https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8",
-    "ok": false,
-    "status": "GET ReadTimeout"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1317,7 +1317,7 @@
     "category": "Genel",
     "url": "https://59cba4d34b678.streamlock.net/canlitv/hunattv/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1837,7 +1837,7 @@
     "category": "Genel",
     "url": "https://tele1-live.ercdn.net/tele1/tele1.m3u8",
     "ok": true,
-    "status": "GET 200"
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1908,8 +1908,8 @@
     "channel": "TRT 1 (1440p)",
     "category": "Genel",
     "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -1988,8 +1988,8 @@
     "channel": "TRT Genc (1440p) [Geo-blocked]",
     "category": "Kültür",
     "url": "https://tv-trtgenc.medya.trt.com.tr/master.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org Turkey public channels",
@@ -2228,8 +2228,8 @@
     "channel": "4Dmas Noticias TV (1080p) [Not 24/7]",
     "category": "Dünya Kanalları / Haber",
     "url": "https://rds3.desdeparaguay.net/4dmasnoticiastv/4dmasnoticiastv/playlist.m3u8",
-    "ok": false,
-    "status": "GET ReadTimeout"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -2372,8 +2372,8 @@
     "channel": "24 News HD",
     "category": "Dünya Kanalları / Haber",
     "url": "https://cdn4.mjunoon.tv:8087/streamtest/146M/chunks.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -2484,8 +2484,8 @@
     "channel": "Aagaaz Times (1080p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://live1.ottlive.co.in/aagaaztimes/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -2501,7 +2501,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "http://115.42.65.142:9981/stream/channelid/750987367",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET 400"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -2533,7 +2533,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "http://115.42.65.142:9981/stream/channelid/852828604",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET 400"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -2653,7 +2653,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "http://115.42.65.142:9981/stream/channelid/966869781",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET 400"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -2972,8 +2972,8 @@
     "channel": "Al Jazeera English HD (576p)",
     "category": "Dünya Kanalları / Haber",
     "url": "http://stream.mcquack.net/131/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -3020,8 +3020,8 @@
     "channel": "Al Masirah (720p) [Not 24/7]",
     "category": "Dünya Kanalları / Haber",
     "url": "https://live.cdnbridge.tv/Almasirah/Almasirah_all/playlist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -3476,8 +3476,8 @@
     "channel": "Baku.TV",
     "category": "Dünya Kanalları / Haber",
     "url": "https://rtmp.baku.tv/hls/bakutv.m3u8",
-    "ok": false,
-    "status": "GET 403"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -3548,8 +3548,8 @@
     "channel": "BBC News North America (1080p)",
     "category": "Dünya Kanalları / Haber",
     "url": "http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -3908,8 +3908,8 @@
     "channel": "BX Inform (1080p)",
     "category": "Dünya Kanalları / Genel",
     "url": "https://reflect-stream-bronxnet.cablecast.tv/live-8/live/stream-4/live.m3u8",
-    "ok": false,
-    "status": "GET 403"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -3997,7 +3997,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://live20.bozztv.com/akamaissh101/ssh101/pyctelevision/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -4012,16 +4012,16 @@
     "channel": "Canal TDC",
     "category": "Dünya Kanalları / Haber",
     "url": "https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8",
-    "ok": false,
-    "status": "GET ConnectTimeout"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
     "channel": "Capital TV",
     "category": "Dünya Kanalları / Haber",
     "url": "https://cdn4.mjunoon.tv:8087/streamtest/111M/chunks.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -4204,8 +4204,8 @@
     "channel": "CEACOM TV (1080p) [Not 24/7]",
     "category": "Dünya Kanalları / Genel",
     "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -4252,8 +4252,8 @@
     "channel": "Channel 5 (Ukraine) (1080p)",
     "category": "Dünya Kanalları / Haber",
     "url": "http://stream.mcquack.net/291/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -4293,7 +4293,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://live20.bozztv.com/dvrfl06/astv/astv-channel24africa/index.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -4508,8 +4508,8 @@
     "channel": "CNN HD (720p) [Geo-blocked]",
     "category": "Dünya Kanalları / Haber",
     "url": "http://212.5.144.156:8080/cnn/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -4532,8 +4532,8 @@
     "channel": "CNN Indonesia",
     "category": "Dünya Kanalları / Haber",
     "url": "https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8",
-    "ok": false,
-    "status": "GET ReadTimeout"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -5492,8 +5492,8 @@
     "channel": "Globe TV (720p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://mumbai-edge.smartplaytv.in/GlobeTV/index.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -5693,7 +5693,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://cdnlive.presstv.ir/live/smil:live.smil/playlist.m3u8",
     "ok": false,
-    "status": "GET SSLError"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -6013,7 +6013,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://edge-rs-01.maksnet.tv/informertv-secure/web/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -6220,8 +6220,8 @@
     "channel": "Kashish News (720p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -6316,8 +6316,8 @@
     "channel": "KTN News (360p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://vodzong.mjunoon.tv:8087/streamtest/KTNNews-151/playlist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -6492,8 +6492,8 @@
     "channel": "Lingkar TV",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://lingkartv.my.id/hls/lingkartv.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -6652,8 +6652,8 @@
     "channel": "Makan 33 (1080p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -6725,7 +6725,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://media.streambrothers.com:19360/8036/8036.m3u8",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -6940,8 +6940,8 @@
     "channel": "MRTV News",
     "category": "Dünya Kanalları / Haber",
     "url": "https://mrtvott.com/cache/MRTV-NEWS-HD/master.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -6980,8 +6980,8 @@
     "channel": "My-Ukraina TV (1080p)",
     "category": "Dünya Kanalları / Haber",
     "url": "http://stream.mcquack.net/442/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -7020,8 +7020,8 @@
     "channel": "NAN TV (720p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -7196,16 +7196,16 @@
     "channel": "News12+ Connecticut (1080p) [Geo-blocked]",
     "category": "Dünya Kanalları / Haber",
     "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_CT_A1/index_new.m3u8",
-    "ok": true,
-    "status": "GET 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public news channels worldwide",
     "channel": "News12+ Hudson Valley (1080p) [Geo-blocked]",
     "category": "Dünya Kanalları / Haber",
     "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_WC_A1/index_new.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -7220,8 +7220,8 @@
     "channel": "News12+ New Jersey (1080p) [Geo-blocked]",
     "category": "Dünya Kanalları / Haber",
     "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NJ_A1/index_new.m3u8",
-    "ok": true,
-    "status": "GET 200"
+    "ok": false,
+    "status": "GET 408"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -7237,15 +7237,15 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12XH_A1/index_new.m3u8?omap=https",
     "ok": false,
-    "status": "GET 400"
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public news channels worldwide",
     "channel": "News12 Brooklyn (720p) [Geo-blocked]",
     "category": "Dünya Kanalları / Haber",
     "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8?omap=https",
-    "ok": true,
-    "status": "GET 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -7253,23 +7253,23 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12CH_FFLD_MILF_A1/index_new.m3u8?omap=https",
     "ok": false,
-    "status": "GET ReadTimeout"
+    "status": "GET 408"
   },
   {
     "source": "IPTV-org public news channels worldwide",
     "channel": "News12 Hudson Valley (1080p) [Geo-blocked]",
     "category": "Dünya Kanalları / Haber",
     "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12HH_A1/index_new.m3u8?omap=https",
-    "ok": true,
-    "status": "GET 200"
+    "ok": false,
+    "status": "GET 408"
   },
   {
     "source": "IPTV-org public news channels worldwide",
     "channel": "News12 Long Island (1080p) [Geo-blocked]",
     "category": "Dünya Kanalları / Haber",
     "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8?omap=https",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -7277,7 +7277,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12JH_CENT_A1/index_new.m3u8?omap=https",
     "ok": false,
-    "status": "GET 400"
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -7612,8 +7612,8 @@
     "channel": "News One (720p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://vodzong.mjunoon.tv:8087/streamtest/NEWS1-128/playlist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -7812,8 +7812,8 @@
     "channel": "Norte Informativo TV (240p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://videohd.live:19360/8076/8076.m3u8",
-    "ok": false,
-    "status": "GET 403"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -7989,7 +7989,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://live20.bozztv.com/dvrfl05/gin-obieqtivitv/index.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -8116,8 +8116,8 @@
     "channel": "Ost West 24 (1080p)",
     "category": "Dünya Kanalları / Kültür",
     "url": "http://stream.mcquack.net/455/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -8157,7 +8157,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://live20.bozztv.com/giatv/giatv-pmtv/pmtv/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -8365,7 +8365,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8",
     "ok": false,
-    "status": "GET SSLError"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -8380,8 +8380,8 @@
     "channel": "Prime9 News (1080p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -8596,8 +8596,8 @@
     "channel": "Radio Uno Tacna (720p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://live-evg7.tv360.bitel.com.pe/bitel/radiounotv/playlist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -8828,8 +8828,8 @@
     "channel": "RT (720p)",
     "category": "Dünya Kanalları / Haber",
     "url": "http://212.5.144.156:8080/rt/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -9461,7 +9461,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "http://45.232.210.1:8029/play/a00s/index.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET ConnectTimeout"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -9781,7 +9781,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "http://181.114.57.246:4000/play/9w2G3HTtuTmrtgPZ/index.m3u8",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -9797,7 +9797,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://stream.joytvindia.com/stream/hls/ttn24/index.m3u8",
     "ok": true,
-    "status": "GET 200"
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -9949,7 +9949,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8",
     "ok": true,
-    "status": "GET 200"
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -10012,8 +10012,8 @@
     "channel": "TV Sim Cachoeiro (720p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -10132,8 +10132,8 @@
     "channel": "UNews (1080p)",
     "category": "Dünya Kanalları / Haber",
     "url": "https://cdn.catiacast.video/abr/9436b5ab3c1171ab04a59af11951292f/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public news channels worldwide",
@@ -10517,7 +10517,7 @@
     "category": "Dünya Kanalları / Haber",
     "url": "https://live.zoomnews.info/live/Zoom_playlist.m3u8",
     "ok": false,
-    "status": "GET 523"
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -10605,7 +10605,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "https://live20.bozztv.com/dvrfl05/gin-adjara/index.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -10613,7 +10613,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3645291205",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -10621,7 +10621,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2665922581",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -10629,7 +10629,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2743527845",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -10821,7 +10821,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "https://live20.bozztv.com/dvrfl06/astv/astv-barca/index.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -10845,7 +10845,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://178.124.179.122:8080/BT5/index.m3u8",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET 400"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -11197,7 +11197,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3174529991",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -11205,7 +11205,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=867728420",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -11213,7 +11213,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4279401658",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -11221,15 +11221,15 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=4124538275",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
     "channel": "DiviSport (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/457/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -11268,8 +11268,8 @@
     "channel": "Dynamo Kyiv TV (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/396/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -11316,8 +11316,8 @@
     "channel": "Equalympic (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/485/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -11548,8 +11548,8 @@
     "channel": "ESPN Premium HD (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://158.172.155.130:8000/play/a0ao/index.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -11781,7 +11781,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=512159637",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -11805,7 +11805,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2896573317",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -12188,8 +12188,8 @@
     "channel": "Go3 Sport 1 (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/416/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -12261,7 +12261,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "https://dethich.pw/htvthethao/index.m3u8",
     "ok": true,
-    "status": "GET 200"
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -12396,8 +12396,8 @@
     "channel": "Lazio Style Channel HD (720p)",
     "category": "Dünya Kanalları / Spor",
     "url": "https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -12412,8 +12412,8 @@
     "channel": "LRT Plius (1080p)",
     "category": "Dünya Kanalları / Kültür",
     "url": "http://stream.mcquack.net/353/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -12452,16 +12452,16 @@
     "channel": "Maincast Cybersport (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/487/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
     "channel": "Maincast Sport (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/490/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -12492,8 +12492,8 @@
     "channel": "Match! Boets (576p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/112/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -12605,7 +12605,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
     "ok": false,
-    "status": "GET ReadTimeout"
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -12644,8 +12644,8 @@
     "channel": "Monterrico TV",
     "category": "Dünya Kanalları / Spor",
     "url": "https://h.jcp.live.opencaster.com/play_src/index.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -12668,8 +12668,8 @@
     "channel": "MRTV Sports [Not 24/7]",
     "category": "Dünya Kanalları / Spor",
     "url": "https://mrtvott.com/cache/MRTV-SPORT/master.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -12781,7 +12781,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://178.124.179.122:8080/Setanta1/index.m3u8",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET 400"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -13077,7 +13077,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3381201599",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -13085,7 +13085,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2762629881",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -13093,7 +13093,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3194919143",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -13197,7 +13197,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=843891896",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -13340,16 +13340,16 @@
     "channel": "Setanta Sports 1 Eurasia (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/234/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
     "channel": "Setanta Sports 2 Eurasia (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/235/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -13597,7 +13597,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -13660,16 +13660,16 @@
     "channel": "Sport 1 (Ukraine) (576p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/391/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
     "channel": "Sport 1 Baltic (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/461/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -13708,32 +13708,32 @@
     "channel": "Sport 2 (Ukraine) (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/392/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
     "channel": "Sport 3 (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/393/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
     "channel": "Sport 4 (576p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/394/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
     "channel": "Sport 5 (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/212/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -13821,7 +13821,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:silive24.smil/playlist.m3u8",
     "ok": false,
-    "status": "GET SSLError"
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -13837,7 +13837,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
     "ok": false,
-    "status": "GET SSLError"
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -13956,16 +13956,16 @@
     "channel": "SuperTennis",
     "category": "Dünya Kanalları / Spor",
     "url": "http://57.128.225.206/stream/7/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
     "channel": "Suspilne. Sport (1080p)",
     "category": "Dünya Kanalları / Spor",
     "url": "http://stream.mcquack.net/444/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -14085,7 +14085,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "https://live20.bozztv.com/akamaissh101/ssh101/livetigocr/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -14293,7 +14293,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "http://202.150.172.59/TVRISport/index.m3u8",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -14325,7 +14325,7 @@
     "category": "Dünya Kanalları / Spor",
     "url": "https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8",
     "ok": true,
-    "status": "HEAD 200"
+    "status": "GET 200"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -14388,8 +14388,8 @@
     "channel": "Vinh Long TV 4 (720p)",
     "category": "Dünya Kanalları / Kültür",
     "url": "https://dethich.pw/thvl4/index.m3u8",
-    "ok": true,
-    "status": "GET 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -14428,8 +14428,8 @@
     "channel": "VTV6 (720p)",
     "category": "Dünya Kanalları / Spor",
     "url": "https://dethich.pw/vtv6/index.m3u8",
-    "ok": true,
-    "status": "GET 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public sports channels worldwide",
@@ -14852,8 +14852,8 @@
     "channel": "Boing (Spain) (1080p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://90.170.214.40:9700/stream/avatel/boing/master.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -14885,7 +14885,7 @@
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://sultanios.alwaysdata.net/vavo.php?ID=2705627802",
     "ok": false,
-    "status": "GET 404"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -14900,8 +14900,8 @@
     "channel": "Boomerang (United States) (720p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -14949,7 +14949,7 @@
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://179.1.196.222:9000/play/a02y/index.m3u8",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -15012,8 +15012,8 @@
     "channel": "Cartoon Network (Pakistan)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -15028,8 +15028,8 @@
     "channel": "Cartoon Network (United States) West (1080p) [Geo-blocked]",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://212.5.144.156:8080/cartoon/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -15420,8 +15420,8 @@
     "channel": "Discovery Kids Latin America Colombia (1080p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://38.134.250.110:8000/play/a003/index.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -15589,7 +15589,7 @@
     "category": "Dünya Kanalları / Çocuk",
     "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -15876,8 +15876,8 @@
     "channel": "Hop! (1080p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/44/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -15964,8 +15964,8 @@
     "channel": "JimJam Europe (720p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://212.5.144.156:8080/jimjam/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -15980,8 +15980,8 @@
     "channel": "Kapitan Fantastika (1080p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/144/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16028,8 +16028,8 @@
     "channel": "Kids TV",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://origin5.mediacdn.ru/live/kidstv/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 503"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16076,8 +16076,8 @@
     "channel": "KinoKazka (1080p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/167/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16148,8 +16148,8 @@
     "channel": "Logos TV Kids (720p) [Not 24/7]",
     "category": "Dünya Kanalları / Çocuk",
     "url": "https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8",
-    "ok": false,
-    "status": "GET ReadTimeout"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16300,8 +16300,8 @@
     "channel": "Mult i muzyka (576p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/82/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16325,7 +16325,7 @@
     "category": "Dünya Kanalları / Eğitim",
     "url": "https://reflect-npa.cablecast.tv/live-9/live/live.m3u8",
     "ok": false,
-    "status": "GET 403"
+    "status": "GET 502"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16388,16 +16388,16 @@
     "channel": "Nick Jr. (Russia) (576p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/220/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
     "channel": "Nick Jr. (United States) (720p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://212.5.144.156:8080/nickjr/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16557,7 +16557,7 @@
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://185.77.12.179:9981/stream/channelid/788918401?profile=pass",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16572,16 +16572,16 @@
     "channel": "Nickelodeon (Russia) (576p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/443/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
     "channel": "Nickelodeon (Spain) HD (1080p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://90.170.214.40:9700/stream/avatel/nickelodeonhd/master.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16597,7 +16597,7 @@
     "category": "Dünya Kanalları / Çocuk",
     "url": "https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16812,16 +16812,16 @@
     "channel": "Niki Junior (1080p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/262/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
     "channel": "Niki Kids (1080p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/271/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16852,8 +16852,8 @@
     "channel": "O! (576p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/60/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -16996,8 +16996,8 @@
     "channel": "Pixel TV (1080p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/323/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -17012,8 +17012,8 @@
     "channel": "PLUSPLUS (1080p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/339/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -17397,7 +17397,7 @@
     "category": "Dünya Kanalları / Çocuk",
     "url": "https://live20.bozztv.com/giatvplayout7/giatv-210780/index.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -17580,8 +17580,8 @@
     "channel": "Taha TV (576p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -17948,8 +17948,8 @@
     "channel": "VTV (Indonesia) HD (1080p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://202.150.172.59/VTVHD/index.m3u8",
-    "ok": false,
-    "status": "GET ConnectTimeout"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -18020,8 +18020,8 @@
     "channel": "Zoom (Israel) (576p)",
     "category": "Dünya Kanalları / Çocuk",
     "url": "http://stream.mcquack.net/377/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public kids channels worldwide",
@@ -18036,8 +18036,8 @@
     "channel": "365 days TV (576p)",
     "category": "Dünya Kanalları / Belgesel",
     "url": "http://stream.mcquack.net/70/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
@@ -18068,16 +18068,16 @@
     "channel": "American Heroes Channel (720p)",
     "category": "Dünya Kanalları / Belgesel",
     "url": "http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
     "channel": "Animal Planet (Russia) (1080p)",
     "category": "Dünya Kanalları / Belgesel",
     "url": "http://stream.mcquack.net/114/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
@@ -18092,8 +18092,8 @@
     "channel": "Animal Planet (United States) (720p)",
     "category": "Dünya Kanalları / Belgesel",
     "url": "http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
@@ -18236,8 +18236,8 @@
     "channel": "Chemodan TV (1080p)",
     "category": "Dünya Kanalları / Belgesel",
     "url": "http://stream.mcquack.net/399/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
@@ -18252,8 +18252,8 @@
     "channel": "City Eden KinoDok [Not 24/7]",
     "category": "Dünya Kanalları / Belgesel",
     "url": "https://cityeden.catcast.tv/content/38354/index.m3u8",
-    "ok": false,
-    "status": "GET ConnectTimeout"
+    "ok": true,
+    "status": "GET 200"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
@@ -18612,8 +18612,8 @@
     "channel": "History (United States) (720p)",
     "category": "Dünya Kanalları / Belgesel",
     "url": "http://212.5.144.156:8080/history/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
@@ -18732,16 +18732,16 @@
     "channel": "Investigation Discovery (Russia) (1080p)",
     "category": "Dünya Kanalları / Belgesel",
     "url": "http://stream.mcquack.net/205/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
     "channel": "Investigation Discovery (United States) (1080p) [Geo-blocked]",
     "category": "Dünya Kanalları / Belgesel",
     "url": "http://212.5.144.156:8080/id/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
@@ -18868,8 +18868,8 @@
     "channel": "MRTV Farmer",
     "category": "Dünya Kanalları / Belgesel",
     "url": "https://mrtvott.com/cache/MRTV-FARMER/master.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
@@ -18892,8 +18892,8 @@
     "channel": "Nano (576p)",
     "category": "Dünya Kanalları / Belgesel",
     "url": "http://stream.mcquack.net/419/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
@@ -19604,8 +19604,8 @@
     "channel": "viju+ Planet HD (1080p)",
     "category": "Dünya Kanalları / Belgesel",
     "url": "http://stream.mcquack.net/240/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public documentary channels worldwide",
@@ -19660,8 +19660,8 @@
     "channel": "4ever Music (1080p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/257/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -19828,8 +19828,8 @@
     "channel": "¡Viva Latino! (1080p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/285/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -20204,8 +20204,8 @@
     "channel": "Black (1080p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/283/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -20284,8 +20284,8 @@
     "channel": "BRIDGE Deluxe HD (576p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/92/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -20341,7 +20341,7 @@
     "category": "Dünya Kanalları / Müzik",
     "url": "https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -20444,8 +20444,8 @@
     "channel": "Classic Music (1080p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/312/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -20492,8 +20492,8 @@
     "channel": "CMT (720p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://23.237.104.106:8080/USA_CMT/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -20677,7 +20677,7 @@
     "category": "Dünya Kanalları / Müzik",
     "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/index.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -20772,8 +20772,8 @@
     "channel": "Dismar Radio TV (720p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://rds3.desdeparaguay.net/dismartv/dismartv/playlist.m3u8",
-    "ok": false,
-    "status": "GET ReadTimeout"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -20844,8 +20844,8 @@
     "channel": "Ellinikos FM (720p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -20924,8 +20924,8 @@
     "channel": "EU Music (1080p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/261/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -20972,8 +20972,8 @@
     "channel": "Falastini TV (1080p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21012,8 +21012,8 @@
     "channel": "Finest TV (288p) [Not 24/7]",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://media.finest.tv/hls/live.m3u8",
-    "ok": false,
-    "status": "GET ConnectTimeout"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21037,7 +21037,7 @@
     "category": "Dünya Kanalları / Müzik",
     "url": "https://live20.bozztv.com/akamaissh101/ssh101/fsradiotv/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21213,7 +21213,7 @@
     "category": "Dünya Kanalları / Eğlence",
     "url": "https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21236,8 +21236,8 @@
     "channel": "GO TV (720p)",
     "category": "Dünya Kanalları / Eğlence",
     "url": "https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21357,7 +21357,7 @@
     "category": "Dünya Kanalları / Müzik",
     "url": "https://customer-yzxu6n447dx2x45h.cloudflarestream.com/f255a1e5ef17a8277e15e5f409951e98/manifest/video.m3u8",
     "ok": true,
-    "status": "HEAD 204"
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21452,8 +21452,8 @@
     "channel": "InRating TV (1080p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/147/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21596,8 +21596,8 @@
     "channel": "KandelaTV (480p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21661,7 +21661,7 @@
     "category": "Dünya Kanalları / Müzik",
     "url": "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET SSLError"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21725,7 +21725,7 @@
     "category": "Dünya Kanalları / Müzik",
     "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
     "ok": false,
-    "status": "GET 403"
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21836,8 +21836,8 @@
     "channel": "LiraTV (720p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21884,8 +21884,8 @@
     "channel": "Look Thoong TV (720p) [Not 24/7]",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://livefta.malimarcdn.com/ftaedge00/lookthoongtv.sdp/playlist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -21932,8 +21932,8 @@
     "channel": "M2 (Ukraine) (1080p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/330/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -22052,8 +22052,8 @@
     "channel": "MasMusica FM (720p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://movil.ejeserver.com/live/masmusica.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -22108,8 +22108,8 @@
     "channel": "MCM Pop",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://176.65.153.78:8201/play/a070/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -22172,8 +22172,8 @@
     "channel": "Metaleitor TV",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -22188,8 +22188,8 @@
     "channel": "Metropolitana del Cuzco",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -22204,8 +22204,8 @@
     "channel": "Mezzo Live (1080p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/276/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -22412,8 +22412,8 @@
     "channel": "MTV Live (720p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET ReadTimeout"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -22596,8 +22596,8 @@
     "channel": "Muzyka Live (576p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/303/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -22620,8 +22620,8 @@
     "channel": "Nande Portetepe TV",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://video.hostingcaaguazu.com:19360/nandeportetepe/nandeportetepe.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -22676,8 +22676,8 @@
     "channel": "NogoumFMTV (672p) [Not 24/7]",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://nogoumtv.nrpstream.com/hls/stream.m3u8",
-    "ok": false,
-    "status": "GET 403"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -22852,8 +22852,8 @@
     "channel": "OneFM (720p) [Not 24/7]",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 500"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -23484,8 +23484,8 @@
     "channel": "Radio Romania Antena Satelor (720p) [Not 24/7]",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://stream3.srr.ro/live/antenasatelor/chunklist_w1642210843.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -23516,8 +23516,8 @@
     "channel": "Radio Romania Targu Mures (576p)",
     "category": "Dünya Kanalları / Genel",
     "url": "https://stream3.srr.ro/live/radio-muresr/chunklist_w1731505049.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -23628,8 +23628,8 @@
     "channel": "Radio ZU (720p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://stream1.antenaplay.ro/zurtv/zurtv/chunklist.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -23901,7 +23901,7 @@
     "category": "Dünya Kanalları / Genel",
     "url": "http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -23940,8 +23940,8 @@
     "channel": "Russian MusicBox (576p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/319/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -24597,7 +24597,7 @@
     "category": "Dünya Kanalları / Müzik",
     "url": "https://5f700d5b2c46f.streamlock.net/thecabinn/thecabinn/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectionError"
+    "status": "GET ConnectTimeout"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -25085,15 +25085,15 @@
     "category": "Dünya Kanalları / Müzik",
     "url": "http://109.92.29.10:1935/tvduga/tvduga/playlist.m3u8",
     "ok": false,
-    "status": "GET ConnectTimeout"
+    "status": "GET ConnectionError"
   },
   {
     "source": "IPTV-org public music channels worldwide",
     "channel": "TV Exitos (720p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "https://streaming.grupomediosdelnorte.com:19360/tvexitos/tvexitos.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -25164,8 +25164,8 @@
     "channel": "UA Music (1080p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://stream.mcquack.net/281/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 403"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -25412,8 +25412,8 @@
     "channel": "Vision Beats (720p)",
     "category": "Dünya Kanalları / Müzik",
     "url": "http://a-edge.bliscdn.com/Visionbeats/index.m3u8",
-    "ok": true,
-    "status": "HEAD 200"
+    "ok": false,
+    "status": "GET 404"
   },
   {
     "source": "IPTV-org public music channels worldwide",
@@ -25988,8 +25988,8 @@
     "channel": "CNBC Indonesia",
     "category": "Dünya Kanalları / Ekonomi",
     "url": "https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8",
-    "ok": false,
-    "status": "GET ReadTimeout"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public business channels worldwide",
@@ -26108,8 +26108,8 @@
     "channel": "MNTV",
     "category": "Dünya Kanalları / Ekonomi",
     "url": "https://www.khuwemultimedia.com/hls/mntv/mntv.m3u8",
-    "ok": false,
-    "status": "GET 404"
+    "ok": true,
+    "status": "HEAD 200"
   },
   {
     "source": "IPTV-org public business channels worldwide",
@@ -26238,6 +26238,14 @@
     "url": "https://tv3.bitstreaming.net:3680/live/zuracatvlive.m3u8",
     "ok": true,
     "status": "HEAD 200"
+  },
+  {
+    "source": "favorite_channels",
+    "channel": "TRT 1",
+    "category": "Favori Listem",
+    "url": null,
+    "ok": false,
+    "status": "not found among validated channels"
   },
   {
     "source": "favorite_channels",
